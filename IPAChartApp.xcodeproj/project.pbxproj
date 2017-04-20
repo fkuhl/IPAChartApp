@@ -3,18 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275B3A581EA930A1005CDBF1 /* 715-globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A4E1EA930A1005CDBF1 /* 715-globe.png */; };
+		275B3A591EA930A1005CDBF1 /* 715-globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A4F1EA930A1005CDBF1 /* 715-globe@2x.png */; };
+		275B3A5A1EA930A1005CDBF1 /* 715-globe@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A501EA930A1005CDBF1 /* 715-globe@3x.png */; };
+		275B3A5B1EA930A1005CDBF1 /* 748-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A511EA930A1005CDBF1 /* 748-heart.png */; };
+		275B3A5C1EA930A1005CDBF1 /* 748-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A521EA930A1005CDBF1 /* 748-heart@2x.png */; };
+		275B3A5D1EA930A1005CDBF1 /* 748-heart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A531EA930A1005CDBF1 /* 748-heart@3x.png */; };
+		275B3A5E1EA930A1005CDBF1 /* 764-arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A541EA930A1005CDBF1 /* 764-arrow-down.png */; };
+		275B3A5F1EA930A1005CDBF1 /* 764-arrow-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A551EA930A1005CDBF1 /* 764-arrow-down@2x.png */; };
+		275B3A601EA930A1005CDBF1 /* 764-arrow-down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A561EA930A1005CDBF1 /* 764-arrow-down@3x.png */; };
+		275B3A611EA930A1005CDBF1 /* CharisSIL-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */; };
 		27818AA61EA92EA70018CBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818AA51EA92EA70018CBA3 /* AppDelegate.swift */; };
 		27818AA81EA92EA70018CBA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818AA71EA92EA70018CBA3 /* ViewController.swift */; };
 		27818AAB1EA92EA70018CBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27818AA91EA92EA70018CBA3 /* Main.storyboard */; };
 		27818AAD1EA92EA70018CBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27818AAC1EA92EA70018CBA3 /* Assets.xcassets */; };
 		27818AB01EA92EA70018CBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27818AAE1EA92EA70018CBA3 /* LaunchScreen.storyboard */; };
+		27818ABE1EA92F540018CBA3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */; };
+		27818AC21EA92F540018CBA3 /* IPAChartBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		27818AC01EA92F540018CBA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27818A9A1EA92EA70018CBA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27818ABA1EA92F540018CBA3;
+			remoteInfo = IPAChartBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27818AC61EA92F540018CBA3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				27818AC21EA92F540018CBA3 /* IPAChartBoard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		275B3A4E1EA930A1005CDBF1 /* 715-globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "715-globe.png"; sourceTree = "<group>"; };
+		275B3A4F1EA930A1005CDBF1 /* 715-globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "715-globe@2x.png"; sourceTree = "<group>"; };
+		275B3A501EA930A1005CDBF1 /* 715-globe@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "715-globe@3x.png"; sourceTree = "<group>"; };
+		275B3A511EA930A1005CDBF1 /* 748-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "748-heart.png"; sourceTree = "<group>"; };
+		275B3A521EA930A1005CDBF1 /* 748-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "748-heart@2x.png"; sourceTree = "<group>"; };
+		275B3A531EA930A1005CDBF1 /* 748-heart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "748-heart@3x.png"; sourceTree = "<group>"; };
+		275B3A541EA930A1005CDBF1 /* 764-arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "764-arrow-down.png"; sourceTree = "<group>"; };
+		275B3A551EA930A1005CDBF1 /* 764-arrow-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "764-arrow-down@2x.png"; sourceTree = "<group>"; };
+		275B3A561EA930A1005CDBF1 /* 764-arrow-down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "764-arrow-down@3x.png"; sourceTree = "<group>"; };
+		275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CharisSIL-R.ttf"; sourceTree = "<group>"; };
 		27818AA21EA92EA70018CBA3 /* IPAChartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPAChartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27818AA51EA92EA70018CBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27818AA71EA92EA70018CBA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +68,9 @@
 		27818AAC1EA92EA70018CBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27818AAF1EA92EA70018CBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27818AB11EA92EA70018CBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IPAChartBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		27818ABF1EA92F540018CBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,13 +81,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27818AB81EA92F540018CBA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		275B3A621EA931C1005CDBF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				275B3A4E1EA930A1005CDBF1 /* 715-globe.png */,
+				275B3A4F1EA930A1005CDBF1 /* 715-globe@2x.png */,
+				275B3A501EA930A1005CDBF1 /* 715-globe@3x.png */,
+				275B3A511EA930A1005CDBF1 /* 748-heart.png */,
+				275B3A521EA930A1005CDBF1 /* 748-heart@2x.png */,
+				275B3A531EA930A1005CDBF1 /* 748-heart@3x.png */,
+				275B3A541EA930A1005CDBF1 /* 764-arrow-down.png */,
+				275B3A551EA930A1005CDBF1 /* 764-arrow-down@2x.png */,
+				275B3A561EA930A1005CDBF1 /* 764-arrow-down@3x.png */,
+				275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		27818A991EA92EA70018CBA3 = {
 			isa = PBXGroup;
 			children = (
 				27818AA41EA92EA70018CBA3 /* IPAChartApp */,
+				27818ABC1EA92F540018CBA3 /* IPAChartBoard */,
 				27818AA31EA92EA70018CBA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				27818AA21EA92EA70018CBA3 /* IPAChartApp.app */,
+				27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +139,16 @@
 			path = IPAChartApp;
 			sourceTree = "<group>";
 		};
+		27818ABC1EA92F540018CBA3 /* IPAChartBoard */ = {
+			isa = PBXGroup;
+			children = (
+				275B3A621EA931C1005CDBF1 /* Resources */,
+				27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */,
+				27818ABF1EA92F540018CBA3 /* Info.plist */,
+			);
+			path = IPAChartBoard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +159,34 @@
 				27818A9E1EA92EA70018CBA3 /* Sources */,
 				27818A9F1EA92EA70018CBA3 /* Frameworks */,
 				27818AA01EA92EA70018CBA3 /* Resources */,
+				27818AC61EA92F540018CBA3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				27818AC11EA92F540018CBA3 /* PBXTargetDependency */,
 			);
 			name = IPAChartApp;
 			productName = IPAChartApp;
 			productReference = 27818AA21EA92EA70018CBA3 /* IPAChartApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		27818ABA1EA92F540018CBA3 /* IPAChartBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27818AC31EA92F540018CBA3 /* Build configuration list for PBXNativeTarget "IPAChartBoard" */;
+			buildPhases = (
+				27818AB71EA92F540018CBA3 /* Sources */,
+				27818AB81EA92F540018CBA3 /* Frameworks */,
+				27818AB91EA92F540018CBA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPAChartBoard;
+			productName = IPAChartBoard;
+			productReference = 27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,13 +200,16 @@
 				TargetAttributes = {
 					27818AA11EA92EA70018CBA3 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7LKQP3MSCV;
+						ProvisioningStyle = Automatic;
+					};
+					27818ABA1EA92F540018CBA3 = {
+						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 27818A9D1EA92EA70018CBA3 /* Build configuration list for PBXProject "IPAChartApp" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -115,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				27818AA11EA92EA70018CBA3 /* IPAChartApp */,
+				27818ABA1EA92F540018CBA3 /* IPAChartBoard */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +238,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27818AB91EA92F540018CBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275B3A5F1EA930A1005CDBF1 /* 764-arrow-down@2x.png in Resources */,
+				275B3A5C1EA930A1005CDBF1 /* 748-heart@2x.png in Resources */,
+				275B3A5B1EA930A1005CDBF1 /* 748-heart.png in Resources */,
+				275B3A5D1EA930A1005CDBF1 /* 748-heart@3x.png in Resources */,
+				275B3A5E1EA930A1005CDBF1 /* 764-arrow-down.png in Resources */,
+				275B3A601EA930A1005CDBF1 /* 764-arrow-down@3x.png in Resources */,
+				275B3A5A1EA930A1005CDBF1 /* 715-globe@3x.png in Resources */,
+				275B3A591EA930A1005CDBF1 /* 715-globe@2x.png in Resources */,
+				275B3A611EA930A1005CDBF1 /* CharisSIL-R.ttf in Resources */,
+				275B3A581EA930A1005CDBF1 /* 715-globe.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,7 +267,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27818AB71EA92F540018CBA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27818ABE1EA92F540018CBA3 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27818AC11EA92F540018CBA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27818ABA1EA92F540018CBA3 /* IPAChartBoard */;
+			targetProxy = 27818AC01EA92F540018CBA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		27818AA91EA92EA70018CBA3 /* Main.storyboard */ = {
@@ -262,6 +403,7 @@
 		27818AB51EA92EA70018CBA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7LKQP3MSCV;
 				INFOPLIST_FILE = IPAChartApp/Info.plist;
@@ -275,12 +417,39 @@
 		27818AB61EA92EA70018CBA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7LKQP3MSCV;
 				INFOPLIST_FILE = IPAChartApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyndalesoft.IPAChartApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		27818AC41EA92F540018CBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7LKQP3MSCV;
+				INFOPLIST_FILE = IPAChartBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyndalesoft.IPAChartApp.IPAChartBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27818AC51EA92F540018CBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7LKQP3MSCV;
+				INFOPLIST_FILE = IPAChartBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyndalesoft.IPAChartApp.IPAChartBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +473,16 @@
 				27818AB61EA92EA70018CBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27818AC31EA92F540018CBA3 /* Build configuration list for PBXNativeTarget "IPAChartBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27818AC41EA92F540018CBA3 /* Debug */,
+				27818AC51EA92F540018CBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

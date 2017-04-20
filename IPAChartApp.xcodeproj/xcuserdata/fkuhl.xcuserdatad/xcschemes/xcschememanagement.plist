@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>IPAChartBoard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>27818AA11EA92EA70018CBA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27818ABA1EA92F540018CBA3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
