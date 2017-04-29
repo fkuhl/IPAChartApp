@@ -1,0 +1,1860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="all" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vowels base-->
+        <scene sceneID="7rm-hw-faM">
+            <objects>
+                <viewController storyboardIdentifier="base" id="uzJ-gw-pqv" userLabel="Vowels base" customClass="ChartViewController" customModule="DevelopKeyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wbr-DG-oap"/>
+                        <viewControllerLayoutGuide type="bottom" id="vas-fu-dpY"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="yFA-fv-fpQ">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGL-q5-POl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1077.717391304348" y="-1294.2028985507247"/>
+        </scene>
+        <!--Vowels Regular-->
+        <scene sceneID="zNl-de-vVx">
+            <objects>
+                <viewController storyboardIdentifier="regular" id="kuv-AS-Vap" userLabel="Vowels Regular" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2N2-CE-1SM"/>
+                        <viewControllerLayoutGuide type="bottom" id="QN1-oo-u5U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QK7-ex-s1H">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Jq-4d-1Vo">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Rc-2J-sCo">
+                                        <rect key="frame" x="0.0" y="0.0" width="720" height="320"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="720" id="NAP-DO-j2q"/>
+                                            <constraint firstAttribute="height" constant="320" id="jy6-km-z0k"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Fb1-g1-h9P" kind="embed" id="zra-eg-L2R"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="0Rc-2J-sCo" firstAttribute="leading" secondItem="1Jq-4d-1Vo" secondAttribute="leading" id="8Hu-VK-NUI"/>
+                                    <constraint firstAttribute="trailing" secondItem="0Rc-2J-sCo" secondAttribute="trailing" constant="-152" id="GEo-Eq-JXa"/>
+                                    <constraint firstItem="0Rc-2J-sCo" firstAttribute="top" secondItem="1Jq-4d-1Vo" secondAttribute="top" id="Ql6-3q-Q7j"/>
+                                    <constraint firstAttribute="bottom" secondItem="0Rc-2J-sCo" secondAttribute="bottom" id="YeN-P1-p2f"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QN1-oo-u5U" firstAttribute="top" secondItem="1Jq-4d-1Vo" secondAttribute="bottom" id="5bz-c1-juB"/>
+                            <constraint firstItem="1Jq-4d-1Vo" firstAttribute="top" secondItem="QK7-ex-s1H" secondAttribute="top" id="LUu-DF-OT8"/>
+                            <constraint firstAttribute="trailing" secondItem="1Jq-4d-1Vo" secondAttribute="trailing" id="Xwd-Mk-r5z"/>
+                            <constraint firstItem="1Jq-4d-1Vo" firstAttribute="leading" secondItem="QK7-ex-s1H" secondAttribute="leading" id="cP0-Xl-tAx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BrL-89-NVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1686" y="-536"/>
+        </scene>
+        <!--Vowels Compact Wide-->
+        <scene sceneID="ZMg-OO-xcD">
+            <objects>
+                <viewController storyboardIdentifier="compactWide" id="3rM-RJ-yhn" userLabel="Vowels Compact Wide" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IO4-Kt-mcl"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kqb-Kx-s1Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w5t-8e-Wll">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4w-iG-idP" userLabel="i" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Cs8-bY-0bg"/>
+                                    <constraint firstAttribute="height" constant="40" id="k05-cm-9ip"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="69"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfe-RN-k7A" userLabel="y" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="g3z-NS-Fjl"/>
+                                    <constraint firstAttribute="width" constant="40" id="ztl-PQ-z6V"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="79"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qfS-vR-ySz" userLabel="i stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="108" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="kaw-mj-vP6"/>
+                                    <constraint firstAttribute="width" constant="40" id="v4y-SV-S0D"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0268"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0n-Td-EzR" userLabel="u stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="152" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DXd-U2-ROK"/>
+                                    <constraint firstAttribute="width" constant="40" id="hdL-mI-HEP"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0289"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kyt-IY-ADn" userLabel="m turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="196" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Fs7-40-Tlq"/>
+                                    <constraint firstAttribute="height" constant="40" id="frE-Ez-Y8P"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="026F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dhq-eO-Hs9" userLabel="u" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="240" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="P4b-Ta-MEG"/>
+                                    <constraint firstAttribute="width" constant="40" id="ddL-yY-eoT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="75"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIB-xu-v7v" userLabel="i small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="284" y="48" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2sh-dM-OeC"/>
+                                    <constraint firstAttribute="width" constant="40" id="dHC-mE-oRe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="026A"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rw1-az-hgV" userLabel="upsilon" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="372" y="48" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1ne-LX-mhk"/>
+                                    <constraint firstAttribute="width" constant="40" id="um6-sL-X9A"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028A"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDA-jk-6Ex" userLabel="y small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="328" y="48" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7u2-vK-gVV"/>
+                                    <constraint firstAttribute="width" constant="40" id="itH-99-hKC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="al1-mE-tBS" userLabel="e" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="72" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="FDv-Me-Zc7"/>
+                                    <constraint firstAttribute="height" constant="40" id="xsB-3b-bPt"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="65"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AUS-2h-7Uz" userLabel="e reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="108" y="72" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LAf-pb-xhu"/>
+                                    <constraint firstAttribute="width" constant="40" id="daL-2r-24v"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0258"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qxr-er-xYA" userLabel="o barred" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="152" y="72" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7Ly-KE-jpo"/>
+                                    <constraint firstAttribute="width" constant="40" id="fG1-gl-VE1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0275"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G7x-Hc-tgn" userLabel="o stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="72" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7dC-sw-LgD"/>
+                                    <constraint firstAttribute="width" constant="40" id="Y7o-T5-SEf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="F8"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XnF-E1-HUM" userLabel="rams horn" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="196" y="72" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="4Wb-Z1-KxU"/>
+                                    <constraint firstAttribute="height" constant="40" id="GhJ-wv-PgB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0264"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wCH-cc-mbN" userLabel="o" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="240" y="72" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="6Iy-LG-23c"/>
+                                    <constraint firstAttribute="height" constant="40" id="GQ7-Pw-KfC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="6F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YRj-ee-EUN" userLabel="schwa" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="328" y="92" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="OeU-q2-Nm5"/>
+                                    <constraint firstAttribute="height" constant="40" id="gJF-xU-40q"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0259"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sB-6Z-tcg" userLabel="e open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="116" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="E9c-Ul-T51"/>
+                                    <constraint firstAttribute="height" constant="40" id="tQL-te-U5x"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025B"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xNi-Ql-x65" userLabel="e open reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="108" y="116" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="gZb-yO-BOm"/>
+                                    <constraint firstAttribute="height" constant="40" id="pHw-MS-A9I"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GqG-Hk-qNh" userLabel="oe ligature" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="116" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="9ei-a1-Tqn"/>
+                                    <constraint firstAttribute="width" constant="40" id="DGU-rY-MxI"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="OzY-Mf-XPh"/>
+                                    <constraint firstAttribute="height" constant="40" id="fxP-yr-z7w"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0153"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEk-Lg-hi4" userLabel="e open closed reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="152" y="116" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="E0q-HV-d6Z"/>
+                                    <constraint firstAttribute="width" constant="40" id="rYG-R2-sv2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025E"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Soc-d2-dFc" userLabel="v turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="196" y="116" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8Ok-Zf-i1t"/>
+                                    <constraint firstAttribute="width" constant="40" id="aHk-D5-dQj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4BY-P3-WZ9" userLabel="o open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="240" y="116" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ls1-OY-nP4"/>
+                                    <constraint firstAttribute="width" constant="40" id="aPu-VD-arO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0254"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edG-yL-5JG" userLabel="a turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="352" y="136" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="dLd-65-fvU"/>
+                                    <constraint firstAttribute="height" constant="40" id="rH4-Hi-2aa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0250"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nch-oY-lkE" userLabel="ae" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="308" y="136" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="EiI-wM-XH2"/>
+                                    <constraint firstAttribute="height" constant="40" id="lJB-B3-Jor"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="E6"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fss-zt-sFY" userLabel="a" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="108" y="160" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3kM-ra-nfn"/>
+                                    <constraint firstAttribute="width" constant="40" id="lUd-Ov-uLM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="61"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxF-HR-uNa" userLabel="oe small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="152" y="160" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="OeE-GL-B4I"/>
+                                    <constraint firstAttribute="width" constant="40" id="Ydw-zF-hrX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0276"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bT-Wx-wt6" userLabel="alpha" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="196" y="160" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="RzX-69-Ikw"/>
+                                    <constraint firstAttribute="height" constant="40" id="xew-1z-6SV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0251"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2B0-za-jtr" userLabel="alpha turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="240" y="160" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9Qw-ER-Xxh"/>
+                                    <constraint firstAttribute="width" constant="40" id="R0E-a1-coD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0252"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Soc-d2-dFc" firstAttribute="leading" secondItem="eEk-Lg-hi4" secondAttribute="trailing" constant="4" id="3nF-M1-i2M"/>
+                            <constraint firstItem="rw1-az-hgV" firstAttribute="leading" secondItem="vDA-jk-6Ex" secondAttribute="trailing" constant="4" id="3wD-Qi-XKt"/>
+                            <constraint firstItem="YRj-ee-EUN" firstAttribute="top" secondItem="vDA-jk-6Ex" secondAttribute="bottom" constant="4" id="4jW-B4-tVt"/>
+                            <constraint firstItem="AUS-2h-7Uz" firstAttribute="leading" secondItem="G7x-Hc-tgn" secondAttribute="trailing" constant="4" id="50r-lr-rkd"/>
+                            <constraint firstItem="Qxr-er-xYA" firstAttribute="top" secondItem="g0n-Td-EzR" secondAttribute="bottom" constant="4" id="54C-8A-V4B"/>
+                            <constraint firstItem="vDA-jk-6Ex" firstAttribute="leading" secondItem="TIB-xu-v7v" secondAttribute="trailing" constant="4" id="5bh-yj-7vD"/>
+                            <constraint firstItem="TIB-xu-v7v" firstAttribute="leading" secondItem="Dhq-eO-Hs9" secondAttribute="trailing" constant="4" id="63s-n9-jKp"/>
+                            <constraint firstItem="xNi-Ql-x65" firstAttribute="leading" secondItem="GqG-Hk-qNh" secondAttribute="trailing" constant="4" id="6gv-rz-TVe"/>
+                            <constraint firstItem="wCH-cc-mbN" firstAttribute="leading" secondItem="XnF-E1-HUM" secondAttribute="trailing" constant="4" id="8vy-EV-raj"/>
+                            <constraint firstItem="hfe-RN-k7A" firstAttribute="leading" secondItem="c4w-iG-idP" secondAttribute="trailing" constant="4" id="9CH-cM-80Z"/>
+                            <constraint firstItem="GqG-Hk-qNh" firstAttribute="top" secondItem="G7x-Hc-tgn" secondAttribute="bottom" constant="4" id="9p4-Fr-qjx"/>
+                            <constraint firstItem="Qxr-er-xYA" firstAttribute="leading" secondItem="AUS-2h-7Uz" secondAttribute="trailing" constant="4" id="DMT-3L-xob"/>
+                            <constraint firstItem="edG-yL-5JG" firstAttribute="top" secondItem="YRj-ee-EUN" secondAttribute="bottom" constant="4" id="E9d-dv-OPR"/>
+                            <constraint firstItem="1sB-6Z-tcg" firstAttribute="top" secondItem="al1-mE-tBS" secondAttribute="bottom" constant="4" id="Gq6-vJ-jxi"/>
+                            <constraint firstItem="eEk-Lg-hi4" firstAttribute="top" secondItem="Qxr-er-xYA" secondAttribute="bottom" constant="4" id="HvD-0h-UxR"/>
+                            <constraint firstItem="8bT-Wx-wt6" firstAttribute="leading" secondItem="vxF-HR-uNa" secondAttribute="trailing" constant="4" id="IcH-xO-Qoc"/>
+                            <constraint firstItem="al1-mE-tBS" firstAttribute="leading" secondItem="w5t-8e-Wll" secondAttribute="leadingMargin" id="IqZ-8q-PTL"/>
+                            <constraint firstItem="edG-yL-5JG" firstAttribute="leading" secondItem="Nch-oY-lkE" secondAttribute="trailing" constant="4" id="Jhu-Vd-ygu"/>
+                            <constraint firstItem="Dhq-eO-Hs9" firstAttribute="leading" secondItem="Kyt-IY-ADn" secondAttribute="trailing" constant="4" id="LCX-2b-k9J"/>
+                            <constraint firstItem="vxF-HR-uNa" firstAttribute="leading" secondItem="Fss-zt-sFY" secondAttribute="trailing" constant="4" id="Nhl-zE-QGH"/>
+                            <constraint firstItem="Soc-d2-dFc" firstAttribute="top" secondItem="XnF-E1-HUM" secondAttribute="bottom" constant="4" id="OGy-Di-bP9"/>
+                            <constraint firstItem="TIB-xu-v7v" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="28" id="Sn1-I3-fMG"/>
+                            <constraint firstItem="Fss-zt-sFY" firstAttribute="leading" secondItem="w5t-8e-Wll" secondAttribute="leadingMargin" constant="88" id="Tv8-vb-e6i"/>
+                            <constraint firstItem="Nch-oY-lkE" firstAttribute="top" secondItem="YRj-ee-EUN" secondAttribute="bottom" constant="4" id="UNz-YJ-4pa"/>
+                            <constraint firstItem="qfS-vR-ySz" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="8" id="Vgz-oH-6dY"/>
+                            <constraint firstItem="Nch-oY-lkE" firstAttribute="leading" secondItem="4BY-P3-WZ9" secondAttribute="trailing" constant="28" id="VpO-fb-B5o"/>
+                            <constraint firstItem="4BY-P3-WZ9" firstAttribute="top" secondItem="wCH-cc-mbN" secondAttribute="bottom" constant="4" id="Vwf-8a-hba"/>
+                            <constraint firstItem="AUS-2h-7Uz" firstAttribute="top" secondItem="qfS-vR-ySz" secondAttribute="bottom" constant="4" id="WPa-zw-a6g"/>
+                            <constraint firstItem="8bT-Wx-wt6" firstAttribute="top" secondItem="Soc-d2-dFc" secondAttribute="bottom" constant="4" id="WjV-Xd-zPR"/>
+                            <constraint firstItem="Kyt-IY-ADn" firstAttribute="leading" secondItem="g0n-Td-EzR" secondAttribute="trailing" constant="4" id="Xte-xz-RyE"/>
+                            <constraint firstItem="rw1-az-hgV" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="28" id="ZSq-gN-60P"/>
+                            <constraint firstItem="Fss-zt-sFY" firstAttribute="top" secondItem="xNi-Ql-x65" secondAttribute="bottom" constant="4" id="ZdX-KT-Qea"/>
+                            <constraint firstItem="wCH-cc-mbN" firstAttribute="top" secondItem="Dhq-eO-Hs9" secondAttribute="bottom" constant="4" id="Zon-xX-jrc"/>
+                            <constraint firstItem="G7x-Hc-tgn" firstAttribute="leading" secondItem="al1-mE-tBS" secondAttribute="trailing" constant="4" id="ag5-eN-oMN"/>
+                            <constraint firstItem="c4w-iG-idP" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="8" id="dZj-kj-dDN"/>
+                            <constraint firstItem="2B0-za-jtr" firstAttribute="leading" secondItem="8bT-Wx-wt6" secondAttribute="trailing" constant="4" id="fqm-eY-hSY"/>
+                            <constraint firstItem="2B0-za-jtr" firstAttribute="top" secondItem="4BY-P3-WZ9" secondAttribute="bottom" constant="4" id="gjG-C2-tHC"/>
+                            <constraint firstItem="vDA-jk-6Ex" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="28" id="h21-ur-ih3"/>
+                            <constraint firstItem="hfe-RN-k7A" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="8" id="ioe-dq-BYJ"/>
+                            <constraint firstItem="1sB-6Z-tcg" firstAttribute="leading" secondItem="w5t-8e-Wll" secondAttribute="leadingMargin" id="jdb-XM-cEM"/>
+                            <constraint firstItem="g0n-Td-EzR" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="8" id="lVe-Bv-Ol2"/>
+                            <constraint firstItem="Dhq-eO-Hs9" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="8" id="m0l-IX-zEw"/>
+                            <constraint firstItem="qfS-vR-ySz" firstAttribute="leading" secondItem="hfe-RN-k7A" secondAttribute="trailing" constant="4" id="mJ2-kz-eQk"/>
+                            <constraint firstItem="al1-mE-tBS" firstAttribute="top" secondItem="c4w-iG-idP" secondAttribute="bottom" constant="4" id="muI-CX-oFG"/>
+                            <constraint firstItem="XnF-E1-HUM" firstAttribute="leading" secondItem="Qxr-er-xYA" secondAttribute="trailing" constant="4" id="p0n-sY-VOC"/>
+                            <constraint firstItem="xNi-Ql-x65" firstAttribute="top" secondItem="AUS-2h-7Uz" secondAttribute="bottom" constant="4" id="pKL-Fv-llU"/>
+                            <constraint firstItem="eEk-Lg-hi4" firstAttribute="leading" secondItem="xNi-Ql-x65" secondAttribute="trailing" constant="4" id="pnK-NC-FkG"/>
+                            <constraint firstItem="g0n-Td-EzR" firstAttribute="leading" secondItem="qfS-vR-ySz" secondAttribute="trailing" constant="4" id="ppI-fK-ueo"/>
+                            <constraint firstItem="4BY-P3-WZ9" firstAttribute="leading" secondItem="Soc-d2-dFc" secondAttribute="trailing" constant="4" id="q1T-PA-Fwx"/>
+                            <constraint firstItem="GqG-Hk-qNh" firstAttribute="leading" secondItem="1sB-6Z-tcg" secondAttribute="trailing" constant="4" id="qBI-8e-uNg"/>
+                            <constraint firstItem="G7x-Hc-tgn" firstAttribute="top" secondItem="hfe-RN-k7A" secondAttribute="bottom" constant="4" id="rFb-m4-5vw"/>
+                            <constraint firstItem="c4w-iG-idP" firstAttribute="leading" secondItem="w5t-8e-Wll" secondAttribute="leadingMargin" id="uLA-Ad-zZI"/>
+                            <constraint firstItem="XnF-E1-HUM" firstAttribute="top" secondItem="Kyt-IY-ADn" secondAttribute="bottom" constant="4" id="v3g-L0-ZXU"/>
+                            <constraint firstItem="Kyt-IY-ADn" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="8" id="vW0-fy-Aev"/>
+                            <constraint firstItem="YRj-ee-EUN" firstAttribute="leading" secondItem="wCH-cc-mbN" secondAttribute="trailing" constant="48" id="wsn-yz-N0V"/>
+                            <constraint firstItem="vxF-HR-uNa" firstAttribute="top" secondItem="eEk-Lg-hi4" secondAttribute="bottom" constant="4" id="ylc-4f-pZo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p8G-s2-w6O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-739" y="-581"/>
+        </scene>
+        <!--close wide-->
+        <scene sceneID="EAh-o5-e7V">
+            <objects>
+                <viewController storyboardIdentifier="closeWide" id="OrL-GY-ebe" userLabel="close wide" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j0j-5K-PRK"/>
+                        <viewControllerLayoutGuide type="bottom" id="kuO-mX-wJk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BVL-ie-7jF">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVV-nA-sZF" userLabel="i" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="EXS-rg-ImP"/>
+                                    <constraint firstAttribute="height" constant="40" id="fNK-Uu-oxJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="69"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZC-Cm-2b2" userLabel="y" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Wz1-e1-inI"/>
+                                    <constraint firstAttribute="height" constant="40" id="kvO-zs-2EO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="79"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsd-Tx-HXe" userLabel="i stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="128" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CgY-YI-EuI"/>
+                                    <constraint firstAttribute="width" constant="40" id="b0p-Zq-VjD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0268"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9a-fk-pHy" userLabel="u stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="172" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="8Ka-Th-cFp"/>
+                                    <constraint firstAttribute="height" constant="40" id="Yjt-R1-nIA"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0289"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="USH-EF-YhS" userLabel="m turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="236" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="jnQ-o1-KSb"/>
+                                    <constraint firstAttribute="height" constant="40" id="yBL-3c-8ca"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="026F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6f-XC-Fdc" userLabel="u" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="280" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="LNV-Lu-FbC"/>
+                                    <constraint firstAttribute="height" constant="40" id="QNQ-2f-V26"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="75"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g9a-fk-pHy" firstAttribute="leading" secondItem="gsd-Tx-HXe" secondAttribute="trailing" constant="4" id="421-Yf-pbr"/>
+                            <constraint firstItem="JZC-Cm-2b2" firstAttribute="top" secondItem="j0j-5K-PRK" secondAttribute="bottom" constant="8" id="FeF-Hd-21u"/>
+                            <constraint firstItem="p6f-XC-Fdc" firstAttribute="leading" secondItem="USH-EF-YhS" secondAttribute="trailing" constant="4" id="MNV-xw-WUY"/>
+                            <constraint firstItem="p6f-XC-Fdc" firstAttribute="leading" secondItem="USH-EF-YhS" secondAttribute="trailing" constant="4" id="SyK-c0-6ZW"/>
+                            <constraint firstItem="CVV-nA-sZF" firstAttribute="top" secondItem="j0j-5K-PRK" secondAttribute="bottom" constant="8" id="b13-gi-G8L"/>
+                            <constraint firstItem="CVV-nA-sZF" firstAttribute="leading" secondItem="BVL-ie-7jF" secondAttribute="leadingMargin" id="bc3-UC-Xwn"/>
+                            <constraint firstItem="gsd-Tx-HXe" firstAttribute="leading" secondItem="JZC-Cm-2b2" secondAttribute="trailing" constant="24" id="byJ-pZ-qZD"/>
+                            <constraint firstItem="g9a-fk-pHy" firstAttribute="top" secondItem="j0j-5K-PRK" secondAttribute="bottom" constant="8" id="dCz-ea-wzX"/>
+                            <constraint firstItem="gsd-Tx-HXe" firstAttribute="top" secondItem="j0j-5K-PRK" secondAttribute="bottom" constant="8" id="ePN-Kk-EAI"/>
+                            <constraint firstItem="USH-EF-YhS" firstAttribute="top" secondItem="j0j-5K-PRK" secondAttribute="bottom" constant="8" id="hE0-xX-1H7"/>
+                            <constraint firstItem="p6f-XC-Fdc" firstAttribute="top" secondItem="j0j-5K-PRK" secondAttribute="bottom" constant="8" id="pl2-Id-9cd"/>
+                            <constraint firstItem="JZC-Cm-2b2" firstAttribute="leading" secondItem="CVV-nA-sZF" secondAttribute="trailing" constant="4" id="wMk-XD-RcG"/>
+                            <constraint firstItem="USH-EF-YhS" firstAttribute="leading" secondItem="g9a-fk-pHy" secondAttribute="trailing" constant="24" id="xQF-kK-oNi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eBf-La-ZDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-71" y="257"/>
+        </scene>
+        <!--Vowels Regular Content-->
+        <scene sceneID="TPV-8n-2sl">
+            <objects>
+                <viewController storyboardIdentifier="vowelsRegularContent" id="Fb1-g1-h9P" userLabel="Vowels Regular Content" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xda-dC-WMK"/>
+                        <viewControllerLayoutGuide type="bottom" id="fWa-Nv-gaE"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="ic1-rz-Opl" userLabel="content">
+                        <rect key="frame" x="0.0" y="0.0" width="720" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1VX-hO-WUH" userLabel="front" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="33" width="269" height="259"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="71w-58-7r5"/>
+                                    <constraint firstAttribute="height" constant="259" id="vGP-aP-uaT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="descending"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yvj-Hd-pNP" userLabel="central" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="346" y="33" width="135" height="259"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="8wn-d6-ID8"/>
+                                    <constraint firstAttribute="height" constant="259" id="xju-y9-zR0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="descending"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rD4-Db-g2c" userLabel="back" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="606" y="33" width="16" height="259"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="3gH-Xw-LUh"/>
+                                    <constraint firstAttribute="height" constant="259" id="yHt-3Z-hDw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="vertical"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QG5-fc-4Zp" userLabel="open" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="346" y="290" width="262" height="14"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="oWe-Vo-BOS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="horizontal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jng-NE-0cf" userLabel="open-mid" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="256" y="201" width="352" height="13"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="4Qx-XY-0qt"/>
+                                    <constraint firstAttribute="width" constant="352" id="8QE-o7-HhM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="horizontal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8V-Aq-DzB" userLabel="close-mid" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="166" y="116" width="442" height="16"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="442" id="ETZ-Kh-waD"/>
+                                    <constraint firstAttribute="height" constant="16" id="uuk-0W-zAj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="horizontal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z6i-hY-I4m" userLabel="close" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="33" width="528" height="16"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="528" id="5Zv-6A-OhM"/>
+                                    <constraint firstAttribute="height" constant="16" id="cx1-Rx-ePl"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="horizontal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jL4-cr-UJe" userLabel="i small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="172" y="52" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GPb-gf-QRM"/>
+                                    <constraint firstAttribute="width" constant="40" id="twN-fn-b4p"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="026A"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZ5-yI-QHR" userLabel="i" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ID0-fe-K2U"/>
+                                    <constraint firstAttribute="width" constant="40" id="a68-nF-G4D"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="69"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="paI-J4-9E3" userLabel="y" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="108" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Bx6-6m-qQp"/>
+                                    <constraint firstAttribute="height" constant="40" id="XIp-0l-Ydw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="79"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJb-hY-qfd" userLabel="e" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="108" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xXa-ph-Zgq"/>
+                                    <constraint firstAttribute="width" constant="40" id="xfg-WR-yH9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="65"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TS6-CX-koC" userLabel="e open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="196" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="PRy-X1-iLB"/>
+                                    <constraint firstAttribute="height" constant="40" id="uF4-yf-fdU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025B"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jNv-QJ-o4p" userLabel="a" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="284" y="272" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="eHk-SF-d3Z"/>
+                                    <constraint firstAttribute="height" constant="40" id="utV-O6-XMk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="61"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="axi-ps-NiR" userLabel="i stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="284" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="eXu-R9-eNZ"/>
+                                    <constraint firstAttribute="width" constant="40" id="k0F-Kn-yWs"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0268"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJc-c5-Sbs" userLabel="e reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="328" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="df0-2Z-VfN"/>
+                                    <constraint firstAttribute="width" constant="40" id="v5W-gU-Lpu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0258"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-7J-44w" userLabel="e open reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="372" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9NW-gw-m4F"/>
+                                    <constraint firstAttribute="width" constant="40" id="S27-Lu-9ri"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mag-44-bbB" userLabel="o barred" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="416" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZII-GQ-1UI"/>
+                                    <constraint firstAttribute="width" constant="40" id="wK5-tU-C7n"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0275"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVQ-KB-lvv" userLabel="o stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="196" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Qsq-7W-bq9"/>
+                                    <constraint firstAttribute="height" constant="40" id="ium-0n-7XX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="F8"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNZ-UP-y8Q" userLabel="oe ligature" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="284" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="SNa-nT-enR"/>
+                                    <constraint firstAttribute="height" constant="40" id="SXg-L1-Eog"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0153"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Yd-ys-bEM" userLabel="oe small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="372" y="272" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="EfI-1H-XY1"/>
+                                    <constraint firstAttribute="height" constant="40" id="fsJ-Bz-Z3h"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0276"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdl-8s-9as" userLabel="u stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="372" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="aoP-od-bPl"/>
+                                    <constraint firstAttribute="height" constant="40" id="fZV-gR-PJt"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0289"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xK5-kU-Z8P" userLabel="e open closed reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="460" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="1OP-Np-OzM"/>
+                                    <constraint firstAttribute="height" constant="40" id="TEN-HI-jfK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025E"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j66-j2-S3Z" userLabel="v turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="548" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SXU-z4-hCK"/>
+                                    <constraint firstAttribute="width" constant="40" id="ggq-93-cFq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xe6-lI-qY6" userLabel="alpha" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="548" y="272" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="mYF-hI-sob"/>
+                                    <constraint firstAttribute="height" constant="40" id="zdS-R3-gcw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0251"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZE-d1-pgg" userLabel="o open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="636" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Mbo-IE-ZYP"/>
+                                    <constraint firstAttribute="width" constant="40" id="Oux-Ed-n6F"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0254"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAL-pa-nmQ" userLabel="a turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="440" y="228" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Isr-OG-Ac0"/>
+                                    <constraint firstAttribute="height" constant="40" id="mFS-YX-hzh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0250"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZzC-4s-LAw" userLabel="y small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="216" y="52" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="YIG-3S-lcY"/>
+                                    <constraint firstAttribute="width" constant="40" id="xd4-hA-4lZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iOq-pk-wYV" userLabel="alpha turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="636" y="272" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="6fx-s0-hmn"/>
+                                    <constraint firstAttribute="height" constant="40" id="Lrv-xU-Dxj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0252"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OFR-ZH-eNY" userLabel="m turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="548" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="7bj-LK-KB3"/>
+                                    <constraint firstAttribute="height" constant="40" id="Sk9-wZ-DNf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="026F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Old-R6-rZs" userLabel="rams horn" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="548" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2TN-Lx-r4G"/>
+                                    <constraint firstAttribute="height" constant="40" id="Qpa-2E-7wh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0264"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQE-Ut-Mu3" userLabel="u" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="636" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="8aZ-Y4-zdt"/>
+                                    <constraint firstAttribute="height" constant="40" id="LZV-b2-u4A"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="75"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKW-4l-FjI" userLabel="o" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="636" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="4aM-bt-yRX"/>
+                                    <constraint firstAttribute="height" constant="40" id="g2c-sv-ZAP"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="6F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qpf-I2-oFp" userLabel="upsilon" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="500" y="52" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ahv-j3-ow8"/>
+                                    <constraint firstAttribute="width" constant="40" id="xvO-L2-9j7"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028A"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ib1-PD-VcK" userLabel="schwa" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="390" y="140" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ke4-eQ-Fk0"/>
+                                    <constraint firstAttribute="width" constant="40" id="USg-i6-ShE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0259"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vtQ-1c-YGH" userLabel="ae" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="240" y="228" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="NqC-RD-D8Y"/>
+                                    <constraint firstAttribute="height" constant="40" id="dZ2-ha-rLE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="E6"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wZ5-yI-QHR" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="0Ec-TJ-fDs"/>
+                            <constraint firstItem="rD4-Db-g2c" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="33" id="1uA-yB-qdw"/>
+                            <constraint firstItem="QG5-fc-4Zp" firstAttribute="leading" secondItem="1Yd-ys-bEM" secondAttribute="trailing" constant="-66" id="2zc-Md-ti2"/>
+                            <constraint firstItem="ZzC-4s-LAw" firstAttribute="top" secondItem="jL4-cr-UJe" secondAttribute="top" id="3dN-LK-V7b"/>
+                            <constraint firstItem="vdl-8s-9as" firstAttribute="leading" secondItem="axi-ps-NiR" secondAttribute="trailing" constant="48" id="5Fc-Vq-k3O"/>
+                            <constraint firstItem="z6i-hY-I4m" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="33" id="5i8-M8-gjo"/>
+                            <constraint firstItem="paI-J4-9E3" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="9a7-fw-H7X"/>
+                            <constraint firstItem="dNZ-UP-y8Q" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="184" id="9am-Tf-yxD"/>
+                            <constraint firstItem="ZzC-4s-LAw" firstAttribute="leading" secondItem="jL4-cr-UJe" secondAttribute="trailing" constant="4" id="9kp-8D-Vs8"/>
+                            <constraint firstItem="TS6-CX-koC" firstAttribute="top" secondItem="EVQ-KB-lvv" secondAttribute="bottom" constant="48" id="CZ9-Jd-TYW"/>
+                            <constraint firstItem="EVQ-KB-lvv" firstAttribute="leading" secondItem="CJb-hY-qfd" secondAttribute="trailing" constant="48" id="DlB-US-V3h"/>
+                            <constraint firstItem="iOq-pk-wYV" firstAttribute="leading" secondItem="xe6-lI-qY6" secondAttribute="trailing" constant="48" id="FK5-6a-jyA"/>
+                            <constraint firstItem="E8V-Aq-DzB" firstAttribute="top" secondItem="z6i-hY-I4m" secondAttribute="bottom" constant="67" id="GIz-Vc-nfg"/>
+                            <constraint firstItem="j66-j2-S3Z" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="184" id="JLz-bA-Cqa"/>
+                            <constraint firstItem="ib1-PD-VcK" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="370" id="JQs-SR-KAf"/>
+                            <constraint firstItem="VJN-7J-44w" firstAttribute="top" secondItem="vdl-8s-9as" secondAttribute="bottom" constant="136" id="KDw-mv-fio"/>
+                            <constraint firstItem="axi-ps-NiR" firstAttribute="leading" secondItem="paI-J4-9E3" secondAttribute="trailing" constant="136" id="L37-bd-eRG"/>
+                            <constraint firstItem="JZE-d1-pgg" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="184" id="L6Q-0h-SZd"/>
+                            <constraint firstItem="vdl-8s-9as" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="La9-iH-qOd"/>
+                            <constraint firstItem="wZ5-yI-QHR" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" id="Mvs-JL-LNQ"/>
+                            <constraint firstItem="rD4-Db-g2c" firstAttribute="leading" secondItem="Old-R6-rZs" secondAttribute="trailing" constant="18" id="NB5-7V-lIp"/>
+                            <constraint firstItem="xK5-kU-Z8P" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="440" id="Nu9-4w-6Ad"/>
+                            <constraint firstItem="vtQ-1c-YGH" firstAttribute="leading" secondItem="TS6-CX-koC" secondAttribute="trailing" constant="4" id="ODp-DT-h7e"/>
+                            <constraint firstItem="EVQ-KB-lvv" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="96" id="Oka-ud-nqm"/>
+                            <constraint firstItem="jL4-cr-UJe" firstAttribute="top" secondItem="paI-J4-9E3" secondAttribute="bottom" constant="4" id="Q3v-Pl-unh"/>
+                            <constraint firstItem="dNZ-UP-y8Q" firstAttribute="leading" secondItem="TS6-CX-koC" secondAttribute="trailing" constant="48" id="RI1-th-aJj"/>
+                            <constraint firstItem="iOq-pk-wYV" firstAttribute="top" secondItem="JZE-d1-pgg" secondAttribute="bottom" constant="48" id="Stn-6Y-nTR"/>
+                            <constraint firstItem="xe6-lI-qY6" firstAttribute="leading" secondItem="QG5-fc-4Zp" secondAttribute="trailing" constant="-60" id="Tbr-Ap-8zd"/>
+                            <constraint firstItem="vtQ-1c-YGH" firstAttribute="top" secondItem="vAL-pa-nmQ" secondAttribute="top" id="Tm3-k2-Ya1"/>
+                            <constraint firstItem="xK5-kU-Z8P" firstAttribute="leading" secondItem="VJN-7J-44w" secondAttribute="trailing" constant="48" id="UJP-C4-3bK"/>
+                            <constraint firstItem="Mag-44-bbB" firstAttribute="leading" secondItem="VJc-c5-Sbs" secondAttribute="trailing" constant="48" id="Uuh-wx-80T"/>
+                            <constraint firstItem="Old-R6-rZs" firstAttribute="top" secondItem="OFR-ZH-eNY" secondAttribute="bottom" constant="48" id="VCc-UE-cul"/>
+                            <constraint firstItem="1Yd-ys-bEM" firstAttribute="leading" secondItem="jNv-QJ-o4p" secondAttribute="trailing" constant="48" id="W5g-qd-41o"/>
+                            <constraint firstItem="1Yd-ys-bEM" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="272" id="Wv8-Zl-pQ8"/>
+                            <constraint firstItem="VJc-c5-Sbs" firstAttribute="leading" secondItem="EVQ-KB-lvv" secondAttribute="trailing" constant="92" id="XUj-vM-NVh"/>
+                            <constraint firstItem="jNv-QJ-o4p" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="264" id="YsR-WU-6Tn"/>
+                            <constraint firstItem="Qpf-I2-oFp" firstAttribute="top" secondItem="ZzC-4s-LAw" secondAttribute="top" id="YzZ-ma-28C"/>
+                            <constraint firstItem="Jng-NE-0cf" firstAttribute="leading" secondItem="TS6-CX-koC" secondAttribute="trailing" constant="20" id="bke-tV-Sq6"/>
+                            <constraint firstItem="xe6-lI-qY6" firstAttribute="top" secondItem="j66-j2-S3Z" secondAttribute="bottom" constant="48" id="c8a-Am-MOL"/>
+                            <constraint firstItem="CJb-hY-qfd" firstAttribute="top" secondItem="paI-J4-9E3" secondAttribute="bottom" constant="48" id="d2u-3x-MwN"/>
+                            <constraint firstItem="Qpf-I2-oFp" firstAttribute="leading" secondItem="ZzC-4s-LAw" secondAttribute="trailing" constant="244" id="e4G-p9-xuf"/>
+                            <constraint firstItem="Yvj-Hd-pNP" firstAttribute="leading" secondItem="dNZ-UP-y8Q" secondAttribute="trailing" constant="22" id="eJU-9p-ZxM"/>
+                            <constraint firstItem="OFR-ZH-eNY" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="f8O-RV-0LJ"/>
+                            <constraint firstItem="1VX-hO-WUH" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="33" id="fzW-V4-0Tp"/>
+                            <constraint firstItem="Jng-NE-0cf" firstAttribute="top" secondItem="Old-R6-rZs" secondAttribute="bottom" constant="65" id="h5V-f6-ohS"/>
+                            <constraint firstItem="z6i-hY-I4m" firstAttribute="leading" secondItem="wZ5-yI-QHR" secondAttribute="trailing" constant="20" id="jJB-D1-Xhb"/>
+                            <constraint firstItem="vAL-pa-nmQ" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="420" id="jyW-B3-Lbl"/>
+                            <constraint firstItem="TS6-CX-koC" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="176" id="kRx-th-Afj"/>
+                            <constraint firstItem="VJc-c5-Sbs" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="96" id="kce-TH-VOm"/>
+                            <constraint firstItem="OFR-ZH-eNY" firstAttribute="leading" secondItem="vdl-8s-9as" secondAttribute="trailing" constant="136" id="kga-2y-wCH"/>
+                            <constraint firstItem="axi-ps-NiR" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="kmo-Sp-6Fq"/>
+                            <constraint firstItem="ib1-PD-VcK" firstAttribute="top" secondItem="Mag-44-bbB" secondAttribute="bottom" constant="4" id="lsb-IS-pBF"/>
+                            <constraint firstItem="VJN-7J-44w" firstAttribute="leading" secondItem="dNZ-UP-y8Q" secondAttribute="trailing" constant="48" id="mGO-ES-VNv"/>
+                            <constraint firstItem="pQE-Ut-Mu3" firstAttribute="leading" secondItem="OFR-ZH-eNY" secondAttribute="trailing" constant="48" id="ns0-to-IXZ"/>
+                            <constraint firstItem="Old-R6-rZs" firstAttribute="leading" secondItem="Mag-44-bbB" secondAttribute="trailing" constant="92" id="oWB-Be-k9K"/>
+                            <constraint firstItem="Mag-44-bbB" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="96" id="pJH-zR-UIQ"/>
+                            <constraint firstItem="QG5-fc-4Zp" firstAttribute="top" secondItem="xK5-kU-Z8P" secondAttribute="bottom" constant="66" id="q8O-uQ-Fno"/>
+                            <constraint firstItem="xe6-lI-qY6" firstAttribute="leading" secondItem="1Yd-ys-bEM" secondAttribute="trailing" constant="136" id="qY5-41-V2U"/>
+                            <constraint firstItem="jNv-QJ-o4p" firstAttribute="top" secondItem="dNZ-UP-y8Q" secondAttribute="bottom" constant="48" id="qmh-Rb-3OY"/>
+                            <constraint firstItem="xK5-kU-Z8P" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="184" id="rgl-1n-whH"/>
+                            <constraint firstItem="CJb-hY-qfd" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="88" id="sZs-y2-0sA"/>
+                            <constraint firstItem="pQE-Ut-Mu3" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="sjc-rg-aZK"/>
+                            <constraint firstItem="E8V-Aq-DzB" firstAttribute="leading" secondItem="CJb-hY-qfd" secondAttribute="trailing" constant="18" id="tWR-eJ-Vhd"/>
+                            <constraint firstItem="j66-j2-S3Z" firstAttribute="leading" secondItem="xK5-kU-Z8P" secondAttribute="trailing" constant="48" id="urB-7n-dDb"/>
+                            <constraint firstItem="jL4-cr-UJe" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="152" id="vZu-U2-tEG"/>
+                            <constraint firstItem="1VX-hO-WUH" firstAttribute="leading" secondItem="wZ5-yI-QHR" secondAttribute="trailing" constant="20" id="x5M-By-AR7"/>
+                            <constraint firstItem="JZE-d1-pgg" firstAttribute="leading" secondItem="j66-j2-S3Z" secondAttribute="trailing" constant="48" id="xNu-dt-cJg"/>
+                            <constraint firstItem="paI-J4-9E3" firstAttribute="leading" secondItem="wZ5-yI-QHR" secondAttribute="trailing" constant="48" id="xm3-3e-MEi"/>
+                            <constraint firstItem="vAL-pa-nmQ" firstAttribute="top" secondItem="xK5-kU-Z8P" secondAttribute="bottom" constant="4" id="y7w-i4-6DL"/>
+                            <constraint firstItem="XKW-4l-FjI" firstAttribute="leading" secondItem="Old-R6-rZs" secondAttribute="trailing" constant="48" id="z2f-NB-icF"/>
+                            <constraint firstItem="Yvj-Hd-pNP" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="33" id="zLp-G2-NM6"/>
+                            <constraint firstItem="XKW-4l-FjI" firstAttribute="top" secondItem="pQE-Ut-Mu3" secondAttribute="bottom" constant="48" id="zMJ-cu-wRF"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="900" height="400"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="720" height="320"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgU-b3-CUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1687" y="386"/>
+        </scene>
+        <!--Vowels Compact Narrow-->
+        <scene sceneID="4Gs-s9-2gr">
+            <objects>
+                <viewController storyboardIdentifier="compactNarrow" id="lDY-g0-PEZ" userLabel="Vowels Compact Narrow" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NrQ-sn-BZk"/>
+                        <viewControllerLayoutGuide type="bottom" id="fJj-6V-qP7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UJx-YQ-apk">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMa-ZX-3PN" userLabel="close" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="84" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZUC-VY-jci"/>
+                                    <constraint firstAttribute="width" constant="84" id="z3I-in-iOE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="69+79+0268+0289+2026"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="newView"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nextSceneID" value="close"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ZUC-VY-jci"/>
+                                        <exclude reference="z3I-in-iOE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ZUC-VY-jci"/>
+                                        <include reference="z3I-in-iOE"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFi-jx-4kL" userLabel="close-mid" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="72" width="84" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2DC-8o-WGz"/>
+                                    <constraint firstAttribute="width" constant="84" id="PdM-iz-oNc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="65+F8+0258+0275+2026"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="newView"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nextSceneID" value="closeMid"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QqD-sw-arX" userLabel="open-mid" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="116" width="84" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="33y-Wb-xqR"/>
+                                    <constraint firstAttribute="width" constant="84" id="iEa-c9-Rog"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025b+0153+025C+2026"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="newView"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nextSceneID" value="openMid"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvd-aM-pDO" userLabel="a" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="160" width="29" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="c5T-vg-LGT"/>
+                                    <constraint firstAttribute="width" constant="29" id="zb5-by-prc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="61"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7w-jt-LI5" userLabel="oe small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="53" y="160" width="29" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GgR-5j-rot"/>
+                                    <constraint firstAttribute="width" constant="29" id="wf8-hc-aND"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0276"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2p-1r-5lK" userLabel="alpha" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="86" y="160" width="29" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LDz-XE-to0"/>
+                                    <constraint firstAttribute="width" constant="29" id="hlh-UU-KEM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0251"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRH-Af-yZy" userLabel="alpha turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="119" y="160" width="29" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dfa-f1-uXn"/>
+                                    <constraint firstAttribute="width" constant="29" id="vng-FN-7XB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0252"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHe-7K-KFL" userLabel="ae" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="172" y="136" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="OlT-Ur-5Uq"/>
+                                    <constraint firstAttribute="height" constant="40" id="iuK-bP-XUF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="E6"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TlU-cw-QGS" userLabel="a turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="216" y="136" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="62f-NM-lTn"/>
+                                    <constraint firstAttribute="width" constant="40" id="N48-Fm-IXp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0250"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ncs-Jb-Qv1" userLabel="i small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="152" y="48" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DIr-D1-dZH"/>
+                                    <constraint firstAttribute="width" constant="40" id="JDb-Lh-37C"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="026A"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hmd-w7-m0M" userLabel="y small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="196" y="48" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="i15-So-cqW"/>
+                                    <constraint firstAttribute="width" constant="40" id="jR0-S2-2iL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2v-lV-MBt" userLabel="upsilon" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="240" y="48" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="jDC-pk-wIk"/>
+                                    <constraint firstAttribute="height" constant="40" id="rIC-O7-ayV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028A"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tft-Ev-LzV" userLabel="schwa" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="196" y="92" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="TPN-Wo-PkX"/>
+                                    <constraint firstAttribute="height" constant="40" id="dyN-l5-LJr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0259"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hmd-w7-m0M" firstAttribute="top" secondItem="NrQ-sn-BZk" secondAttribute="bottom" constant="28" id="47K-Yc-wbd"/>
+                            <constraint firstItem="l7w-jt-LI5" firstAttribute="leading" secondItem="rvd-aM-pDO" secondAttribute="trailing" constant="4" id="5nr-Ua-jtc"/>
+                            <constraint firstItem="TlU-cw-QGS" firstAttribute="top" secondItem="tft-Ev-LzV" secondAttribute="bottom" constant="4" id="Bw8-7p-16O"/>
+                            <constraint firstItem="aHe-7K-KFL" firstAttribute="top" secondItem="QqD-sw-arX" secondAttribute="bottom" constant="-20" id="C55-4z-JkX"/>
+                            <constraint firstItem="TlU-cw-QGS" firstAttribute="leading" secondItem="aHe-7K-KFL" secondAttribute="trailing" constant="4" id="Drp-Ip-XE3"/>
+                            <constraint firstItem="QqD-sw-arX" firstAttribute="top" secondItem="LFi-jx-4kL" secondAttribute="bottom" constant="4" id="HUU-8S-2QS"/>
+                            <constraint firstItem="Ncs-Jb-Qv1" firstAttribute="top" secondItem="gMa-ZX-3PN" secondAttribute="bottom" constant="-20" id="IXv-AS-bfn"/>
+                            <constraint firstItem="rvd-aM-pDO" firstAttribute="top" secondItem="QqD-sw-arX" secondAttribute="bottom" constant="4" id="JRs-jP-LWo"/>
+                            <constraint firstItem="i2p-1r-5lK" firstAttribute="leading" secondItem="l7w-jt-LI5" secondAttribute="trailing" constant="4" id="LhT-AT-PkK"/>
+                            <constraint firstItem="Ncs-Jb-Qv1" firstAttribute="leading" secondItem="gMa-ZX-3PN" secondAttribute="leading" constant="132" id="Nwn-ob-9Wl"/>
+                            <constraint firstItem="QqD-sw-arX" firstAttribute="leading" secondItem="UJx-YQ-apk" secondAttribute="leadingMargin" id="Onx-L9-5qz"/>
+                            <constraint firstItem="tft-Ev-LzV" firstAttribute="top" secondItem="Hmd-w7-m0M" secondAttribute="bottom" constant="4" id="Pg9-kg-Nl7"/>
+                            <constraint firstItem="yRH-Af-yZy" firstAttribute="leading" secondItem="i2p-1r-5lK" secondAttribute="trailing" constant="4" id="Pik-Sh-mGM"/>
+                            <constraint firstItem="gMa-ZX-3PN" firstAttribute="leading" secondItem="UJx-YQ-apk" secondAttribute="leadingMargin" id="TLG-Bb-Nic"/>
+                            <constraint firstItem="yRH-Af-yZy" firstAttribute="top" secondItem="i2p-1r-5lK" secondAttribute="top" id="UqQ-C6-6Xt"/>
+                            <constraint firstItem="aHe-7K-KFL" firstAttribute="leading" secondItem="UJx-YQ-apk" secondAttribute="leadingMargin" constant="152" id="VfJ-ov-Vpd"/>
+                            <constraint firstItem="gMa-ZX-3PN" firstAttribute="top" secondItem="NrQ-sn-BZk" secondAttribute="bottom" constant="8" id="WYZ-gt-bCb"/>
+                            <constraint firstItem="tft-Ev-LzV" firstAttribute="leading" secondItem="QqD-sw-arX" secondAttribute="trailing" constant="92" id="Wvu-kC-MHd"/>
+                            <constraint firstItem="v2v-lV-MBt" firstAttribute="top" secondItem="NrQ-sn-BZk" secondAttribute="bottom" constant="28" id="XYC-tR-3BM"/>
+                            <constraint firstItem="v2v-lV-MBt" firstAttribute="leading" secondItem="Hmd-w7-m0M" secondAttribute="trailing" constant="4" id="b2e-E7-8lS"/>
+                            <constraint firstItem="LFi-jx-4kL" firstAttribute="leading" secondItem="UJx-YQ-apk" secondAttribute="leadingMargin" id="fai-eW-qg4"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="rvd-aM-pDO" secondAttribute="leading" id="jeT-1A-6r3"/>
+                            <constraint firstItem="LFi-jx-4kL" firstAttribute="top" secondItem="gMa-ZX-3PN" secondAttribute="bottom" constant="4" id="pqd-go-QGk"/>
+                            <constraint firstItem="i2p-1r-5lK" firstAttribute="top" secondItem="l7w-jt-LI5" secondAttribute="top" id="v4B-Jg-Tdv"/>
+                            <constraint firstItem="Hmd-w7-m0M" firstAttribute="leading" secondItem="Ncs-Jb-Qv1" secondAttribute="trailing" constant="4" id="ydb-2U-ynL"/>
+                            <constraint firstItem="l7w-jt-LI5" firstAttribute="top" secondItem="rvd-aM-pDO" secondAttribute="top" id="ygf-Eh-PI7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mUQ-fp-fyD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-72" y="-581"/>
+        </scene>
+        <!--close narrow-->
+        <scene sceneID="CHl-ix-snk">
+            <objects>
+                <viewController storyboardIdentifier="closeNarrow" id="HJ2-5a-PKI" userLabel="close narrow" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5nD-ja-QVc"/>
+                        <viewControllerLayoutGuide type="bottom" id="MTB-LZ-g5g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ajD-Y1-t18">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Vs-Db-r4y" userLabel="i" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Mnm-Gx-biS"/>
+                                    <constraint firstAttribute="width" constant="40" id="xBL-Tk-3cg"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="69"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qVE-Tc-bpt" userLabel="y" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Iy3-ER-SUi"/>
+                                    <constraint firstAttribute="width" constant="40" id="u0a-dr-5Tp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="79"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NK0-Dx-SbF" userLabel="i stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="116" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bFU-2y-zNw"/>
+                                    <constraint firstAttribute="width" constant="40" id="nH5-7g-W6a"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0268"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nvi-SC-g3e" userLabel="u stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="160" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="B3x-d6-alq"/>
+                                    <constraint firstAttribute="width" constant="40" id="X9Q-kk-0A7"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0289"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siJ-AE-oZw" userLabel="m turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="212" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="BQz-8Z-Aa3"/>
+                                    <constraint firstAttribute="height" constant="40" id="gao-6c-Sn2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="026F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drf-3o-hCe" userLabel="u" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="256" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="8Bj-M2-hkg"/>
+                                    <constraint firstAttribute="height" constant="40" id="RFS-6a-v6m"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="75"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NK0-Dx-SbF" firstAttribute="leading" secondItem="qVE-Tc-bpt" secondAttribute="trailing" constant="12" id="0lu-4h-nqP"/>
+                            <constraint firstItem="siJ-AE-oZw" firstAttribute="leading" secondItem="nvi-SC-g3e" secondAttribute="trailing" constant="12" id="8aL-jC-WY0"/>
+                            <constraint firstItem="NK0-Dx-SbF" firstAttribute="top" secondItem="5nD-ja-QVc" secondAttribute="bottom" constant="8" id="9vE-PC-QJC"/>
+                            <constraint firstItem="4Vs-Db-r4y" firstAttribute="leading" secondItem="ajD-Y1-t18" secondAttribute="leadingMargin" id="OKa-Su-HAa"/>
+                            <constraint firstItem="4Vs-Db-r4y" firstAttribute="top" secondItem="5nD-ja-QVc" secondAttribute="bottom" constant="8" id="fql-XX-LAE"/>
+                            <constraint firstItem="Drf-3o-hCe" firstAttribute="top" secondItem="5nD-ja-QVc" secondAttribute="bottom" constant="8" id="hoo-RB-aCS"/>
+                            <constraint firstItem="qVE-Tc-bpt" firstAttribute="top" secondItem="5nD-ja-QVc" secondAttribute="bottom" constant="8" id="iqC-Mj-a6n"/>
+                            <constraint firstItem="qVE-Tc-bpt" firstAttribute="leading" secondItem="4Vs-Db-r4y" secondAttribute="trailing" constant="4" id="q4X-jc-jPf"/>
+                            <constraint firstItem="Drf-3o-hCe" firstAttribute="leading" secondItem="siJ-AE-oZw" secondAttribute="trailing" constant="4" id="t5O-2c-cql"/>
+                            <constraint firstItem="nvi-SC-g3e" firstAttribute="leading" secondItem="NK0-Dx-SbF" secondAttribute="trailing" constant="4" id="vwU-6C-zAI"/>
+                            <constraint firstItem="nvi-SC-g3e" firstAttribute="top" secondItem="5nD-ja-QVc" secondAttribute="bottom" constant="8" id="x3l-Nh-tMM"/>
+                            <constraint firstItem="siJ-AE-oZw" firstAttribute="top" secondItem="5nD-ja-QVc" secondAttribute="bottom" constant="8" id="xZ2-Ob-hxs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m95-RX-5sm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-72" y="934"/>
+        </scene>
+        <!--close-mid wide-->
+        <scene sceneID="0ab-GF-VtN">
+            <objects>
+                <viewController storyboardIdentifier="closeMidWide" id="rvv-EJ-jeC" userLabel="close-mid wide" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hnP-So-M6c"/>
+                        <viewControllerLayoutGuide type="bottom" id="K4x-UV-I9D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BOe-s6-AXf">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ffy-Gy-KxR" userLabel="e" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="hGf-BB-KRK"/>
+                                    <constraint firstAttribute="height" constant="40" id="jZ4-SV-gTE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="65"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JgU-jV-f1V" userLabel="o stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Te5-nE-agj"/>
+                                    <constraint firstAttribute="height" constant="40" id="y3g-zk-kUa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="F8"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cbs-Q3-bDn" userLabel="e reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="128" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Rv1-UW-N0r"/>
+                                    <constraint firstAttribute="width" constant="40" id="Wjf-gP-19c"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0258"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iD-wK-oLk" userLabel="o barred" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="172" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Bh6-HL-m4e"/>
+                                    <constraint firstAttribute="height" constant="40" id="Eg8-1Q-LPO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0275"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePb-d2-uyO" userLabel="rams horn" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="236" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="RSB-XF-9xn"/>
+                                    <constraint firstAttribute="height" constant="40" id="lCM-fb-2U3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0264"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fp-GW-mVn" userLabel="o" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="280" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7MN-NZ-AcV"/>
+                                    <constraint firstAttribute="width" constant="40" id="yBb-dl-Ui8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="6F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ePb-d2-uyO" firstAttribute="leading" secondItem="8iD-wK-oLk" secondAttribute="trailing" constant="24" id="2qH-BW-Lpr"/>
+                            <constraint firstItem="Ffy-Gy-KxR" firstAttribute="top" secondItem="hnP-So-M6c" secondAttribute="bottom" constant="8" id="7cF-rb-KRK"/>
+                            <constraint firstItem="JgU-jV-f1V" firstAttribute="top" secondItem="hnP-So-M6c" secondAttribute="bottom" constant="8" id="8Ag-gh-puw"/>
+                            <constraint firstItem="JgU-jV-f1V" firstAttribute="leading" secondItem="Ffy-Gy-KxR" secondAttribute="trailing" constant="4" id="8lO-Xg-6bt"/>
+                            <constraint firstItem="4fp-GW-mVn" firstAttribute="top" secondItem="hnP-So-M6c" secondAttribute="bottom" constant="8" id="HDZ-mt-JYB"/>
+                            <constraint firstItem="Cbs-Q3-bDn" firstAttribute="top" secondItem="hnP-So-M6c" secondAttribute="bottom" constant="8" id="PyJ-k4-t3k"/>
+                            <constraint firstItem="ePb-d2-uyO" firstAttribute="top" secondItem="hnP-So-M6c" secondAttribute="bottom" constant="8" id="RCX-Mv-CNa"/>
+                            <constraint firstItem="8iD-wK-oLk" firstAttribute="leading" secondItem="Cbs-Q3-bDn" secondAttribute="trailing" constant="4" id="T22-0y-wSI"/>
+                            <constraint firstItem="4fp-GW-mVn" firstAttribute="leading" secondItem="ePb-d2-uyO" secondAttribute="trailing" constant="4" id="Zbe-k0-gi3"/>
+                            <constraint firstItem="Cbs-Q3-bDn" firstAttribute="leading" secondItem="JgU-jV-f1V" secondAttribute="trailing" constant="24" id="pmK-bQ-Ppj"/>
+                            <constraint firstItem="Ffy-Gy-KxR" firstAttribute="leading" secondItem="BOe-s6-AXf" secondAttribute="leadingMargin" id="rK8-Ey-pdR"/>
+                            <constraint firstItem="8iD-wK-oLk" firstAttribute="top" secondItem="hnP-So-M6c" secondAttribute="bottom" constant="8" id="zPs-zj-SaM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rlk-Sw-Dan" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="257"/>
+        </scene>
+        <!--close-mid narrow-->
+        <scene sceneID="gWa-hq-YKU">
+            <objects>
+                <viewController storyboardIdentifier="closeMidNarrow" id="Lgg-Y9-QtG" userLabel="close-mid narrow" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Egl-Tx-Fpk"/>
+                        <viewControllerLayoutGuide type="bottom" id="0cM-xr-Zs7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oRc-vx-fhG">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3W-aw-TVH" userLabel="p" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2Wc-NQ-SS0"/>
+                                    <constraint firstAttribute="height" constant="40" id="SmI-cW-c75"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="65"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHg-I8-bVs" userLabel="m hook" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="meM-DZ-b3s"/>
+                                    <constraint firstAttribute="height" constant="40" id="xGZ-La-ruU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="F8"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sd1-lM-nXw" userLabel="t" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="116" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2wk-Fx-UuB"/>
+                                    <constraint firstAttribute="height" constant="40" id="Jyv-xx-V6x"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0258"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKi-gr-Nbo" userLabel="n retroflex" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="160" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Jf5-6z-mCG"/>
+                                    <constraint firstAttribute="width" constant="40" id="qv2-AI-3Vd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0275"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHT-0X-bm3" userLabel="n left hook" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="212" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="c3K-FT-ssP"/>
+                                    <constraint firstAttribute="width" constant="40" id="rSA-O4-9nT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0264"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMB-Cw-TeH" userLabel="eng" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="256" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="QRl-s7-gaA"/>
+                                    <constraint firstAttribute="height" constant="40" id="gR0-cn-0oa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="6F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xKi-gr-Nbo" firstAttribute="top" secondItem="Egl-Tx-Fpk" secondAttribute="bottom" constant="8" id="6mU-QU-Ask"/>
+                            <constraint firstItem="bHg-I8-bVs" firstAttribute="leading" secondItem="s3W-aw-TVH" secondAttribute="trailing" constant="4" id="76z-mw-LLa"/>
+                            <constraint firstItem="xKi-gr-Nbo" firstAttribute="leading" secondItem="Sd1-lM-nXw" secondAttribute="trailing" constant="4" id="90X-pI-I30"/>
+                            <constraint firstItem="DHT-0X-bm3" firstAttribute="top" secondItem="Egl-Tx-Fpk" secondAttribute="bottom" constant="8" id="J5j-aU-PsG"/>
+                            <constraint firstItem="Sd1-lM-nXw" firstAttribute="leading" secondItem="bHg-I8-bVs" secondAttribute="trailing" constant="12" id="JCe-b6-FH7"/>
+                            <constraint firstItem="s3W-aw-TVH" firstAttribute="leading" secondItem="oRc-vx-fhG" secondAttribute="leadingMargin" id="eMN-FU-MZq"/>
+                            <constraint firstItem="wMB-Cw-TeH" firstAttribute="leading" secondItem="DHT-0X-bm3" secondAttribute="trailing" constant="4" id="gfd-LX-PL3"/>
+                            <constraint firstItem="Sd1-lM-nXw" firstAttribute="top" secondItem="Egl-Tx-Fpk" secondAttribute="bottom" constant="8" id="kuc-bG-Vj5"/>
+                            <constraint firstItem="s3W-aw-TVH" firstAttribute="top" secondItem="Egl-Tx-Fpk" secondAttribute="bottom" constant="8" id="lpx-L4-yLH"/>
+                            <constraint firstItem="bHg-I8-bVs" firstAttribute="top" secondItem="Egl-Tx-Fpk" secondAttribute="bottom" constant="8" id="ltN-fl-xfV"/>
+                            <constraint firstItem="DHT-0X-bm3" firstAttribute="leading" secondItem="xKi-gr-Nbo" secondAttribute="trailing" constant="12" id="sv2-gv-Sgy"/>
+                            <constraint firstItem="wMB-Cw-TeH" firstAttribute="top" secondItem="Egl-Tx-Fpk" secondAttribute="bottom" constant="8" id="vc8-5r-nb3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JXt-h3-TRt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="934"/>
+        </scene>
+        <!--open-mid wide-->
+        <scene sceneID="aCD-rI-SXk">
+            <objects>
+                <viewController storyboardIdentifier="openMidWide" id="Piy-E1-SNh" userLabel="open-mid wide" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="asW-2g-pXf"/>
+                        <viewControllerLayoutGuide type="bottom" id="KMO-PB-9ul"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mvM-Zu-3d6">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEh-42-zsl" userLabel="e open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3Pc-v8-ja4"/>
+                                    <constraint firstAttribute="width" constant="40" id="FL8-4R-9NF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025B"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBH-Xm-VH3" userLabel="e open reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="128" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Erl-2y-fBD"/>
+                                    <constraint firstAttribute="height" constant="40" id="Sfa-A6-T6R"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="coz-KY-v8f" userLabel="oe ligature" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="VLk-bl-1sE"/>
+                                    <constraint firstAttribute="width" constant="40" id="lKt-2O-gnd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0153"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XpF-l4-C0E" userLabel="e open closed reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="172" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="JdI-uB-6DF"/>
+                                    <constraint firstAttribute="height" constant="40" id="Ns2-4d-yGQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025E"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ni8-ji-yz3" userLabel="v turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="236" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="94e-o6-ex1"/>
+                                    <constraint firstAttribute="width" constant="40" id="DYb-LN-i1P"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXv-oO-X26" userLabel="o open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="280" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3jt-eD-9g4"/>
+                                    <constraint firstAttribute="width" constant="40" id="WwH-b8-hy7"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0254"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ni8-ji-yz3" firstAttribute="leading" secondItem="XpF-l4-C0E" secondAttribute="trailing" constant="24" id="3B7-wx-pAr"/>
+                            <constraint firstItem="RBH-Xm-VH3" firstAttribute="top" secondItem="asW-2g-pXf" secondAttribute="bottom" constant="8" id="5Oz-Jz-Dw0"/>
+                            <constraint firstItem="hXv-oO-X26" firstAttribute="top" secondItem="asW-2g-pXf" secondAttribute="bottom" constant="8" id="6y1-vB-ZYU"/>
+                            <constraint firstItem="XpF-l4-C0E" firstAttribute="leading" secondItem="RBH-Xm-VH3" secondAttribute="trailing" constant="4" id="Buc-pb-k0C"/>
+                            <constraint firstItem="coz-KY-v8f" firstAttribute="leading" secondItem="hEh-42-zsl" secondAttribute="trailing" constant="4" id="FE7-9s-bXV"/>
+                            <constraint firstItem="RBH-Xm-VH3" firstAttribute="leading" secondItem="coz-KY-v8f" secondAttribute="trailing" constant="24" id="IgB-wz-cf7"/>
+                            <constraint firstItem="Ni8-ji-yz3" firstAttribute="top" secondItem="asW-2g-pXf" secondAttribute="bottom" constant="8" id="J5X-zn-bYl"/>
+                            <constraint firstItem="hEh-42-zsl" firstAttribute="top" secondItem="asW-2g-pXf" secondAttribute="bottom" constant="8" id="XCf-Wr-nZF"/>
+                            <constraint firstItem="hXv-oO-X26" firstAttribute="leading" secondItem="Ni8-ji-yz3" secondAttribute="trailing" constant="4" id="dng-QH-paR"/>
+                            <constraint firstItem="hEh-42-zsl" firstAttribute="leading" secondItem="mvM-Zu-3d6" secondAttribute="leadingMargin" id="gDX-uF-Hnm"/>
+                            <constraint firstItem="coz-KY-v8f" firstAttribute="top" secondItem="asW-2g-pXf" secondAttribute="bottom" constant="8" id="w9w-Eb-hHL"/>
+                            <constraint firstItem="XpF-l4-C0E" firstAttribute="top" secondItem="asW-2g-pXf" secondAttribute="bottom" constant="8" id="x1R-w9-iGX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jXe-iY-CNT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1192" y="257"/>
+        </scene>
+        <!--open-mid narrow-->
+        <scene sceneID="Qhk-Kw-KTH">
+            <objects>
+                <viewController storyboardIdentifier="openMidNarrow" id="4Rw-PS-HrI" userLabel="open-mid narrow" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cn6-dO-nqD"/>
+                        <viewControllerLayoutGuide type="bottom" id="nM1-ks-L1C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tHE-x3-OKC">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BvN-uz-dQ5" userLabel="e open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="L2q-TJ-Ogk"/>
+                                    <constraint firstAttribute="width" constant="40" id="dgC-8T-fPn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025B"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmd-5V-zaf" userLabel="e open reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="116" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="U00-O2-utq"/>
+                                    <constraint firstAttribute="width" constant="40" id="uTR-hX-x5o"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qii-9S-58U" userLabel="oe ligature" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="64" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="3BG-3A-efX"/>
+                                    <constraint firstAttribute="height" constant="40" id="gTQ-em-XyV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0153"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LE6-rn-iiy" userLabel="e open closed reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="160" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cBa-Mj-wEk"/>
+                                    <constraint firstAttribute="width" constant="40" id="cry-8z-iPA"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="025E"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="veJ-L1-IfB" userLabel="v turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="212" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Yr7-od-xIF"/>
+                                    <constraint firstAttribute="height" constant="40" id="aPO-5D-2Lm"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UqF-8b-ATJ" userLabel="o open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="256" y="28" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZNa-6J-dgq"/>
+                                    <constraint firstAttribute="width" constant="40" id="lKL-9C-4b3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0254"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BvN-uz-dQ5" firstAttribute="leading" secondItem="tHE-x3-OKC" secondAttribute="leadingMargin" id="8bQ-L6-K60"/>
+                            <constraint firstItem="BvN-uz-dQ5" firstAttribute="top" secondItem="Cn6-dO-nqD" secondAttribute="bottom" constant="8" id="8bq-0z-d0F"/>
+                            <constraint firstItem="LE6-rn-iiy" firstAttribute="top" secondItem="Cn6-dO-nqD" secondAttribute="bottom" constant="8" id="8rS-cL-Rad"/>
+                            <constraint firstItem="veJ-L1-IfB" firstAttribute="leading" secondItem="LE6-rn-iiy" secondAttribute="trailing" constant="12" id="ASz-Sb-KXC"/>
+                            <constraint firstItem="UqF-8b-ATJ" firstAttribute="top" secondItem="Cn6-dO-nqD" secondAttribute="bottom" constant="8" id="EBg-pb-Dk2"/>
+                            <constraint firstItem="UqF-8b-ATJ" firstAttribute="leading" secondItem="veJ-L1-IfB" secondAttribute="trailing" constant="4" id="SqT-0s-CgX"/>
+                            <constraint firstItem="veJ-L1-IfB" firstAttribute="top" secondItem="Cn6-dO-nqD" secondAttribute="bottom" constant="8" id="WZ9-j0-6pX"/>
+                            <constraint firstItem="tmd-5V-zaf" firstAttribute="top" secondItem="Cn6-dO-nqD" secondAttribute="bottom" constant="8" id="h9C-gu-Z3S"/>
+                            <constraint firstItem="Qii-9S-58U" firstAttribute="top" secondItem="Cn6-dO-nqD" secondAttribute="bottom" constant="8" id="jKy-pQ-bF9"/>
+                            <constraint firstItem="tmd-5V-zaf" firstAttribute="leading" secondItem="Qii-9S-58U" secondAttribute="trailing" constant="12" id="pLb-fH-yvs"/>
+                            <constraint firstItem="LE6-rn-iiy" firstAttribute="leading" secondItem="tmd-5V-zaf" secondAttribute="trailing" constant="4" id="tRS-KI-Wbd"/>
+                            <constraint firstItem="Qii-9S-58U" firstAttribute="leading" secondItem="BvN-uz-dQ5" secondAttribute="trailing" constant="4" id="zrW-mg-mZ7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BmF-Ng-O7D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1192" y="934"/>
+        </scene>
+    </scenes>
+</document>

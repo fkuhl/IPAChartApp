@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Suprasegmentals Base-->
+        <scene sceneID="7rm-hw-faM">
+            <objects>
+                <viewController storyboardIdentifier="base" id="uzJ-gw-pqv" userLabel="Suprasegmentals Base" customClass="ChartViewController" customModule="IPAChartBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wbr-DG-oap"/>
+                        <viewControllerLayoutGuide type="bottom" id="vas-fu-dpY"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="yFA-fv-fpQ">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGL-q5-POl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1077.717391304348" y="-1294.2028985507247"/>
+        </scene>
+        <!--Suprasegmentals Regular Content-->
+        <scene sceneID="zNl-de-vVx">
+            <objects>
+                <viewController storyboardIdentifier="suprasegmentalsRegularContent" id="kuv-AS-Vap" userLabel="Suprasegmentals Regular Content" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2N2-CE-1SM"/>
+                        <viewControllerLayoutGuide type="bottom" id="QN1-oo-u5U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QK7-ex-s1H">
+                        <rect key="frame" x="0.0" y="0.0" width="650" height="250"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9aF-ly-XK0" userLabel="content">
+                                <rect key="frame" x="0.0" y="0.0" width="650" height="250"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bB4-6L-2HT" userLabel="primary stress" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="dQY-TP-2BI"/>
+                                            <constraint firstAttribute="height" constant="40" id="j3a-r4-b59"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02C8"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GUk-Rx-YEs" userLabel="secondary stress stress" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="NZh-kJ-jeC"/>
+                                            <constraint firstAttribute="width" constant="40" id="aEM-a6-tzi"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02CC"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oUr-KR-UYL" userLabel="long" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="96" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="8bo-XF-45a"/>
+                                            <constraint firstAttribute="height" constant="40" id="V19-wP-tIH"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02D0"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYd-Dy-oWO" userLabel="half-long" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="140" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="6vM-E7-a3y"/>
+                                            <constraint firstAttribute="width" constant="40" id="P1M-bS-lgD"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02D1"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CmF-ss-wte" userLabel="extra short" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="184" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="CSr-AV-ev3"/>
+                                            <constraint firstAttribute="height" constant="40" id="Udw-57-Usg"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0306"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZN3-OT-OdL" userLabel="minor (foot) group" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="QEg-vf-JnF"/>
+                                            <constraint firstAttribute="height" constant="40" id="UWf-LC-L16"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="007C"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rN8-Gc-MZL" userLabel="major (intonation) group" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="Dgo-qh-Amt"/>
+                                            <constraint firstAttribute="height" constant="40" id="vph-vd-Ntx"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2016"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBD-Xx-8A5" userLabel="syllable break" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="96" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="BDA-ys-37a"/>
+                                            <constraint firstAttribute="width" constant="40" id="HEK-Nb-gvH"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="002E"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F9e-Bt-fID" userLabel="linking" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="140" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="oKk-Yn-wdM"/>
+                                            <constraint firstAttribute="width" constant="40" id="tWs-UL-DuZ"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="203F"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="primary stress" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAE-Mi-Wug" userLabel="primary stress label">
+                                        <rect key="frame" x="68" y="8" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="B2H-sD-OGY"/>
+                                            <constraint firstAttribute="height" constant="40" id="I4J-B0-RJV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'primary stress' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="secondary stress" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeL-AX-Hft" userLabel="secondary stress label">
+                                        <rect key="frame" x="68" y="52" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="PQ6-lC-yGm"/>
+                                            <constraint firstAttribute="height" constant="40" id="lwx-kJ-r7r"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'secondary stress' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="long" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PP2-8J-cu3" userLabel="long label">
+                                        <rect key="frame" x="68" y="96" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="o3O-Ez-K5R"/>
+                                            <constraint firstAttribute="width" constant="232" id="qQu-pV-sER"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'long' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="half-long" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsF-Hf-6hL" userLabel="half-long label">
+                                        <rect key="frame" x="68" y="140" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="YbC-fg-MVA"/>
+                                            <constraint firstAttribute="height" constant="40" id="x6Q-4v-5Id"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'half-long' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="extra short" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ub-p7-z0u" userLabel="extra short label">
+                                        <rect key="frame" x="68" y="184" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="299-Uo-e6s"/>
+                                            <constraint firstAttribute="height" constant="40" id="ehS-2m-XmT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'extra short' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="minor (foot) group" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0I-gL-e7k" userLabel="minor (foot) label">
+                                        <rect key="frame" x="380" y="8" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="6Oz-ib-LyD"/>
+                                            <constraint firstAttribute="height" constant="40" id="USt-0t-EPk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'minor (foot) group' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="major (intonation) group" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpO-jh-ZQg" userLabel="major (intonation) label">
+                                        <rect key="frame" x="380" y="52" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="C5u-wN-LV6"/>
+                                            <constraint firstAttribute="width" constant="232" id="OB1-wm-ejD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'major (intonation) group' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="syllable break" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOW-iP-ZRU" userLabel="syllable break">
+                                        <rect key="frame" x="380" y="96" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="lGa-n2-Mfv"/>
+                                            <constraint firstAttribute="width" constant="232" id="rPr-mg-dXt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'syllable break' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="linking (absence of a break)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U99-F9-Y8h" userLabel="linking label">
+                                        <rect key="frame" x="380" y="140" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="737-Mc-Wzg"/>
+                                            <constraint firstAttribute="height" constant="40" id="R4Z-J3-zKF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'linking (absence of a break)' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="pBD-Xx-8A5" firstAttribute="top" secondItem="rN8-Gc-MZL" secondAttribute="bottom" constant="4" id="37k-sS-nrc"/>
+                                    <constraint firstItem="GUk-Rx-YEs" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="49c-Ks-dj8"/>
+                                    <constraint firstItem="SOW-iP-ZRU" firstAttribute="top" secondItem="LpO-jh-ZQg" secondAttribute="bottom" constant="4" id="6z2-El-PyN"/>
+                                    <constraint firstItem="bB4-6L-2HT" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="7dk-yq-1bB"/>
+                                    <constraint firstItem="rN8-Gc-MZL" firstAttribute="leading" secondItem="JeL-AX-Hft" secondAttribute="trailing" constant="32" id="7jF-mA-JzO"/>
+                                    <constraint firstItem="LpO-jh-ZQg" firstAttribute="top" secondItem="a0I-gL-e7k" secondAttribute="bottom" constant="4" id="86m-0t-JPR"/>
+                                    <constraint firstItem="oUr-KR-UYL" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="DnI-f2-zov"/>
+                                    <constraint firstItem="vYd-Dy-oWO" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="ICy-20-IvG"/>
+                                    <constraint firstItem="YsF-Hf-6hL" firstAttribute="top" secondItem="PP2-8J-cu3" secondAttribute="bottom" constant="4" id="LCn-7a-x0m"/>
+                                    <constraint firstItem="F9e-Bt-fID" firstAttribute="leading" secondItem="YsF-Hf-6hL" secondAttribute="trailing" constant="32" id="MQN-os-LJS"/>
+                                    <constraint firstItem="vAE-Mi-Wug" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="NHM-DJ-E6i"/>
+                                    <constraint firstItem="ZN3-OT-OdL" firstAttribute="leading" secondItem="vAE-Mi-Wug" secondAttribute="trailing" constant="32" id="O4F-35-JKB"/>
+                                    <constraint firstItem="oUr-KR-UYL" firstAttribute="top" secondItem="GUk-Rx-YEs" secondAttribute="bottom" constant="4" id="O51-Tk-ZhB"/>
+                                    <constraint firstItem="U99-F9-Y8h" firstAttribute="top" secondItem="SOW-iP-ZRU" secondAttribute="bottom" constant="4" id="Onr-dC-AuK"/>
+                                    <constraint firstItem="pBD-Xx-8A5" firstAttribute="leading" secondItem="PP2-8J-cu3" secondAttribute="trailing" constant="32" id="aeT-HU-55M"/>
+                                    <constraint firstItem="GUk-Rx-YEs" firstAttribute="top" secondItem="bB4-6L-2HT" secondAttribute="bottom" constant="4" id="aei-5X-VSL"/>
+                                    <constraint firstItem="a0I-gL-e7k" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="aiJ-sH-3Lk"/>
+                                    <constraint firstItem="F9e-Bt-fID" firstAttribute="top" secondItem="pBD-Xx-8A5" secondAttribute="bottom" constant="4" id="ayF-Kg-Az0"/>
+                                    <constraint firstItem="YsF-Hf-6hL" firstAttribute="leading" secondItem="vYd-Dy-oWO" secondAttribute="trailing" constant="8" id="brm-Pi-ago"/>
+                                    <constraint firstItem="vAE-Mi-Wug" firstAttribute="leading" secondItem="bB4-6L-2HT" secondAttribute="trailing" constant="8" id="dnD-2k-sFS"/>
+                                    <constraint firstItem="LpO-jh-ZQg" firstAttribute="leading" secondItem="rN8-Gc-MZL" secondAttribute="trailing" constant="8" id="f2v-pQ-tYb"/>
+                                    <constraint firstItem="bB4-6L-2HT" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="fXz-mp-MW0"/>
+                                    <constraint firstItem="PP2-8J-cu3" firstAttribute="top" secondItem="JeL-AX-Hft" secondAttribute="bottom" constant="4" id="fg8-td-kYs"/>
+                                    <constraint firstItem="a0I-gL-e7k" firstAttribute="leading" secondItem="ZN3-OT-OdL" secondAttribute="trailing" constant="8" id="lUy-QC-chV"/>
+                                    <constraint firstItem="PP2-8J-cu3" firstAttribute="leading" secondItem="oUr-KR-UYL" secondAttribute="trailing" constant="8" id="qte-2T-ijB"/>
+                                    <constraint firstItem="CmF-ss-wte" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="s4T-a6-GPX"/>
+                                    <constraint firstItem="U99-F9-Y8h" firstAttribute="leading" secondItem="F9e-Bt-fID" secondAttribute="trailing" constant="8" id="tsE-5V-gVA"/>
+                                    <constraint firstItem="JeL-AX-Hft" firstAttribute="top" secondItem="vAE-Mi-Wug" secondAttribute="bottom" constant="4" id="vTo-cl-ty8"/>
+                                    <constraint firstItem="9ub-p7-z0u" firstAttribute="top" secondItem="YsF-Hf-6hL" secondAttribute="bottom" constant="4" id="vXY-DC-dNh"/>
+                                    <constraint firstItem="SOW-iP-ZRU" firstAttribute="leading" secondItem="pBD-Xx-8A5" secondAttribute="trailing" constant="8" id="vnW-tR-oCa"/>
+                                    <constraint firstItem="JeL-AX-Hft" firstAttribute="leading" secondItem="GUk-Rx-YEs" secondAttribute="trailing" constant="8" id="vpR-wq-4Ye"/>
+                                    <constraint firstItem="CmF-ss-wte" firstAttribute="top" secondItem="vYd-Dy-oWO" secondAttribute="bottom" constant="4" id="xym-zP-HGT"/>
+                                    <constraint firstItem="rN8-Gc-MZL" firstAttribute="top" secondItem="ZN3-OT-OdL" secondAttribute="bottom" constant="4" id="yMO-cS-g4g"/>
+                                    <constraint firstItem="ZN3-OT-OdL" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="yQi-tD-I3b"/>
+                                    <constraint firstItem="vYd-Dy-oWO" firstAttribute="top" secondItem="oUr-KR-UYL" secondAttribute="bottom" constant="4" id="z2V-zO-y6q"/>
+                                    <constraint firstItem="9ub-p7-z0u" firstAttribute="leading" secondItem="CmF-ss-wte" secondAttribute="trailing" constant="8" id="z8Y-uV-cNS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9aF-ly-XK0" firstAttribute="leading" secondItem="QK7-ex-s1H" secondAttribute="leading" id="5ao-ei-fXS"/>
+                            <constraint firstAttribute="trailing" secondItem="9aF-ly-XK0" secondAttribute="trailing" id="cti-ae-zs1"/>
+                            <constraint firstAttribute="bottom" secondItem="9aF-ly-XK0" secondAttribute="bottom" id="gmM-pt-oPH"/>
+                            <constraint firstItem="9aF-ly-XK0" firstAttribute="top" secondItem="QK7-ex-s1H" secondAttribute="top" id="jUG-xQ-4RQ"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="650" height="250"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BrL-89-NVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1737" y="454"/>
+        </scene>
+        <!--Suprasegmentals Compact Content-->
+        <scene sceneID="TPV-8n-2sl">
+            <objects>
+                <viewController storyboardIdentifier="suprasegmentalsCompactContent" id="Fb1-g1-h9P" userLabel="Suprasegmentals Compact Content" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xda-dC-WMK"/>
+                        <viewControllerLayoutGuide type="bottom" id="fWa-Nv-gaE"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="ic1-rz-Opl" userLabel="content">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZ5-yI-QHR" userLabel="primary stress" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="B0W-8X-uzA"/>
+                                    <constraint firstAttribute="width" constant="40" id="mN9-nX-h81"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02C8"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTm-kg-mym" userLabel="secondary stress stress" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="52" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="6bC-YV-44s"/>
+                                    <constraint firstAttribute="height" constant="40" id="hGJ-N8-wkJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02CC"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cCl-Wl-dsv" userLabel="long" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DlK-89-fiE"/>
+                                    <constraint firstAttribute="width" constant="40" id="TLw-bT-ZGx"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02D0"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSe-4R-2FQ" userLabel="half-long" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="140" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="9lx-hK-gdT"/>
+                                    <constraint firstAttribute="height" constant="40" id="lI5-5n-SwZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02D1"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qtd-0D-vxr" userLabel="extra short" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ivy-j9-QxU"/>
+                                    <constraint firstAttribute="width" constant="40" id="bk5-Cn-glp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0306"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0gf-Gk-niw" userLabel="minor (foot) group" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="228" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="XQ1-wY-cwQ"/>
+                                    <constraint firstAttribute="height" constant="40" id="myf-ed-Cxf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="007C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKv-fr-P5P" userLabel="major (intonation) group" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="272" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8FN-ZG-2Gf"/>
+                                    <constraint firstAttribute="width" constant="40" id="Wgv-PX-2f2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2016"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RkX-54-mAp" userLabel="syllable break" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="316" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="23I-ie-8Do"/>
+                                    <constraint firstAttribute="width" constant="40" id="gho-Sg-r83"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="002E"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Blk-Po-Eix" userLabel="linking" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="20" y="360" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1Dj-ZB-i51"/>
+                                    <constraint firstAttribute="width" constant="40" id="MFC-2d-Oer"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="203F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="primary stress" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOK-xu-4r0" userLabel="primary stress label">
+                                <rect key="frame" x="68" y="8" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="232" id="OZI-sF-sfL"/>
+                                    <constraint firstAttribute="height" constant="40" id="XbB-vQ-Qjn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'primary stress' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="secondary stress" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmI-A3-WEG" userLabel="secondary stress label">
+                                <rect key="frame" x="68" y="52" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bgd-UD-R3K"/>
+                                    <constraint firstAttribute="width" constant="232" id="phS-UM-a5v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'secondary stress' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="long" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68T-1O-DW8" userLabel="long label">
+                                <rect key="frame" x="68" y="96" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="232" id="TkQ-4s-Qb8"/>
+                                    <constraint firstAttribute="height" constant="40" id="lWJ-Mm-qTY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'long' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="half-long" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOu-mE-vpe" userLabel="half-long label">
+                                <rect key="frame" x="68" y="140" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="0Zj-My-DpV"/>
+                                    <constraint firstAttribute="width" constant="232" id="S8B-Pl-U6t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'half-long' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="extra short" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfl-JX-rWj" userLabel="extra short label">
+                                <rect key="frame" x="68" y="184" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="232" id="Qbw-p1-xKW"/>
+                                    <constraint firstAttribute="height" constant="40" id="itG-8m-tTG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'extra short' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="minor (foot) group" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="em6-Vs-YpB" userLabel="minor (foot) label">
+                                <rect key="frame" x="68" y="228" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="STd-g4-ptS"/>
+                                    <constraint firstAttribute="width" constant="232" id="xEV-Tj-pZR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'minor (foot) group' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="major (intonation) group" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZB-dO-KVl" userLabel="major (intonation) label">
+                                <rect key="frame" x="68" y="272" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="A2D-iN-8hQ"/>
+                                    <constraint firstAttribute="width" constant="232" id="Ho2-av-gYs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'major (intonation) group' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="syllable break" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wws-Wl-nom" userLabel="syllable break">
+                                <rect key="frame" x="68" y="316" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="S4n-dp-M7L"/>
+                                    <constraint firstAttribute="width" constant="232" id="gcM-GO-Ncc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'syllable break' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="linking (absence of a break)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enN-Vm-ang" userLabel="linking label">
+                                <rect key="frame" x="68" y="360" width="232" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="f4r-Wc-wBu"/>
+                                    <constraint firstAttribute="width" constant="232" id="heP-SS-cEC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content="the label for the 'linking (absence of a break)' key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qtd-0D-vxr" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="0RS-Z7-33m"/>
+                            <constraint firstItem="68T-1O-DW8" firstAttribute="leading" secondItem="cCl-Wl-dsv" secondAttribute="trailing" constant="8" id="5gd-Qu-vPR"/>
+                            <constraint firstItem="enN-Vm-ang" firstAttribute="leading" secondItem="Blk-Po-Eix" secondAttribute="trailing" constant="8" id="5jI-pG-pAH"/>
+                            <constraint firstItem="LOK-xu-4r0" firstAttribute="top" secondItem="wZ5-yI-QHR" secondAttribute="top" id="7sA-7e-w5Z"/>
+                            <constraint firstItem="hfl-JX-rWj" firstAttribute="top" secondItem="BOu-mE-vpe" secondAttribute="bottom" constant="4" id="8Uk-1V-bjo"/>
+                            <constraint firstItem="aSe-4R-2FQ" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="9Pq-BS-qrr"/>
+                            <constraint firstItem="0gf-Gk-niw" firstAttribute="top" secondItem="qtd-0D-vxr" secondAttribute="bottom" constant="4" id="AwC-oL-h7a"/>
+                            <constraint firstItem="BOu-mE-vpe" firstAttribute="leading" secondItem="aSe-4R-2FQ" secondAttribute="trailing" constant="8" id="Ci3-tz-GBm"/>
+                            <constraint firstItem="cCl-Wl-dsv" firstAttribute="top" secondItem="eTm-kg-mym" secondAttribute="bottom" constant="4" id="IMz-b8-hl9"/>
+                            <constraint firstItem="Wws-Wl-nom" firstAttribute="top" secondItem="mZB-dO-KVl" secondAttribute="bottom" constant="4" id="JaU-Rh-cGF"/>
+                            <constraint firstItem="cCl-Wl-dsv" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="QMZ-JR-3m8"/>
+                            <constraint firstItem="BOu-mE-vpe" firstAttribute="top" secondItem="68T-1O-DW8" secondAttribute="bottom" constant="4" id="RiY-r5-7VV"/>
+                            <constraint firstItem="hfl-JX-rWj" firstAttribute="leading" secondItem="qtd-0D-vxr" secondAttribute="trailing" constant="8" id="SvA-VQ-Cli"/>
+                            <constraint firstItem="gKv-fr-P5P" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="UJf-dt-eaT"/>
+                            <constraint firstItem="mZB-dO-KVl" firstAttribute="top" secondItem="em6-Vs-YpB" secondAttribute="bottom" constant="4" id="URj-Y6-Vpj"/>
+                            <constraint firstItem="em6-Vs-YpB" firstAttribute="leading" secondItem="0gf-Gk-niw" secondAttribute="trailing" constant="8" id="VP3-XW-44d"/>
+                            <constraint firstItem="qtd-0D-vxr" firstAttribute="top" secondItem="aSe-4R-2FQ" secondAttribute="bottom" constant="4" id="Xw5-Ce-j6s"/>
+                            <constraint firstItem="Blk-Po-Eix" firstAttribute="top" secondItem="RkX-54-mAp" secondAttribute="bottom" constant="4" id="XzF-4m-vyF"/>
+                            <constraint firstItem="Blk-Po-Eix" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="ZDb-y9-rxJ"/>
+                            <constraint firstItem="mmI-A3-WEG" firstAttribute="leading" secondItem="eTm-kg-mym" secondAttribute="trailing" constant="8" id="bQU-yT-t6R"/>
+                            <constraint firstItem="wZ5-yI-QHR" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="cWV-yj-53N"/>
+                            <constraint firstItem="Wws-Wl-nom" firstAttribute="leading" secondItem="RkX-54-mAp" secondAttribute="trailing" constant="8" id="drR-Z6-ybd"/>
+                            <constraint firstItem="mZB-dO-KVl" firstAttribute="leading" secondItem="gKv-fr-P5P" secondAttribute="trailing" constant="8" id="e9m-UA-ruq"/>
+                            <constraint firstItem="gKv-fr-P5P" firstAttribute="top" secondItem="0gf-Gk-niw" secondAttribute="bottom" constant="4" id="gwx-rt-JTQ"/>
+                            <constraint firstItem="enN-Vm-ang" firstAttribute="top" secondItem="Wws-Wl-nom" secondAttribute="bottom" constant="4" id="jUR-0e-75X"/>
+                            <constraint firstItem="mmI-A3-WEG" firstAttribute="top" secondItem="LOK-xu-4r0" secondAttribute="bottom" constant="4" id="jbY-2a-kVh"/>
+                            <constraint firstItem="wZ5-yI-QHR" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="kzZ-eA-rAj"/>
+                            <constraint firstItem="LOK-xu-4r0" firstAttribute="leading" secondItem="wZ5-yI-QHR" secondAttribute="trailing" constant="8" id="l2V-rT-Ucj"/>
+                            <constraint firstItem="em6-Vs-YpB" firstAttribute="top" secondItem="hfl-JX-rWj" secondAttribute="bottom" constant="4" id="tSB-5a-Obu"/>
+                            <constraint firstItem="aSe-4R-2FQ" firstAttribute="top" secondItem="cCl-Wl-dsv" secondAttribute="bottom" constant="4" id="tdz-fd-Lsd"/>
+                            <constraint firstItem="0gf-Gk-niw" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="u2E-Xh-LHG"/>
+                            <constraint firstItem="RkX-54-mAp" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="vYM-OX-1WU"/>
+                            <constraint firstItem="eTm-kg-mym" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="4" id="wo2-ix-ldc"/>
+                            <constraint firstItem="RkX-54-mAp" firstAttribute="top" secondItem="gKv-fr-P5P" secondAttribute="bottom" constant="4" id="wr1-2b-FJN"/>
+                            <constraint firstItem="68T-1O-DW8" firstAttribute="top" secondItem="mmI-A3-WEG" secondAttribute="bottom" constant="4" id="xF7-s4-Lh7"/>
+                            <constraint firstItem="eTm-kg-mym" firstAttribute="top" secondItem="wZ5-yI-QHR" secondAttribute="bottom" constant="4" id="xFP-kN-RXy"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="900" height="400"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="420"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgU-b3-CUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1065" y="488"/>
+        </scene>
+        <!--Suprasegmentals Compact Wide-->
+        <scene sceneID="1PA-lL-96j">
+            <objects>
+                <viewController storyboardIdentifier="compactWide" id="NCl-YJ-MVi" userLabel="Suprasegmentals Compact Wide" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n46-Wa-kXc"/>
+                        <viewControllerLayoutGuide type="bottom" id="9jK-yh-I2B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LgM-qK-ttB">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AA4-gK-jlN">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-tV-yCR">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="IMx-Ox-ban"/>
+                                            <constraint firstAttribute="height" constant="420" id="Nml-fb-kHf"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Fb1-g1-h9P" kind="embed" id="ivi-0G-ggc"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="KGu-tV-yCR" firstAttribute="leading" secondItem="AA4-gK-jlN" secondAttribute="leading" id="2ci-nm-2iQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="KGu-tV-yCR" secondAttribute="trailing" id="BHk-Lf-WpL"/>
+                                    <constraint firstItem="KGu-tV-yCR" firstAttribute="top" secondItem="AA4-gK-jlN" secondAttribute="top" id="PtK-Io-TsG"/>
+                                    <constraint firstAttribute="bottom" secondItem="KGu-tV-yCR" secondAttribute="bottom" id="Vn9-wD-qJ5"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AA4-gK-jlN" secondAttribute="trailing" id="Na6-wZ-CxP"/>
+                            <constraint firstItem="AA4-gK-jlN" firstAttribute="leading" secondItem="LgM-qK-ttB" secondAttribute="leading" id="aIb-As-UVH"/>
+                            <constraint firstItem="AA4-gK-jlN" firstAttribute="top" secondItem="LgM-qK-ttB" secondAttribute="top" id="vX8-Xq-ojZ"/>
+                            <constraint firstItem="9jK-yh-I2B" firstAttribute="top" secondItem="AA4-gK-jlN" secondAttribute="bottom" id="vab-82-z5G"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0E-Tg-FO2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1094" y="-546"/>
+        </scene>
+        <!--Suprasegmentals Compact Narrow-->
+        <scene sceneID="m2O-6J-YA8">
+            <objects>
+                <viewController storyboardIdentifier="compactNarrow" id="YaW-Rp-cIX" userLabel="Suprasegmentals Compact Narrow" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rE5-Oa-kcz"/>
+                        <viewControllerLayoutGuide type="bottom" id="MHu-cj-5Az"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zE8-d7-GZ8">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-kX-ISx">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqy-Qj-Bag">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="420" id="7Kn-sX-HFD"/>
+                                            <constraint firstAttribute="width" constant="320" id="mhM-NB-sIW"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Fb1-g1-h9P" kind="embed" id="zoA-Zp-i9e"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dqy-Qj-Bag" secondAttribute="trailing" id="F4Y-I2-q96"/>
+                                    <constraint firstItem="dqy-Qj-Bag" firstAttribute="leading" secondItem="yTx-kX-ISx" secondAttribute="leading" id="S2P-d9-JoE"/>
+                                    <constraint firstAttribute="bottom" secondItem="dqy-Qj-Bag" secondAttribute="bottom" id="Z8l-BZ-NhM"/>
+                                    <constraint firstItem="dqy-Qj-Bag" firstAttribute="top" secondItem="yTx-kX-ISx" secondAttribute="top" id="pYU-qi-svD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yTx-kX-ISx" firstAttribute="top" secondItem="zE8-d7-GZ8" secondAttribute="top" id="8kH-16-jKX"/>
+                            <constraint firstItem="yTx-kX-ISx" firstAttribute="leading" secondItem="zE8-d7-GZ8" secondAttribute="leading" id="SV9-aa-a5H"/>
+                            <constraint firstItem="MHu-cj-5Az" firstAttribute="top" secondItem="yTx-kX-ISx" secondAttribute="bottom" id="fUl-vb-REP"/>
+                            <constraint firstAttribute="trailing" secondItem="yTx-kX-ISx" secondAttribute="trailing" id="xHJ-Sq-HFY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cu9-x4-paz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-131" y="-546"/>
+        </scene>
+        <!--Suprasegmentals Regular-->
+        <scene sceneID="FxC-dl-tCQ">
+            <objects>
+                <viewController storyboardIdentifier="regular" id="DgJ-Mz-Uun" userLabel="Suprasegmentals Regular" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zfj-qu-smV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qcq-kY-f3O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqG-hT-xmK">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWu-4O-hhG">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrK-C8-GUc">
+                                        <rect key="frame" x="0.0" y="0.0" width="650" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="650" id="cl3-o2-S74"/>
+                                            <constraint firstAttribute="height" constant="250" id="rNH-VL-6oR"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="kuv-AS-Vap" kind="embed" id="aB7-g0-ykk"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="JrK-C8-GUc" secondAttribute="bottom" id="8La-Tw-Jxy"/>
+                                    <constraint firstItem="JrK-C8-GUc" firstAttribute="leading" secondItem="vWu-4O-hhG" secondAttribute="leading" id="JYu-AQ-hGs"/>
+                                    <constraint firstAttribute="trailing" secondItem="JrK-C8-GUc" secondAttribute="trailing" id="lVm-Ff-rbI"/>
+                                    <constraint firstItem="JrK-C8-GUc" firstAttribute="top" secondItem="vWu-4O-hhG" secondAttribute="top" id="r1F-Tp-VEj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qcq-kY-f3O" firstAttribute="top" secondItem="vWu-4O-hhG" secondAttribute="bottom" id="Wd7-mM-wcI"/>
+                            <constraint firstItem="vWu-4O-hhG" firstAttribute="top" secondItem="aqG-hT-xmK" secondAttribute="top" id="ckT-Jw-t5t"/>
+                            <constraint firstItem="vWu-4O-hhG" firstAttribute="leading" secondItem="aqG-hT-xmK" secondAttribute="leading" id="nG5-II-lO1"/>
+                            <constraint firstAttribute="trailing" secondItem="vWu-4O-hhG" secondAttribute="trailing" id="xxw-rn-e2t"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2WS-5u-TiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1737" y="-546"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zoA-Zp-i9e"/>
+    </inferredMetricsTieBreakers>
+</document>

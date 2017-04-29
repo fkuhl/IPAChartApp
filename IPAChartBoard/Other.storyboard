@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Other Base-->
+        <scene sceneID="7rm-hw-faM">
+            <objects>
+                <viewController storyboardIdentifier="base" id="uzJ-gw-pqv" userLabel="Other Base" customClass="ChartViewController" customModule="IPAChartBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wbr-DG-oap"/>
+                        <viewControllerLayoutGuide type="bottom" id="vas-fu-dpY"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="yFA-fv-fpQ">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGL-q5-POl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1077.717391304348" y="-1294.2028985507247"/>
+        </scene>
+        <!--Other Regular Content-->
+        <scene sceneID="zNl-de-vVx">
+            <objects>
+                <viewController storyboardIdentifier="OtherRegularContent" id="kuv-AS-Vap" userLabel="Other Regular Content" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2N2-CE-1SM"/>
+                        <viewControllerLayoutGuide type="bottom" id="QN1-oo-u5U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QK7-ex-s1H">
+                        <rect key="frame" x="0.0" y="0.0" width="680" height="280"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9aF-ly-XK0" userLabel="content">
+                                <rect key="frame" x="0.0" y="0.0" width="680" height="280"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bB4-6L-2HT" userLabel="voiceless l-v f" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="ngb-8f-cpS"/>
+                                            <constraint firstAttribute="height" constant="40" id="tQZ-Cu-ekr"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028d"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="voiceless labial-velar fricative" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAE-Mi-Wug" userLabel="voiceless l-v f label">
+                                        <rect key="frame" x="68" y="8" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="dy1-vH-W67"/>
+                                            <constraint firstAttribute="width" constant="232" id="mjA-br-K9F"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'bilabial' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="voiced labial-velar approximant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeL-AX-Hft" userLabel="voiced l-v a label">
+                                        <rect key="frame" x="68" y="52" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="NH8-92-B8d"/>
+                                            <constraint firstAttribute="width" constant="232" id="pZh-Wp-8D9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'dental' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="voiced labial-palatal approximant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PP2-8J-cu3" userLabel="voiced labial-palatal approximant label">
+                                        <rect key="frame" x="68" y="96" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="BQ6-pr-i0j"/>
+                                            <constraint firstAttribute="height" constant="40" id="uR7-pg-jgP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'voiced labial-palatal approximantr' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="voiceless epiglottal fricative" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsF-Hf-6hL" userLabel="voiceless epiglottal fricative label">
+                                        <rect key="frame" x="68" y="140" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="SCf-r3-ykQ"/>
+                                            <constraint firstAttribute="height" constant="40" id="wzx-iz-w9f"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'voiceless epiglottal fricative' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="voiced epiglottal fricative" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ub-p7-z0u" userLabel="voiced epiglottal fricative label">
+                                        <rect key="frame" x="68" y="184" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="Kaa-30-ZiG"/>
+                                            <constraint firstAttribute="height" constant="40" id="zeK-s4-dm6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'voiced epiglottal fricative' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="epiglottal plosive" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Udt-hA-4B3" userLabel="epiglottal plosive label">
+                                        <rect key="frame" x="68" y="228" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="232" id="ayK-9d-CJd"/>
+                                            <constraint firstAttribute="width" constant="232" id="i7J-ES-F8u"/>
+                                            <constraint firstAttribute="height" constant="40" id="lTZ-dT-DfF"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="pQs-ef-IRz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'epiglottal plosive' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHt-J5-VUH" userLabel="simultaneous S and X" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="96" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="VYp-o5-YED"/>
+                                            <constraint firstAttribute="height" constant="40" id="gaj-a3-YqY"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0267"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gTy-kb-0Qf" userLabel="tie above" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="140" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="SlG-k5-w2U"/>
+                                            <constraint firstAttribute="height" constant="40" id="dGw-o1-0js"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0361"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="tie"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="drZ-tb-A3X" userLabel="tie below" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="184" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Cwj-UK-ySG"/>
+                                            <constraint firstAttribute="width" constant="40" id="zSy-bI-eWg"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="035C"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="tie"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rN8-Gc-MZL" userLabel="a l p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="PD7-Wm-ShU"/>
+                                            <constraint firstAttribute="height" constant="40" id="uPD-zj-qT2"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="027A"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qsr-cF-cTX" userLabel="voiced l-v a" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="4Mp-94-kwJ"/>
+                                            <constraint firstAttribute="height" constant="40" id="tIf-3N-Kxh"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="77"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qbn-KG-jZn" userLabel="voiced l-p a" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="95" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="IVc-Ij-TRI"/>
+                                            <constraint firstAttribute="height" constant="40" id="rZp-Ju-xLQ"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0265"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBH-Gl-1Cc" userLabel="voiceless e f" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="139" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="D4I-eY-95o"/>
+                                            <constraint firstAttribute="height" constant="40" id="Hgz-qF-6Ty"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="029C"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjE-Xw-sBp" userLabel="a-p f c" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="332" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="Bip-1y-LXb"/>
+                                            <constraint firstAttribute="height" constant="40" id="uIx-Ct-wQO"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0255"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZQ-0B-St6" userLabel="a-p f z" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="376" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Mto-c8-5Hq"/>
+                                            <constraint firstAttribute="width" constant="40" id="ddU-gf-wEv"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0291"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JH-9x-Z4E" userLabel="voiced e f" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="183" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ids-Uf-JuF"/>
+                                            <constraint firstAttribute="width" constant="40" id="vb3-ci-cVp"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02A2"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0A-B8-uUp" userLabel="e p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="227" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="GNz-wC-KfN"/>
+                                            <constraint firstAttribute="width" constant="40" id="r1Y-5I-xVk"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02A1"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alveolo-palatal fricatives" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0I-gL-e7k" userLabel="alveolo-palatal fricatives label">
+                                        <rect key="frame" x="424" y="8" width="188" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="5fs-qf-5yq"/>
+                                            <constraint firstAttribute="width" constant="188" id="ZIW-wv-ZHt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'alveolo-palatal fricatives' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alveolar lateral flap" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpO-jh-ZQg" userLabel="alveolar lateral flap label">
+                                        <rect key="frame" x="380" y="52" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="8H3-OZ-TmH"/>
+                                            <constraint firstAttribute="height" constant="40" id="xLU-qf-a5V"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'alveolar lateral flap' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="simultaneous ʃ and X" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOW-iP-ZRU" userLabel="simultaneous ʃ and X label">
+                                        <rect key="frame" x="380" y="96" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="PFb-1B-d6O"/>
+                                            <constraint firstAttribute="width" constant="232" id="pRj-tR-ufS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'simultaneous ">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="ʃ">
+                                                <attributes>
+                                                    <font key="NSFont" size="11" name=".LucidaGrandeUI"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" and X' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="double articulation" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U99-F9-Y8h" userLabel="double articulation label">
+                                        <rect key="frame" x="380" y="140" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="6v3-LZ-dnM"/>
+                                            <constraint firstAttribute="height" constant="40" id="ReO-WC-yha"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'double articulation' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="LpO-jh-ZQg" firstAttribute="top" secondItem="a0I-gL-e7k" secondAttribute="bottom" constant="4" id="04F-42-Xsf"/>
+                                    <constraint firstItem="BZQ-0B-St6" firstAttribute="leading" secondItem="sjE-Xw-sBp" secondAttribute="trailing" constant="4" id="3Ic-6f-x4q"/>
+                                    <constraint firstItem="sjE-Xw-sBp" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="9Eu-MS-Auq"/>
+                                    <constraint firstItem="SOW-iP-ZRU" firstAttribute="leading" secondItem="hHt-J5-VUH" secondAttribute="trailing" constant="8" id="A6n-GI-FJ2"/>
+                                    <constraint firstItem="hHt-J5-VUH" firstAttribute="top" secondItem="rN8-Gc-MZL" secondAttribute="bottom" constant="4" id="BIs-BG-rPl"/>
+                                    <constraint firstItem="a0I-gL-e7k" firstAttribute="leading" secondItem="BZQ-0B-St6" secondAttribute="trailing" constant="8" id="Ebf-Lj-jzu"/>
+                                    <constraint firstItem="bB4-6L-2HT" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="G2M-ZF-EtT"/>
+                                    <constraint firstItem="gTy-kb-0Qf" firstAttribute="leading" secondItem="YsF-Hf-6hL" secondAttribute="trailing" constant="32" id="H0j-fz-xad"/>
+                                    <constraint firstItem="9ub-p7-z0u" firstAttribute="top" secondItem="YsF-Hf-6hL" secondAttribute="bottom" constant="4" id="IJ6-u2-fjM"/>
+                                    <constraint firstItem="4JH-9x-Z4E" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="Jw4-V6-SBd"/>
+                                    <constraint firstItem="drZ-tb-A3X" firstAttribute="top" secondItem="gTy-kb-0Qf" secondAttribute="bottom" constant="4" id="KFx-Ey-7AJ"/>
+                                    <constraint firstItem="U99-F9-Y8h" firstAttribute="leading" secondItem="gTy-kb-0Qf" secondAttribute="trailing" constant="8" id="Knr-91-haq"/>
+                                    <constraint firstItem="eBH-Gl-1Cc" firstAttribute="top" secondItem="Qbn-KG-jZn" secondAttribute="bottom" constant="4" id="LOg-y1-2by"/>
+                                    <constraint firstItem="Udt-hA-4B3" firstAttribute="top" secondItem="9ub-p7-z0u" secondAttribute="bottom" constant="4" id="M14-MI-Kgc"/>
+                                    <constraint firstItem="gTy-kb-0Qf" firstAttribute="top" secondItem="hHt-J5-VUH" secondAttribute="bottom" constant="4" id="N3J-Gq-5v5"/>
+                                    <constraint firstItem="r0A-B8-uUp" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="NSg-sT-EUe"/>
+                                    <constraint firstItem="4JH-9x-Z4E" firstAttribute="top" secondItem="eBH-Gl-1Cc" secondAttribute="bottom" constant="4" id="O2t-Lr-Bog"/>
+                                    <constraint firstItem="hHt-J5-VUH" firstAttribute="leading" secondItem="PP2-8J-cu3" secondAttribute="trailing" constant="32" id="PIZ-Yt-7FK"/>
+                                    <constraint firstItem="drZ-tb-A3X" firstAttribute="leading" secondItem="9ub-p7-z0u" secondAttribute="trailing" constant="32" id="QQh-ta-sw1"/>
+                                    <constraint firstAttribute="height" constant="280" id="Teh-DC-j3Q"/>
+                                    <constraint firstAttribute="width" constant="680" id="ZKm-WW-SgC"/>
+                                    <constraint firstItem="LpO-jh-ZQg" firstAttribute="leading" secondItem="rN8-Gc-MZL" secondAttribute="trailing" constant="8" id="cEo-nG-3gM"/>
+                                    <constraint firstItem="sjE-Xw-sBp" firstAttribute="leading" secondItem="vAE-Mi-Wug" secondAttribute="trailing" constant="32" id="coc-3K-N4i"/>
+                                    <constraint firstItem="9ub-p7-z0u" firstAttribute="leading" secondItem="4JH-9x-Z4E" secondAttribute="trailing" constant="8" id="dA2-tw-OsC"/>
+                                    <constraint firstItem="PP2-8J-cu3" firstAttribute="top" secondItem="JeL-AX-Hft" secondAttribute="bottom" constant="4" id="dna-ba-ZxB"/>
+                                    <constraint firstItem="PP2-8J-cu3" firstAttribute="leading" secondItem="Qbn-KG-jZn" secondAttribute="trailing" constant="8" id="dpj-1H-sDB"/>
+                                    <constraint firstItem="U99-F9-Y8h" firstAttribute="top" secondItem="SOW-iP-ZRU" secondAttribute="bottom" constant="4" id="fUP-GC-968"/>
+                                    <constraint firstItem="JeL-AX-Hft" firstAttribute="leading" secondItem="qsr-cF-cTX" secondAttribute="trailing" constant="8" id="fsd-vS-198"/>
+                                    <constraint firstItem="rN8-Gc-MZL" firstAttribute="top" secondItem="sjE-Xw-sBp" secondAttribute="bottom" constant="4" id="g7S-h8-gmw"/>
+                                    <constraint firstItem="vAE-Mi-Wug" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="iBc-JZ-Q2C"/>
+                                    <constraint firstItem="qsr-cF-cTX" firstAttribute="top" secondItem="bB4-6L-2HT" secondAttribute="bottom" constant="4" id="iJ7-bX-DVr"/>
+                                    <constraint firstItem="YsF-Hf-6hL" firstAttribute="top" secondItem="PP2-8J-cu3" secondAttribute="bottom" constant="4" id="itV-jn-0fw"/>
+                                    <constraint firstItem="bB4-6L-2HT" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="j12-7L-jp3"/>
+                                    <constraint firstItem="YsF-Hf-6hL" firstAttribute="leading" secondItem="eBH-Gl-1Cc" secondAttribute="trailing" constant="8" id="jOd-s2-HmY"/>
+                                    <constraint firstItem="LpO-jh-ZQg" firstAttribute="leading" secondItem="rN8-Gc-MZL" secondAttribute="trailing" constant="8" id="jzw-Cr-Ekg"/>
+                                    <constraint firstItem="SOW-iP-ZRU" firstAttribute="top" secondItem="LpO-jh-ZQg" secondAttribute="bottom" constant="4" id="kwl-Yc-73r"/>
+                                    <constraint firstItem="BZQ-0B-St6" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="lWQ-1n-b6u"/>
+                                    <constraint firstItem="r0A-B8-uUp" firstAttribute="top" secondItem="4JH-9x-Z4E" secondAttribute="bottom" constant="4" id="nap-HL-QXH"/>
+                                    <constraint firstItem="Qbn-KG-jZn" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="o5M-hu-Mco"/>
+                                    <constraint firstItem="rN8-Gc-MZL" firstAttribute="leading" secondItem="JeL-AX-Hft" secondAttribute="trailing" constant="32" id="oRg-el-CBo"/>
+                                    <constraint firstItem="Qbn-KG-jZn" firstAttribute="top" secondItem="qsr-cF-cTX" secondAttribute="bottom" constant="3" id="p7K-gl-SuU"/>
+                                    <constraint firstItem="vAE-Mi-Wug" firstAttribute="leading" secondItem="bB4-6L-2HT" secondAttribute="trailing" constant="8" id="pQc-ZW-t5g"/>
+                                    <constraint firstItem="eBH-Gl-1Cc" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="rfD-QT-Low"/>
+                                    <constraint firstItem="a0I-gL-e7k" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="uJW-S3-4aD"/>
+                                    <constraint firstItem="JeL-AX-Hft" firstAttribute="top" secondItem="vAE-Mi-Wug" secondAttribute="bottom" constant="4" id="vYe-ja-kIf"/>
+                                    <constraint firstItem="Udt-hA-4B3" firstAttribute="leading" secondItem="r0A-B8-uUp" secondAttribute="trailing" constant="8" id="wsJ-jz-iYQ"/>
+                                    <constraint firstItem="qsr-cF-cTX" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="zhn-iV-zIa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9aF-ly-XK0" firstAttribute="leading" secondItem="QK7-ex-s1H" secondAttribute="leading" id="UC8-Gu-o7V"/>
+                            <constraint firstItem="9aF-ly-XK0" firstAttribute="top" secondItem="2N2-CE-1SM" secondAttribute="bottom" id="lHb-gF-wDR"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="680" height="280"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BrL-89-NVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1737.2282608695652" y="453.62318840579712"/>
+        </scene>
+        <!--Other Compact Content-->
+        <scene sceneID="TPV-8n-2sl">
+            <objects>
+                <viewController storyboardIdentifier="nonpulmonicsCompactContent" id="Fb1-g1-h9P" userLabel="Other Compact Content" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xda-dC-WMK"/>
+                        <viewControllerLayoutGuide type="bottom" id="fWa-Nv-gaE"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="ic1-rz-Opl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n0L-ud-dnC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ygy-lZ-PJj" userLabel="voiced l-v a" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="dwk-zT-70Y"/>
+                                            <constraint firstAttribute="width" constant="40" id="fS1-BN-f2L"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="028d"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0c4-aP-RN2" userLabel="voiced l-v a" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="VVn-xh-jKP"/>
+                                            <constraint firstAttribute="width" constant="40" id="wG0-UQ-jRm"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="77"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FxL-pd-Ipy" userLabel="voiced l-p a" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="96" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="0lz-yz-t3g"/>
+                                            <constraint firstAttribute="height" constant="40" id="nTk-xi-PXz"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0265"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QMj-Wb-a5L" userLabel="voiceless e f" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="140" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Kvd-P0-Qib"/>
+                                            <constraint firstAttribute="width" constant="40" id="kuu-bP-LGX"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="029C"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SkH-YB-4md" userLabel="voiced e f" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="184" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="1KS-EL-LOj"/>
+                                            <constraint firstAttribute="height" constant="40" id="nbJ-eU-qWS"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02A2"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYz-mg-wuJ" userLabel="e p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="228" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="KFh-wd-V9l"/>
+                                            <constraint firstAttribute="height" constant="40" id="hfL-Bd-WfD"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02A1"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EQb-mx-7MQ" userLabel="a-p f c" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="140" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="M73-lM-WLG"/>
+                                            <constraint firstAttribute="width" constant="40" id="iWj-Yy-fbw"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0255"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7k7-dm-dyf" userLabel="a l p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="140" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="CJU-pb-eJm"/>
+                                            <constraint firstAttribute="width" constant="40" id="T5Q-Ay-TY1"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="027A"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BiB-NG-A6k" userLabel="simultaneous S and X" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="140" y="96" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="MQM-Rt-rGO"/>
+                                            <constraint firstAttribute="height" constant="40" id="wn0-Am-SvP"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0267"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKm-LI-E0A" userLabel="tie above" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="140" y="140" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="Tdh-Im-XSD"/>
+                                            <constraint firstAttribute="height" constant="40" id="vTV-u0-dxb"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0361"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="tie"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njv-Du-rOg" userLabel="tie below" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="140" y="184" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="MYd-Zs-gw0"/>
+                                            <constraint firstAttribute="width" constant="40" id="qsM-T5-CXD"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="035C"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="tie"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wux-2p-I4T" userLabel="a-p f z" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="184" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="2dT-AN-gKh"/>
+                                            <constraint firstAttribute="height" constant="40" id="fHE-Jd-HdC"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0291"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="oYz-mg-wuJ" firstAttribute="top" secondItem="SkH-YB-4md" secondAttribute="bottom" constant="4" id="1Xz-Qs-gou"/>
+                                    <constraint firstItem="EQb-mx-7MQ" firstAttribute="top" secondItem="n0L-ud-dnC" secondAttribute="top" constant="8" id="4Kb-Gi-JqV"/>
+                                    <constraint firstItem="FxL-pd-Ipy" firstAttribute="leading" secondItem="n0L-ud-dnC" secondAttribute="leading" constant="20" id="AM3-If-RJV"/>
+                                    <constraint firstItem="0c4-aP-RN2" firstAttribute="top" secondItem="ygy-lZ-PJj" secondAttribute="bottom" constant="4" id="Dhx-el-Rnd"/>
+                                    <constraint firstItem="7k7-dm-dyf" firstAttribute="top" secondItem="EQb-mx-7MQ" secondAttribute="bottom" constant="4" id="FyW-jD-Jvp"/>
+                                    <constraint firstItem="ygy-lZ-PJj" firstAttribute="top" secondItem="n0L-ud-dnC" secondAttribute="top" constant="8" id="IfP-8D-Y1D"/>
+                                    <constraint firstItem="njv-Du-rOg" firstAttribute="top" secondItem="FKm-LI-E0A" secondAttribute="bottom" constant="4" id="J66-vh-ii8"/>
+                                    <constraint firstItem="QMj-Wb-a5L" firstAttribute="leading" secondItem="n0L-ud-dnC" secondAttribute="leading" constant="20" id="KCD-EL-7AJ"/>
+                                    <constraint firstItem="SkH-YB-4md" firstAttribute="leading" secondItem="n0L-ud-dnC" secondAttribute="leading" constant="20" id="Kmg-2h-DbM"/>
+                                    <constraint firstItem="njv-Du-rOg" firstAttribute="leading" secondItem="SkH-YB-4md" secondAttribute="trailing" constant="80" id="NqQ-8h-guh"/>
+                                    <constraint firstItem="FKm-LI-E0A" firstAttribute="leading" secondItem="QMj-Wb-a5L" secondAttribute="trailing" constant="80" id="PSv-oq-OMP"/>
+                                    <constraint firstItem="BiB-NG-A6k" firstAttribute="leading" secondItem="FxL-pd-Ipy" secondAttribute="trailing" constant="80" id="RbH-Jv-t8g"/>
+                                    <constraint firstItem="Wux-2p-I4T" firstAttribute="leading" secondItem="EQb-mx-7MQ" secondAttribute="trailing" constant="4" id="XQx-qf-dWK"/>
+                                    <constraint firstItem="ygy-lZ-PJj" firstAttribute="leading" secondItem="n0L-ud-dnC" secondAttribute="leading" constant="20" id="d74-Hc-tBx"/>
+                                    <constraint firstItem="QMj-Wb-a5L" firstAttribute="top" secondItem="FxL-pd-Ipy" secondAttribute="bottom" constant="4" id="dq9-Wq-vp8"/>
+                                    <constraint firstItem="SkH-YB-4md" firstAttribute="top" secondItem="QMj-Wb-a5L" secondAttribute="bottom" constant="4" id="ekY-gO-YdA"/>
+                                    <constraint firstItem="FKm-LI-E0A" firstAttribute="top" secondItem="BiB-NG-A6k" secondAttribute="bottom" constant="4" id="fqQ-cq-8pn"/>
+                                    <constraint firstItem="0c4-aP-RN2" firstAttribute="leading" secondItem="n0L-ud-dnC" secondAttribute="leading" constant="20" id="h5L-4e-jdq"/>
+                                    <constraint firstItem="Wux-2p-I4T" firstAttribute="top" secondItem="n0L-ud-dnC" secondAttribute="top" constant="8" id="jyf-dn-EDf"/>
+                                    <constraint firstItem="7k7-dm-dyf" firstAttribute="leading" secondItem="0c4-aP-RN2" secondAttribute="trailing" constant="80" id="mAQ-Sa-3k3"/>
+                                    <constraint firstItem="oYz-mg-wuJ" firstAttribute="leading" secondItem="n0L-ud-dnC" secondAttribute="leading" constant="20" id="miy-11-pDE"/>
+                                    <constraint firstItem="BiB-NG-A6k" firstAttribute="top" secondItem="7k7-dm-dyf" secondAttribute="bottom" constant="4" id="o4Z-gw-8pv"/>
+                                    <constraint firstItem="FxL-pd-Ipy" firstAttribute="top" secondItem="0c4-aP-RN2" secondAttribute="bottom" constant="4" id="q1z-9f-vQC"/>
+                                    <constraint firstItem="EQb-mx-7MQ" firstAttribute="leading" secondItem="ygy-lZ-PJj" secondAttribute="trailing" constant="80" id="teD-ON-Y7I"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="n0L-ud-dnC" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" id="Mbk-JK-eEp"/>
+                            <constraint firstItem="n0L-ud-dnC" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leading" id="RF1-NE-DWc"/>
+                            <constraint firstItem="fWa-Nv-gaE" firstAttribute="top" secondItem="n0L-ud-dnC" secondAttribute="bottom" id="ZxI-14-v7X"/>
+                            <constraint firstAttribute="trailing" secondItem="n0L-ud-dnC" secondAttribute="trailing" id="coq-JB-fzj"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="900" height="400"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="280"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgU-b3-CUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1072" y="454"/>
+        </scene>
+        <!--Other Compact Wide-->
+        <scene sceneID="1PA-lL-96j">
+            <objects>
+                <viewController storyboardIdentifier="compactWide" id="NCl-YJ-MVi" userLabel="Other Compact Wide" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n46-Wa-kXc"/>
+                        <viewControllerLayoutGuide type="bottom" id="9jK-yh-I2B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LgM-qK-ttB">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AA4-gK-jlN">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-tV-yCR">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="IMx-Ox-ban"/>
+                                            <constraint firstAttribute="height" constant="280" id="Nml-fb-kHf"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Fb1-g1-h9P" kind="embed" id="ivi-0G-ggc"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="KGu-tV-yCR" firstAttribute="leading" secondItem="AA4-gK-jlN" secondAttribute="leading" id="2ci-nm-2iQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="KGu-tV-yCR" secondAttribute="trailing" id="BHk-Lf-WpL"/>
+                                    <constraint firstItem="KGu-tV-yCR" firstAttribute="top" secondItem="AA4-gK-jlN" secondAttribute="top" id="PtK-Io-TsG"/>
+                                    <constraint firstAttribute="bottom" secondItem="KGu-tV-yCR" secondAttribute="bottom" id="Vn9-wD-qJ5"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AA4-gK-jlN" secondAttribute="trailing" id="Na6-wZ-CxP"/>
+                            <constraint firstItem="AA4-gK-jlN" firstAttribute="leading" secondItem="LgM-qK-ttB" secondAttribute="leading" id="aIb-As-UVH"/>
+                            <constraint firstItem="AA4-gK-jlN" firstAttribute="top" secondItem="LgM-qK-ttB" secondAttribute="top" id="vX8-Xq-ojZ"/>
+                            <constraint firstItem="9jK-yh-I2B" firstAttribute="top" secondItem="AA4-gK-jlN" secondAttribute="bottom" id="vab-82-z5G"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0E-Tg-FO2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1094" y="-546"/>
+        </scene>
+        <!--Other Compact Narrow-->
+        <scene sceneID="m2O-6J-YA8">
+            <objects>
+                <viewController storyboardIdentifier="compactNarrow" id="YaW-Rp-cIX" userLabel="Other Compact Narrow" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rE5-Oa-kcz"/>
+                        <viewControllerLayoutGuide type="bottom" id="MHu-cj-5Az"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zE8-d7-GZ8">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-kX-ISx">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqy-Qj-Bag">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="280" id="7Kn-sX-HFD"/>
+                                            <constraint firstAttribute="width" constant="320" id="mhM-NB-sIW"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Fb1-g1-h9P" kind="embed" id="zoA-Zp-i9e"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dqy-Qj-Bag" secondAttribute="trailing" id="F4Y-I2-q96"/>
+                                    <constraint firstItem="dqy-Qj-Bag" firstAttribute="leading" secondItem="yTx-kX-ISx" secondAttribute="leading" id="S2P-d9-JoE"/>
+                                    <constraint firstAttribute="bottom" secondItem="dqy-Qj-Bag" secondAttribute="bottom" id="Z8l-BZ-NhM"/>
+                                    <constraint firstItem="dqy-Qj-Bag" firstAttribute="top" secondItem="yTx-kX-ISx" secondAttribute="top" id="pYU-qi-svD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yTx-kX-ISx" firstAttribute="top" secondItem="zE8-d7-GZ8" secondAttribute="top" id="8kH-16-jKX"/>
+                            <constraint firstItem="yTx-kX-ISx" firstAttribute="leading" secondItem="zE8-d7-GZ8" secondAttribute="leading" id="SV9-aa-a5H"/>
+                            <constraint firstItem="MHu-cj-5Az" firstAttribute="top" secondItem="yTx-kX-ISx" secondAttribute="bottom" id="fUl-vb-REP"/>
+                            <constraint firstAttribute="trailing" secondItem="yTx-kX-ISx" secondAttribute="trailing" id="xHJ-Sq-HFY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cu9-x4-paz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-131" y="-546"/>
+        </scene>
+        <!--Other Regular-->
+        <scene sceneID="FxC-dl-tCQ">
+            <objects>
+                <viewController storyboardIdentifier="regular" id="DgJ-Mz-Uun" userLabel="Other Regular" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zfj-qu-smV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qcq-kY-f3O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqG-hT-xmK">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWu-4O-hhG">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrK-C8-GUc">
+                                        <rect key="frame" x="0.0" y="0.0" width="680" height="280"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="680" id="cl3-o2-S74"/>
+                                            <constraint firstAttribute="height" constant="280" id="rNH-VL-6oR"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="kuv-AS-Vap" kind="embed" id="SMV-fq-E6H"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="JrK-C8-GUc" secondAttribute="bottom" id="8La-Tw-Jxy"/>
+                                    <constraint firstItem="JrK-C8-GUc" firstAttribute="leading" secondItem="vWu-4O-hhG" secondAttribute="leading" id="JYu-AQ-hGs"/>
+                                    <constraint firstAttribute="trailing" secondItem="JrK-C8-GUc" secondAttribute="trailing" id="lVm-Ff-rbI"/>
+                                    <constraint firstItem="JrK-C8-GUc" firstAttribute="top" secondItem="vWu-4O-hhG" secondAttribute="top" id="r1F-Tp-VEj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qcq-kY-f3O" firstAttribute="top" secondItem="vWu-4O-hhG" secondAttribute="bottom" id="Wd7-mM-wcI"/>
+                            <constraint firstItem="vWu-4O-hhG" firstAttribute="top" secondItem="aqG-hT-xmK" secondAttribute="top" id="ckT-Jw-t5t"/>
+                            <constraint firstItem="vWu-4O-hhG" firstAttribute="leading" secondItem="aqG-hT-xmK" secondAttribute="leading" id="nG5-II-lO1"/>
+                            <constraint firstAttribute="trailing" secondItem="vWu-4O-hhG" secondAttribute="trailing" id="xxw-rn-e2t"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2WS-5u-TiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1952" y="-546"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ivi-0G-ggc"/>
+    </inferredMetricsTieBreakers>
+</document>

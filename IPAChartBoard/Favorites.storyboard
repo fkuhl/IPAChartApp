@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Favorites Base-->
+        <scene sceneID="7rm-hw-faM">
+            <objects>
+                <viewController storyboardIdentifier="base" id="uzJ-gw-pqv" userLabel="Favorites Base" customClass="ChartViewController" customModule="DevelopKeyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wbr-DG-oap"/>
+                        <viewControllerLayoutGuide type="bottom" id="vas-fu-dpY"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="yFA-fv-fpQ">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGL-q5-POl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1077.717391304348" y="-1294.2028985507247"/>
+        </scene>
+        <!--Favorites Compact Wide-->
+        <scene sceneID="1PA-lL-96j">
+            <objects>
+                <viewController storyboardIdentifier="compactWide" id="NCl-YJ-MVi" userLabel="Favorites Compact Wide" customClass="FavoritesViewController" customModule="DevelopKeyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n46-Wa-kXc"/>
+                        <viewControllerLayoutGuide type="bottom" id="9jK-yh-I2B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LgM-qK-ttB">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="kind" value="compactWide"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0E-Tg-FO2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1094.8369565217392" y="-546.37681159420299"/>
+        </scene>
+        <!--Favorites Compact Narrow-->
+        <scene sceneID="m2O-6J-YA8">
+            <objects>
+                <viewController storyboardIdentifier="compactNarrow" id="YaW-Rp-cIX" userLabel="Favorites Compact Narrow" customClass="FavoritesViewController" customModule="DevelopKeyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rE5-Oa-kcz"/>
+                        <viewControllerLayoutGuide type="bottom" id="MHu-cj-5Az"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zE8-d7-GZ8">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="kind" value="compactNarrow"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cu9-x4-paz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-466.304347826087" y="-546.37681159420299"/>
+        </scene>
+        <!--Favorites Regular-->
+        <scene sceneID="FxC-dl-tCQ">
+            <objects>
+                <viewController storyboardIdentifier="regular" id="DgJ-Mz-Uun" userLabel="Favorites Regular" customClass="FavoritesViewController" customModule="DevelopKeyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zfj-qu-smV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qcq-kY-f3O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqG-hT-xmK">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="kind" value="regular"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2WS-5u-TiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1724.1847826086957" y="-546.37681159420299"/>
+        </scene>
+    </scenes>
+</document>

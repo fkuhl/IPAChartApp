@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tones Base-->
+        <scene sceneID="7rm-hw-faM">
+            <objects>
+                <viewController storyboardIdentifier="base" id="uzJ-gw-pqv" userLabel="Tones Base" customClass="ChartViewController" customModule="IPAChartBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wbr-DG-oap"/>
+                        <viewControllerLayoutGuide type="bottom" id="vas-fu-dpY"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="yFA-fv-fpQ">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGL-q5-POl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1077.717391304348" y="-1294.2028985507247"/>
+        </scene>
+        <!--Tones Regular Content-->
+        <scene sceneID="zNl-de-vVx">
+            <objects>
+                <viewController storyboardIdentifier="TonesRegularContent" id="kuv-AS-Vap" userLabel="Tones Regular Content" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2N2-CE-1SM"/>
+                        <viewControllerLayoutGuide type="bottom" id="QN1-oo-u5U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QK7-ex-s1H">
+                        <rect key="frame" x="0.0" y="0.0" width="740" height="360"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9aF-ly-XK0" userLabel="content">
+                                <rect key="frame" x="0.0" y="0.0" width="740" height="360"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bB4-6L-2HT" userLabel="extra high" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="64" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="6To-jb-n0E"/>
+                                            <constraint firstAttribute="height" constant="40" id="HvU-kr-aye"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E5"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZN3-OT-OdL" userLabel="rising (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="392" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="Z8L-Lo-Yfj"/>
+                                            <constraint firstAttribute="height" constant="40" id="qF4-Ju-aGf"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="030C"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wc3-nH-Mor" userLabel="extra high (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="c4L-lP-097"/>
+                                            <constraint firstAttribute="width" constant="40" id="coZ-ye-8bv"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="030B"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A4s-Ya-Yzw" userLabel="high (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="IuO-Ne-jTa"/>
+                                            <constraint firstAttribute="height" constant="40" id="Y6z-Rt-L1w"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0301"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcV-Yl-lWy" userLabel="mid (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="95" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="gSc-LF-FCG"/>
+                                            <constraint firstAttribute="height" constant="40" id="kZO-cA-4lo"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0304"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxq-dE-qeC" userLabel="low (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="139" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="MNN-S4-kes"/>
+                                            <constraint firstAttribute="height" constant="40" id="sf7-aQ-Z9B"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0300"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tDI-83-HVR" userLabel="extra low (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="183" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="Rfu-eE-135"/>
+                                            <constraint firstAttribute="height" constant="40" id="cb8-RE-4st"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="030F"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lpp-jd-PoZ" userLabel="falling (diacritic)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="392" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="4RQ-om-yXQ"/>
+                                            <constraint firstAttribute="width" constant="40" id="O9x-Ig-DRo"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0302"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdr-mZ-TKo" userLabel="high rising (diacritic)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="392" y="96" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="dMS-PF-cMK"/>
+                                            <constraint firstAttribute="width" constant="40" id="g0b-C6-oYv"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="1DC4"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="px0-OT-V7g" userLabel="low rising (diacritic)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="392" y="140" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="WQM-K2-dPn"/>
+                                            <constraint firstAttribute="width" constant="40" id="fCO-mq-wqD"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="1DC5"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjE-Xw-sBp" userLabel="rising" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="436" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="c4B-0P-xji"/>
+                                            <constraint firstAttribute="width" constant="40" id="oLy-hD-Mvw"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E9+02E5"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="extra high" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAE-Mi-Wug" userLabel="extra high label">
+                                        <rect key="frame" x="120" y="8" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="eE3-5k-aLe"/>
+                                            <constraint firstAttribute="height" constant="40" id="fz5-5K-h5X"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'extra high' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="high" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeL-AX-Hft" userLabel="high label">
+                                        <rect key="frame" x="120" y="52" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="E30-ra-Jqn"/>
+                                            <constraint firstAttribute="height" constant="40" id="rVx-o3-vZO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'high' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mid" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PP2-8J-cu3" userLabel="mid label">
+                                        <rect key="frame" x="120" y="95" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="0Va-m5-HSb"/>
+                                            <constraint firstAttribute="height" constant="40" id="g4p-YI-zCi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'mid' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="low" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsF-Hf-6hL" userLabel="low label">
+                                        <rect key="frame" x="120" y="139" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="GWu-U8-RK5"/>
+                                            <constraint firstAttribute="width" constant="232" id="Rr7-JI-99j"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'low' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="extra low" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ub-p7-z0u" userLabel="extra low label">
+                                        <rect key="frame" x="120" y="184" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Wo7-Ec-ecs"/>
+                                            <constraint firstAttribute="width" constant="232" id="l89-af-imk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'extra low' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="downstep" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYL-mf-Bi3" userLabel="downstep label">
+                                        <rect key="frame" x="120" y="228" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="MDI-iu-GPo"/>
+                                            <constraint firstAttribute="width" constant="232" id="V0A-0I-YZ9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'down step' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="upstep" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8E-uW-EEW" userLabel="upstep label">
+                                        <rect key="frame" x="120" y="272" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="1Im-BF-eIv"/>
+                                            <constraint firstAttribute="height" constant="40" id="eic-NF-asL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'up step' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rising" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0I-gL-e7k" userLabel="minor (foot) label">
+                                        <rect key="frame" x="492" y="8" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="9OI-5r-poa"/>
+                                            <constraint firstAttribute="height" constant="40" id="MkQ-nl-ees"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'minor (foot) group' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="falling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpO-jh-ZQg" userLabel="falling label">
+                                        <rect key="frame" x="492" y="52" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="DYK-QS-zCz"/>
+                                            <constraint firstAttribute="height" constant="40" id="HhR-lg-RRE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'falling' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="high rising" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOW-iP-ZRU" userLabel="high rising">
+                                        <rect key="frame" x="492" y="96" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="mg4-od-Cey"/>
+                                            <constraint firstAttribute="width" constant="232" id="nce-cY-HaH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'high rising' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHt-J5-VUH" userLabel="high rising" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="436" y="96" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="jGz-7p-398"/>
+                                            <constraint firstAttribute="height" constant="40" id="qrs-FB-8V4"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E5+02E5"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gTy-kb-0Qf" userLabel="low rising" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="436" y="140" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="XmE-Ig-3f9"/>
+                                            <constraint firstAttribute="width" constant="40" id="oeh-JD-Leg"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E9+02E8"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="drZ-tb-A3X" userLabel="rising-falling" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="436" y="184" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="5bF-yM-L1M"/>
+                                            <constraint firstAttribute="height" constant="40" id="c04-l7-DU7"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E7+02E6+02E7"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f6h-T5-rGa" userLabel="global rise" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="436" y="228" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="A6Z-3y-TYP"/>
+                                            <constraint firstAttribute="height" constant="40" id="uyF-XG-AcO"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2197"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rN8-Gc-MZL" userLabel="falling" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="436" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="cAV-HJ-ehy"/>
+                                            <constraint firstAttribute="width" constant="40" id="eZY-E8-4vX"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E5+02E9"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="low rising" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U99-F9-Y8h" userLabel="linking label">
+                                        <rect key="frame" x="492" y="140" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="0WE-aD-7ru"/>
+                                            <constraint firstAttribute="height" constant="40" id="wiv-4n-lZa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'low rising' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rising-falling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yj8-cY-7yh" userLabel="linking label">
+                                        <rect key="frame" x="492" y="184" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="HoB-g7-TZx"/>
+                                            <constraint firstAttribute="height" constant="40" id="VuX-cQ-0U3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'rising-falling' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="global rise" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryL-ru-OeR" userLabel="linking label">
+                                        <rect key="frame" x="492" y="228" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="X3v-z7-lw8"/>
+                                            <constraint firstAttribute="height" constant="40" id="ziu-Bq-qcH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'global rise' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hJ0-2I-f9g" userLabel="rising falling (diacritic)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="392" y="184" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="Asc-ga-qAS"/>
+                                            <constraint firstAttribute="height" constant="40" id="ggd-Mf-DmJ"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="1DC8"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WUZ-WH-obc" userLabel="global fall" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="436" y="272" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Ci9-oG-Rpb"/>
+                                            <constraint firstAttribute="width" constant="40" id="ujS-3m-Mtj"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2198"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qsr-cF-cTX" userLabel="high" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="64" y="52" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="3H3-3J-BtY"/>
+                                            <constraint firstAttribute="width" constant="40" id="zLh-D9-Rtb"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E6"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qbn-KG-jZn" userLabel="mid" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="64" y="96" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="TJE-wB-JL3"/>
+                                            <constraint firstAttribute="height" constant="40" id="jc5-Qz-VJq"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E7"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBH-Gl-1Cc" userLabel="low" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="64" y="140" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="EiJ-Vz-G9q"/>
+                                            <constraint firstAttribute="height" constant="40" id="nZj-gX-ikl"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E8"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JH-9x-Z4E" userLabel="extra low" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="64" y="184" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="UIl-Sy-kE4"/>
+                                            <constraint firstAttribute="height" constant="40" id="ayg-Sf-0gk"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E9"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZd-Wh-pBj" userLabel="downstep" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="64" y="228" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="XRc-di-rNg"/>
+                                            <constraint firstAttribute="width" constant="40" id="iEF-dh-UaW"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2193"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Co1-e2-GB5" userLabel="upstep" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                        <rect key="frame" x="64" y="272" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="OgB-aJ-Fjw"/>
+                                            <constraint firstAttribute="width" constant="40" id="ny0-7K-hRn"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2191"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="global fall" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TwF-54-Iln" userLabel="linking label">
+                                        <rect key="frame" x="492" y="272" width="232" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="232" id="wdf-QM-EZa"/>
+                                            <constraint firstAttribute="height" constant="40" id="xp1-m9-wbR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <attributedString key="userComments">
+                                            <fragment content="the label for the 'global fall' key">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="JeL-AX-Hft" firstAttribute="top" secondItem="vAE-Mi-Wug" secondAttribute="bottom" constant="4" id="2IG-qL-E7M"/>
+                                    <constraint firstItem="drZ-tb-A3X" firstAttribute="leading" secondItem="hJ0-2I-f9g" secondAttribute="trailing" constant="4" id="3fc-Bc-hrJ"/>
+                                    <constraint firstItem="YsF-Hf-6hL" firstAttribute="top" secondItem="PP2-8J-cu3" secondAttribute="bottom" constant="4" id="4Wa-7j-owt"/>
+                                    <constraint firstItem="hJ0-2I-f9g" firstAttribute="top" secondItem="px0-OT-V7g" secondAttribute="bottom" constant="4" id="55V-c0-eTW"/>
+                                    <constraint firstItem="gxq-dE-qeC" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="6WI-xk-ZeJ"/>
+                                    <constraint firstItem="WUZ-WH-obc" firstAttribute="leading" secondItem="O8E-uW-EEW" secondAttribute="trailing" constant="84" id="6cE-sE-kQA"/>
+                                    <constraint firstItem="4JH-9x-Z4E" firstAttribute="top" secondItem="eBH-Gl-1Cc" secondAttribute="bottom" constant="4" id="6hl-25-geE"/>
+                                    <constraint firstItem="A4s-Ya-Yzw" firstAttribute="top" secondItem="wc3-nH-Mor" secondAttribute="bottom" constant="4" id="92n-9K-BvW"/>
+                                    <constraint firstItem="A4s-Ya-Yzw" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="AWD-et-pXn"/>
+                                    <constraint firstItem="pYL-mf-Bi3" firstAttribute="top" secondItem="9ub-p7-z0u" secondAttribute="bottom" constant="4" id="Aq4-AC-PtD"/>
+                                    <constraint firstItem="YsF-Hf-6hL" firstAttribute="leading" secondItem="eBH-Gl-1Cc" secondAttribute="trailing" constant="16" id="BD5-TP-D4l"/>
+                                    <constraint firstItem="TcV-Yl-lWy" firstAttribute="top" secondItem="A4s-Ya-Yzw" secondAttribute="bottom" constant="3" id="Crh-hm-koV"/>
+                                    <constraint firstItem="gTy-kb-0Qf" firstAttribute="leading" secondItem="px0-OT-V7g" secondAttribute="trailing" constant="4" id="DUg-ww-XUR"/>
+                                    <constraint firstItem="lpp-jd-PoZ" firstAttribute="leading" secondItem="JeL-AX-Hft" secondAttribute="trailing" constant="40" id="DYZ-Mk-U9h"/>
+                                    <constraint firstItem="wc3-nH-Mor" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="F6F-XB-OKg"/>
+                                    <constraint firstItem="px0-OT-V7g" firstAttribute="top" secondItem="fdr-mZ-TKo" secondAttribute="bottom" constant="4" id="FDV-yg-v48"/>
+                                    <constraint firstItem="TwF-54-Iln" firstAttribute="leading" secondItem="WUZ-WH-obc" secondAttribute="trailing" constant="16" id="Fxg-yK-N0d"/>
+                                    <constraint firstItem="drZ-tb-A3X" firstAttribute="top" secondItem="gTy-kb-0Qf" secondAttribute="bottom" constant="4" id="GkG-qS-MCo"/>
+                                    <constraint firstItem="gTy-kb-0Qf" firstAttribute="top" secondItem="hHt-J5-VUH" secondAttribute="bottom" constant="4" id="HW5-pF-GlS"/>
+                                    <constraint firstItem="Yj8-cY-7yh" firstAttribute="top" secondItem="U99-F9-Y8h" secondAttribute="bottom" constant="4" id="HqM-H0-fyi"/>
+                                    <constraint firstItem="hJ0-2I-f9g" firstAttribute="leading" secondItem="9ub-p7-z0u" secondAttribute="trailing" constant="40" id="ISt-Zb-NNW"/>
+                                    <constraint firstItem="O8E-uW-EEW" firstAttribute="top" secondItem="pYL-mf-Bi3" secondAttribute="bottom" constant="4" id="JeM-KQ-L8d"/>
+                                    <constraint firstItem="gxq-dE-qeC" firstAttribute="top" secondItem="TcV-Yl-lWy" secondAttribute="bottom" constant="4" id="Jpv-ty-0A6"/>
+                                    <constraint firstItem="LpO-jh-ZQg" firstAttribute="leading" secondItem="rN8-Gc-MZL" secondAttribute="trailing" constant="16" id="LKr-67-ZI7"/>
+                                    <constraint firstItem="LpO-jh-ZQg" firstAttribute="top" secondItem="a0I-gL-e7k" secondAttribute="bottom" constant="4" id="LsS-oH-xwk"/>
+                                    <constraint firstItem="f6h-T5-rGa" firstAttribute="top" secondItem="drZ-tb-A3X" secondAttribute="bottom" constant="4" id="Lt2-jb-rVW"/>
+                                    <constraint firstItem="bB4-6L-2HT" firstAttribute="leading" secondItem="wc3-nH-Mor" secondAttribute="trailing" constant="4" id="Mrs-Dn-wGy"/>
+                                    <constraint firstItem="hHt-J5-VUH" firstAttribute="leading" secondItem="fdr-mZ-TKo" secondAttribute="trailing" constant="4" id="Nah-me-8X8"/>
+                                    <constraint firstItem="SOW-iP-ZRU" firstAttribute="top" secondItem="LpO-jh-ZQg" secondAttribute="bottom" constant="4" id="OzM-dn-IRB"/>
+                                    <constraint firstItem="Qbn-KG-jZn" firstAttribute="leading" secondItem="TcV-Yl-lWy" secondAttribute="trailing" constant="4" id="PK6-dh-2u9"/>
+                                    <constraint firstItem="WUZ-WH-obc" firstAttribute="top" secondItem="f6h-T5-rGa" secondAttribute="bottom" constant="4" id="POV-13-Fen"/>
+                                    <constraint firstItem="qsr-cF-cTX" firstAttribute="leading" secondItem="A4s-Ya-Yzw" secondAttribute="trailing" constant="4" id="T6I-kF-BHW"/>
+                                    <constraint firstItem="fdr-mZ-TKo" firstAttribute="top" secondItem="lpp-jd-PoZ" secondAttribute="bottom" constant="4" id="Ujk-dz-Ipk"/>
+                                    <constraint firstItem="ZN3-OT-OdL" firstAttribute="leading" secondItem="vAE-Mi-Wug" secondAttribute="trailing" constant="40" id="WTY-kl-14m"/>
+                                    <constraint firstItem="4JH-9x-Z4E" firstAttribute="leading" secondItem="tDI-83-HVR" secondAttribute="trailing" constant="4" id="Woq-01-7oL"/>
+                                    <constraint firstItem="TcV-Yl-lWy" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="Wvg-MX-IaW"/>
+                                    <constraint firstItem="hHt-J5-VUH" firstAttribute="top" secondItem="rN8-Gc-MZL" secondAttribute="bottom" constant="4" id="XRp-aw-3cc"/>
+                                    <constraint firstItem="Qbn-KG-jZn" firstAttribute="top" secondItem="qsr-cF-cTX" secondAttribute="bottom" constant="4" id="Xq8-Zd-6NB"/>
+                                    <constraint firstItem="eBH-Gl-1Cc" firstAttribute="leading" secondItem="gxq-dE-qeC" secondAttribute="trailing" constant="4" id="YSh-Pi-dQH"/>
+                                    <constraint firstItem="lpp-jd-PoZ" firstAttribute="top" secondItem="ZN3-OT-OdL" secondAttribute="bottom" constant="4" id="Z8L-ur-yYF"/>
+                                    <constraint firstItem="Co1-e2-GB5" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="64" id="Z8t-l2-u0w"/>
+                                    <constraint firstItem="PP2-8J-cu3" firstAttribute="leading" secondItem="Qbn-KG-jZn" secondAttribute="trailing" constant="16" id="Znp-pl-fTg"/>
+                                    <constraint firstItem="U99-F9-Y8h" firstAttribute="leading" secondItem="gTy-kb-0Qf" secondAttribute="trailing" constant="16" id="aIC-BA-4gf"/>
+                                    <constraint firstItem="bB4-6L-2HT" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="ad1-Ye-fSZ"/>
+                                    <constraint firstItem="rN8-Gc-MZL" firstAttribute="leading" secondItem="lpp-jd-PoZ" secondAttribute="trailing" constant="4" id="bRf-Rw-s8e"/>
+                                    <constraint firstItem="PP2-8J-cu3" firstAttribute="top" secondItem="JeL-AX-Hft" secondAttribute="bottom" constant="3" id="buD-aV-2fh"/>
+                                    <constraint firstItem="a0I-gL-e7k" firstAttribute="leading" secondItem="sjE-Xw-sBp" secondAttribute="trailing" constant="16" id="d6Q-oX-Rao"/>
+                                    <constraint firstItem="SOW-iP-ZRU" firstAttribute="leading" secondItem="hHt-J5-VUH" secondAttribute="trailing" constant="16" id="e3i-15-A2j"/>
+                                    <constraint firstItem="rN8-Gc-MZL" firstAttribute="top" secondItem="sjE-Xw-sBp" secondAttribute="bottom" constant="4" id="eta-bS-LBf"/>
+                                    <constraint firstItem="O8E-uW-EEW" firstAttribute="leading" secondItem="Co1-e2-GB5" secondAttribute="trailing" constant="16" id="fGY-Kl-IP4"/>
+                                    <constraint firstItem="Co1-e2-GB5" firstAttribute="top" secondItem="aZd-Wh-pBj" secondAttribute="bottom" constant="4" id="gE3-Yc-DuX"/>
+                                    <constraint firstItem="f6h-T5-rGa" firstAttribute="leading" secondItem="pYL-mf-Bi3" secondAttribute="trailing" constant="84" id="gPg-PB-GKC"/>
+                                    <constraint firstItem="aZd-Wh-pBj" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="64" id="izT-VB-V9e"/>
+                                    <constraint firstItem="aZd-Wh-pBj" firstAttribute="top" secondItem="4JH-9x-Z4E" secondAttribute="bottom" constant="4" id="kwO-hE-l7O"/>
+                                    <constraint firstItem="sjE-Xw-sBp" firstAttribute="leading" secondItem="ZN3-OT-OdL" secondAttribute="trailing" constant="4" id="l27-7A-Txy"/>
+                                    <constraint firstItem="px0-OT-V7g" firstAttribute="leading" secondItem="YsF-Hf-6hL" secondAttribute="trailing" constant="40" id="m6e-Oc-7MH"/>
+                                    <constraint firstItem="qsr-cF-cTX" firstAttribute="top" secondItem="bB4-6L-2HT" secondAttribute="bottom" constant="4" id="ngj-Vf-LQs"/>
+                                    <constraint firstItem="Yj8-cY-7yh" firstAttribute="leading" secondItem="drZ-tb-A3X" secondAttribute="trailing" constant="16" id="oHf-yq-uW5"/>
+                                    <constraint firstItem="9ub-p7-z0u" firstAttribute="leading" secondItem="4JH-9x-Z4E" secondAttribute="trailing" constant="16" id="pCM-87-qOW"/>
+                                    <constraint firstItem="ryL-ru-OeR" firstAttribute="leading" secondItem="f6h-T5-rGa" secondAttribute="trailing" constant="16" id="qCJ-Ak-1vs"/>
+                                    <constraint firstItem="ryL-ru-OeR" firstAttribute="top" secondItem="Yj8-cY-7yh" secondAttribute="bottom" constant="4" id="rKa-DQ-Nvb"/>
+                                    <constraint firstItem="eBH-Gl-1Cc" firstAttribute="top" secondItem="Qbn-KG-jZn" secondAttribute="bottom" constant="4" id="raL-DG-tG2"/>
+                                    <constraint firstItem="TwF-54-Iln" firstAttribute="top" secondItem="ryL-ru-OeR" secondAttribute="bottom" constant="4" id="sOs-W3-eMi"/>
+                                    <constraint firstItem="tDI-83-HVR" firstAttribute="leading" secondItem="9aF-ly-XK0" secondAttribute="leading" constant="20" id="u1G-zw-4HN"/>
+                                    <constraint firstItem="pYL-mf-Bi3" firstAttribute="leading" secondItem="aZd-Wh-pBj" secondAttribute="trailing" constant="16" id="u7F-hQ-hWT"/>
+                                    <constraint firstItem="9ub-p7-z0u" firstAttribute="top" secondItem="YsF-Hf-6hL" secondAttribute="bottom" constant="5" id="uIb-vd-BZH"/>
+                                    <constraint firstItem="vAE-Mi-Wug" firstAttribute="leading" secondItem="bB4-6L-2HT" secondAttribute="trailing" constant="16" id="ua7-X1-VTI"/>
+                                    <constraint firstItem="sjE-Xw-sBp" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="v2c-az-YbM"/>
+                                    <constraint firstItem="wc3-nH-Mor" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="vEc-wl-zRb"/>
+                                    <constraint firstItem="vAE-Mi-Wug" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="vUm-aB-jJB"/>
+                                    <constraint firstItem="tDI-83-HVR" firstAttribute="top" secondItem="gxq-dE-qeC" secondAttribute="bottom" constant="4" id="waX-Rf-X5N"/>
+                                    <constraint firstItem="a0I-gL-e7k" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="xlP-yq-wM0"/>
+                                    <constraint firstItem="JeL-AX-Hft" firstAttribute="leading" secondItem="qsr-cF-cTX" secondAttribute="trailing" constant="16" id="xuf-Ze-Wrs"/>
+                                    <constraint firstItem="fdr-mZ-TKo" firstAttribute="leading" secondItem="PP2-8J-cu3" secondAttribute="trailing" constant="40" id="yAD-PR-pYA"/>
+                                    <constraint firstItem="ZN3-OT-OdL" firstAttribute="top" secondItem="9aF-ly-XK0" secondAttribute="top" constant="8" id="zep-LS-Pnz"/>
+                                    <constraint firstItem="U99-F9-Y8h" firstAttribute="top" secondItem="SOW-iP-ZRU" secondAttribute="bottom" constant="4" id="zkk-jQ-OF7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9aF-ly-XK0" firstAttribute="leading" secondItem="QK7-ex-s1H" secondAttribute="leading" id="5ao-ei-fXS"/>
+                            <constraint firstAttribute="trailing" secondItem="9aF-ly-XK0" secondAttribute="trailing" id="cti-ae-zs1"/>
+                            <constraint firstAttribute="bottom" secondItem="9aF-ly-XK0" secondAttribute="bottom" id="gmM-pt-oPH"/>
+                            <constraint firstItem="9aF-ly-XK0" firstAttribute="top" secondItem="QK7-ex-s1H" secondAttribute="top" id="jUG-xQ-4RQ"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="740" height="360"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BrL-89-NVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1737" y="454"/>
+        </scene>
+        <!--Tones Compact Content-->
+        <scene sceneID="TPV-8n-2sl">
+            <objects>
+                <viewController storyboardIdentifier="tonesCompactContent" id="Fb1-g1-h9P" userLabel="Tones Compact Content" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xda-dC-WMK"/>
+                        <viewControllerLayoutGuide type="bottom" id="fWa-Nv-gaE"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="ic1-rz-Opl" userLabel="content">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncv-vS-LDR" userLabel="extra high" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="JyN-OE-x6B"/>
+                                    <constraint firstAttribute="width" constant="40" id="c8l-Ag-ZKc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1JX-uv-hMj" userLabel="low (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="36" y="140" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="wKD-fP-4EW"/>
+                                    <constraint firstAttribute="width" constant="40" id="yMz-mt-ffa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0300"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rl3-5q-jvX" userLabel="extra low (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="36" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="L3Y-M2-kiA"/>
+                                    <constraint firstAttribute="width" constant="40" id="lRb-vR-FDi"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="030F"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yIv-G6-eIj" userLabel="high (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="36" y="52" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gGa-4Q-Sos"/>
+                                    <constraint firstAttribute="width" constant="40" id="nCz-xL-PxX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0301"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TQf-YH-laJ" userLabel="extra high (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="36" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="0p0-H5-ygt"/>
+                                    <constraint firstAttribute="height" constant="40" id="CNn-CO-RCH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="030B"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mm2-Sd-QP4" userLabel="mid (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="36" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7lW-Zc-eaX"/>
+                                    <constraint firstAttribute="width" constant="40" id="AZS-Nh-a87"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0304"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqH-OJ-A9m" userLabel="high" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="52" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="RVU-Pi-Z0e"/>
+                                    <constraint firstAttribute="height" constant="40" id="VKk-S9-hmQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E6"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uLP-80-N6N" userLabel="downstep" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="228" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="O2i-qY-bgx"/>
+                                    <constraint firstAttribute="height" constant="40" id="hnB-kf-sak"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2193"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yfq-aN-JFx" userLabel="upstep" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="272" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="76d-tW-Ofi"/>
+                                    <constraint firstAttribute="width" constant="40" id="sgj-hh-qdF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2191"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31C-rc-G1h" userLabel="low" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="140" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="EA4-Bv-Xlk"/>
+                                    <constraint firstAttribute="width" constant="40" id="Pzo-eu-u6t"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E8"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qq8-rh-pNz" userLabel="mid" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="4p4-cp-zRl"/>
+                                    <constraint firstAttribute="height" constant="40" id="Cio-31-e7a"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E7"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqn-lk-bnV" userLabel="extra low" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="80" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="LYb-OO-Xsl"/>
+                                    <constraint firstAttribute="height" constant="40" id="zL2-rR-xQ0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E9"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6s-N4-hmN" userLabel="rising (combining)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="184" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="G8t-dD-Kgd"/>
+                                    <constraint firstAttribute="width" constant="40" id="LRj-Z7-RED"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="030C"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18E-O6-mQ8" userLabel="falling (diacritic)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="184" y="52" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="bLl-Ot-Cx9"/>
+                                    <constraint firstAttribute="height" constant="40" id="k0r-Qt-ncr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="0302"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cYw-nC-syw" userLabel="high rising (diacritic)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="184" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="L3E-uu-FVJ"/>
+                                    <constraint firstAttribute="width" constant="40" id="kch-Ei-oTW"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="1DC4"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kXy-2y-3UN" userLabel="low rising (diacritic)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="184" y="140" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="3CY-HD-lC5"/>
+                                    <constraint firstAttribute="height" constant="40" id="b17-94-SWO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="1DC5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GAK-2P-nak" userLabel="rising" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="228" y="8" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8tH-ft-ggz"/>
+                                    <constraint firstAttribute="width" constant="40" id="LA1-Ul-EhE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E9+02E5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MLm-r5-wcu" userLabel="high rising" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="228" y="96" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="9oq-4v-hJo"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="jU1-SK-2bQ"/>
+                                    <constraint firstAttribute="height" constant="40" id="or9-2b-xV8"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="sCF-vO-XRp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E5+02E5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JGT-i6-S3v" userLabel="low rising" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="228" y="140" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MW6-XE-eep"/>
+                                    <constraint firstAttribute="width" constant="40" id="gPR-cb-djw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E9+02E8"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ind-hF-D3e" userLabel="rising-falling" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="228" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Yix-Mw-TI8"/>
+                                    <constraint firstAttribute="height" constant="40" id="aKI-sK-l9E"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E7+02E6+02E7"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6vU-Ps-wAx" userLabel="global rise" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="228" y="228" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="JcW-nT-dCN"/>
+                                    <constraint firstAttribute="height" constant="40" id="Tkh-lk-aXd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2197"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6M8-HR-0pt" userLabel="falling" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="228" y="52" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="8YT-9E-osh"/>
+                                    <constraint firstAttribute="height" constant="40" id="sIN-g7-XLo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="02E5+02E9"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Uw-DA-62p" userLabel="rising falling (diacritic)" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="184" y="184" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Dr5-MZ-VXi"/>
+                                    <constraint firstAttribute="height" constant="40" id="mol-nC-UCB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="1DC8"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="diacritic"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JaZ-Ss-f6U" userLabel="global fall" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
+                                <rect key="frame" x="228" y="272" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="0x3-Ns-MlI"/>
+                                    <constraint firstAttribute="height" constant="40" id="MJh-Tx-5fe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unicodeScalar" value="2198"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JaZ-Ss-f6U" firstAttribute="leading" secondItem="Yfq-aN-JFx" secondAttribute="trailing" constant="108" id="3hT-km-hud"/>
+                            <constraint firstItem="TQf-YH-laJ" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="585-3I-KQg"/>
+                            <constraint firstItem="yIv-G6-eIj" firstAttribute="top" secondItem="TQf-YH-laJ" secondAttribute="bottom" constant="4" id="5bw-EW-zPd"/>
+                            <constraint firstItem="ind-hF-D3e" firstAttribute="top" secondItem="JGT-i6-S3v" secondAttribute="bottom" constant="4" id="5yX-kW-Hxu"/>
+                            <constraint firstItem="ncv-vS-LDR" firstAttribute="leading" secondItem="TQf-YH-laJ" secondAttribute="trailing" constant="4" id="6Eh-94-Vn0"/>
+                            <constraint firstItem="GAK-2P-nak" firstAttribute="leading" secondItem="a6s-N4-hmN" secondAttribute="trailing" constant="4" id="7Br-Er-tpV"/>
+                            <constraint firstItem="a6s-N4-hmN" firstAttribute="leading" secondItem="ncv-vS-LDR" secondAttribute="trailing" constant="64" id="7DC-FQ-71d"/>
+                            <constraint firstItem="yIv-G6-eIj" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="20" id="7Il-TG-2vC"/>
+                            <constraint firstItem="0Uw-DA-62p" firstAttribute="top" secondItem="kXy-2y-3UN" secondAttribute="bottom" constant="4" id="9xw-ay-tih"/>
+                            <constraint firstItem="a6s-N4-hmN" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="BvI-yO-j1B"/>
+                            <constraint firstItem="TQf-YH-laJ" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="20" id="DHR-li-xGP"/>
+                            <constraint firstItem="18E-O6-mQ8" firstAttribute="leading" secondItem="wqH-OJ-A9m" secondAttribute="trailing" constant="64" id="DM5-Dw-42I"/>
+                            <constraint firstItem="qqn-lk-bnV" firstAttribute="top" secondItem="31C-rc-G1h" secondAttribute="bottom" constant="4" id="DWe-rv-nW7"/>
+                            <constraint firstItem="6vU-Ps-wAx" firstAttribute="top" secondItem="ind-hF-D3e" secondAttribute="bottom" constant="4" id="E34-LV-rYA"/>
+                            <constraint firstItem="JGT-i6-S3v" firstAttribute="top" secondItem="MLm-r5-wcu" secondAttribute="bottom" constant="4" id="F8X-T9-osK"/>
+                            <constraint firstItem="ind-hF-D3e" firstAttribute="leading" secondItem="0Uw-DA-62p" secondAttribute="trailing" constant="4" id="GXB-FG-hiH"/>
+                            <constraint firstItem="uLP-80-N6N" firstAttribute="top" secondItem="qqn-lk-bnV" secondAttribute="bottom" constant="4" id="Gb0-yS-cbb"/>
+                            <constraint firstItem="qqn-lk-bnV" firstAttribute="leading" secondItem="rl3-5q-jvX" secondAttribute="trailing" constant="4" id="HeN-kW-hw1"/>
+                            <constraint firstItem="cYw-nC-syw" firstAttribute="top" secondItem="18E-O6-mQ8" secondAttribute="bottom" constant="4" id="JUR-GE-a9y"/>
+                            <constraint firstItem="Yfq-aN-JFx" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="64" id="Mfl-HY-0k6"/>
+                            <constraint firstItem="1JX-uv-hMj" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="20" id="NVI-X4-yxX"/>
+                            <constraint firstItem="rl3-5q-jvX" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="20" id="Ojd-bM-P3Z"/>
+                            <constraint firstItem="rl3-5q-jvX" firstAttribute="top" secondItem="1JX-uv-hMj" secondAttribute="bottom" constant="4" id="Qqx-xz-qn5"/>
+                            <constraint firstItem="MLm-r5-wcu" firstAttribute="leading" secondItem="cYw-nC-syw" secondAttribute="trailing" constant="4" id="RdP-cU-yo3"/>
+                            <constraint firstItem="wqH-OJ-A9m" firstAttribute="leading" secondItem="yIv-G6-eIj" secondAttribute="trailing" constant="4" id="SvG-HU-0I4"/>
+                            <constraint firstItem="6M8-HR-0pt" firstAttribute="leading" secondItem="18E-O6-mQ8" secondAttribute="trailing" constant="4" id="VMJ-bI-kXu"/>
+                            <constraint firstItem="31C-rc-G1h" firstAttribute="top" secondItem="Qq8-rh-pNz" secondAttribute="bottom" constant="4" id="VpQ-3c-HSf"/>
+                            <constraint firstItem="JGT-i6-S3v" firstAttribute="leading" secondItem="kXy-2y-3UN" secondAttribute="trailing" constant="4" id="WJm-KG-FNY"/>
+                            <constraint firstItem="Qq8-rh-pNz" firstAttribute="top" secondItem="wqH-OJ-A9m" secondAttribute="bottom" constant="4" id="aOP-5I-zkZ"/>
+                            <constraint firstItem="0Uw-DA-62p" firstAttribute="leading" secondItem="qqn-lk-bnV" secondAttribute="trailing" constant="64" id="cRQ-Sv-6dc"/>
+                            <constraint firstItem="MLm-r5-wcu" firstAttribute="top" secondItem="6M8-HR-0pt" secondAttribute="bottom" constant="4" id="eGW-Xf-QKg"/>
+                            <constraint firstItem="cYw-nC-syw" firstAttribute="leading" secondItem="Qq8-rh-pNz" secondAttribute="trailing" constant="64" id="eKn-21-Vda"/>
+                            <constraint firstItem="ncv-vS-LDR" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="gIE-c4-ugr"/>
+                            <constraint firstItem="Qq8-rh-pNz" firstAttribute="leading" secondItem="Mm2-Sd-QP4" secondAttribute="trailing" constant="4" id="gPd-Yy-Tp8"/>
+                            <constraint firstItem="wqH-OJ-A9m" firstAttribute="top" secondItem="ncv-vS-LDR" secondAttribute="bottom" constant="4" id="jZP-Xw-bTL"/>
+                            <constraint firstItem="kXy-2y-3UN" firstAttribute="leading" secondItem="31C-rc-G1h" secondAttribute="trailing" constant="64" id="mHa-it-2MT"/>
+                            <constraint firstItem="Mm2-Sd-QP4" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="20" id="mPy-me-zlK"/>
+                            <constraint firstItem="Mm2-Sd-QP4" firstAttribute="top" secondItem="yIv-G6-eIj" secondAttribute="bottom" constant="4" id="n8b-4a-x5r"/>
+                            <constraint firstItem="kXy-2y-3UN" firstAttribute="top" secondItem="cYw-nC-syw" secondAttribute="bottom" constant="4" id="npK-cN-xYl"/>
+                            <constraint firstItem="18E-O6-mQ8" firstAttribute="top" secondItem="a6s-N4-hmN" secondAttribute="bottom" constant="4" id="oAp-ko-foH"/>
+                            <constraint firstItem="1JX-uv-hMj" firstAttribute="top" secondItem="Mm2-Sd-QP4" secondAttribute="bottom" constant="4" id="pUq-2k-Cx2"/>
+                            <constraint firstItem="JaZ-Ss-f6U" firstAttribute="top" secondItem="6vU-Ps-wAx" secondAttribute="bottom" constant="4" id="rHo-a5-XNc"/>
+                            <constraint firstItem="GAK-2P-nak" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" constant="8" id="rbK-I1-5kl"/>
+                            <constraint firstItem="6M8-HR-0pt" firstAttribute="top" secondItem="GAK-2P-nak" secondAttribute="bottom" constant="4" id="tUg-aH-57l"/>
+                            <constraint firstItem="31C-rc-G1h" firstAttribute="leading" secondItem="1JX-uv-hMj" secondAttribute="trailing" constant="4" id="uet-Fd-8F3"/>
+                            <constraint firstItem="Yfq-aN-JFx" firstAttribute="top" secondItem="uLP-80-N6N" secondAttribute="bottom" constant="4" id="vtr-PL-SSK"/>
+                            <constraint firstItem="6vU-Ps-wAx" firstAttribute="leading" secondItem="uLP-80-N6N" secondAttribute="trailing" constant="108" id="wVl-KT-UIO"/>
+                            <constraint firstItem="uLP-80-N6N" firstAttribute="leading" secondItem="ic1-rz-Opl" secondAttribute="leadingMargin" constant="64" id="yvB-Ej-oyK"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="900" height="400"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="420"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgU-b3-CUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1065" y="488"/>
+        </scene>
+        <!--Tones Compact Wide-->
+        <scene sceneID="1PA-lL-96j">
+            <objects>
+                <viewController storyboardIdentifier="compactWide" id="NCl-YJ-MVi" userLabel="Tones Compact Wide" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n46-Wa-kXc"/>
+                        <viewControllerLayoutGuide type="bottom" id="9jK-yh-I2B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LgM-qK-ttB">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AA4-gK-jlN">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-tV-yCR">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="IMx-Ox-ban"/>
+                                            <constraint firstAttribute="height" constant="420" id="Nml-fb-kHf"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Fb1-g1-h9P" kind="embed" id="ivi-0G-ggc"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="KGu-tV-yCR" firstAttribute="leading" secondItem="AA4-gK-jlN" secondAttribute="leading" id="2ci-nm-2iQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="KGu-tV-yCR" secondAttribute="trailing" id="BHk-Lf-WpL"/>
+                                    <constraint firstItem="KGu-tV-yCR" firstAttribute="top" secondItem="AA4-gK-jlN" secondAttribute="top" id="PtK-Io-TsG"/>
+                                    <constraint firstAttribute="bottom" secondItem="KGu-tV-yCR" secondAttribute="bottom" id="Vn9-wD-qJ5"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AA4-gK-jlN" secondAttribute="trailing" id="Na6-wZ-CxP"/>
+                            <constraint firstItem="AA4-gK-jlN" firstAttribute="leading" secondItem="LgM-qK-ttB" secondAttribute="leading" id="aIb-As-UVH"/>
+                            <constraint firstItem="AA4-gK-jlN" firstAttribute="top" secondItem="LgM-qK-ttB" secondAttribute="top" id="vX8-Xq-ojZ"/>
+                            <constraint firstItem="9jK-yh-I2B" firstAttribute="top" secondItem="AA4-gK-jlN" secondAttribute="bottom" id="vab-82-z5G"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0E-Tg-FO2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1094" y="-546"/>
+        </scene>
+        <!--Tones Compact Narrow-->
+        <scene sceneID="m2O-6J-YA8">
+            <objects>
+                <viewController storyboardIdentifier="compactNarrow" id="YaW-Rp-cIX" userLabel="Tones Compact Narrow" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rE5-Oa-kcz"/>
+                        <viewControllerLayoutGuide type="bottom" id="MHu-cj-5Az"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zE8-d7-GZ8">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-kX-ISx">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqy-Qj-Bag">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="420" id="7Kn-sX-HFD"/>
+                                            <constraint firstAttribute="width" constant="320" id="mhM-NB-sIW"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Fb1-g1-h9P" kind="embed" id="zoA-Zp-i9e"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dqy-Qj-Bag" secondAttribute="trailing" id="F4Y-I2-q96"/>
+                                    <constraint firstItem="dqy-Qj-Bag" firstAttribute="leading" secondItem="yTx-kX-ISx" secondAttribute="leading" id="S2P-d9-JoE"/>
+                                    <constraint firstAttribute="bottom" secondItem="dqy-Qj-Bag" secondAttribute="bottom" id="Z8l-BZ-NhM"/>
+                                    <constraint firstItem="dqy-Qj-Bag" firstAttribute="top" secondItem="yTx-kX-ISx" secondAttribute="top" id="pYU-qi-svD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yTx-kX-ISx" firstAttribute="top" secondItem="zE8-d7-GZ8" secondAttribute="top" id="8kH-16-jKX"/>
+                            <constraint firstItem="yTx-kX-ISx" firstAttribute="leading" secondItem="zE8-d7-GZ8" secondAttribute="leading" id="SV9-aa-a5H"/>
+                            <constraint firstItem="MHu-cj-5Az" firstAttribute="top" secondItem="yTx-kX-ISx" secondAttribute="bottom" id="fUl-vb-REP"/>
+                            <constraint firstAttribute="trailing" secondItem="yTx-kX-ISx" secondAttribute="trailing" id="xHJ-Sq-HFY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cu9-x4-paz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-131" y="-546"/>
+        </scene>
+        <!--Tones Regular-->
+        <scene sceneID="FxC-dl-tCQ">
+            <objects>
+                <viewController storyboardIdentifier="regular" id="DgJ-Mz-Uun" userLabel="Tones Regular" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zfj-qu-smV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qcq-kY-f3O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqG-hT-xmK">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWu-4O-hhG">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <subviews>
+                                    <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrK-C8-GUc">
+                                        <rect key="frame" x="0.0" y="0.0" width="740" height="360"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="740" id="cl3-o2-S74"/>
+                                            <constraint firstAttribute="height" constant="360" id="rNH-VL-6oR"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="kuv-AS-Vap" kind="embed" id="SMV-fq-E6H"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="JrK-C8-GUc" secondAttribute="bottom" id="8La-Tw-Jxy"/>
+                                    <constraint firstItem="JrK-C8-GUc" firstAttribute="leading" secondItem="vWu-4O-hhG" secondAttribute="leading" id="JYu-AQ-hGs"/>
+                                    <constraint firstAttribute="trailing" secondItem="JrK-C8-GUc" secondAttribute="trailing" id="lVm-Ff-rbI"/>
+                                    <constraint firstItem="JrK-C8-GUc" firstAttribute="top" secondItem="vWu-4O-hhG" secondAttribute="top" id="r1F-Tp-VEj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qcq-kY-f3O" firstAttribute="top" secondItem="vWu-4O-hhG" secondAttribute="bottom" id="Wd7-mM-wcI"/>
+                            <constraint firstItem="vWu-4O-hhG" firstAttribute="top" secondItem="aqG-hT-xmK" secondAttribute="top" id="ckT-Jw-t5t"/>
+                            <constraint firstItem="vWu-4O-hhG" firstAttribute="leading" secondItem="aqG-hT-xmK" secondAttribute="leading" id="nG5-II-lO1"/>
+                            <constraint firstAttribute="trailing" secondItem="vWu-4O-hhG" secondAttribute="trailing" id="xxw-rn-e2t"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2WS-5u-TiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1737" y="-546"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zoA-Zp-i9e"/>
+    </inferredMetricsTieBreakers>
+</document>
