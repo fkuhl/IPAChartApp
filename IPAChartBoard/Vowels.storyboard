@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="all" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="all" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--Vowels base-->
         <scene sceneID="7rm-hw-faM">
             <objects>
-                <viewController storyboardIdentifier="base" id="uzJ-gw-pqv" userLabel="Vowels base" customClass="ChartViewController" customModule="DevelopKeyboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="base" id="uzJ-gw-pqv" userLabel="Vowels base" customClass="ChartViewController" customModule="IPAChartBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wbr-DG-oap"/>
                         <viewControllerLayoutGuide type="bottom" id="vas-fu-dpY"/>
@@ -87,7 +87,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4w-iG-idP" userLabel="i" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4w-iG-idP" userLabel="i" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -99,7 +99,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfe-RN-k7A" userLabel="y" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfe-RN-k7A" userLabel="y" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -111,7 +111,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qfS-vR-ySz" userLabel="i stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qfS-vR-ySz" userLabel="i stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="108" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -123,7 +123,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0n-Td-EzR" userLabel="u stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0n-Td-EzR" userLabel="u stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="152" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -135,7 +135,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kyt-IY-ADn" userLabel="m turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kyt-IY-ADn" userLabel="m turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="196" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -147,7 +147,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dhq-eO-Hs9" userLabel="u" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dhq-eO-Hs9" userLabel="u" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="240" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -159,7 +159,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIB-xu-v7v" userLabel="i small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIB-xu-v7v" userLabel="i small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="284" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -171,7 +171,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rw1-az-hgV" userLabel="upsilon" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rw1-az-hgV" userLabel="upsilon" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="372" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -183,7 +183,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDA-jk-6Ex" userLabel="y small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDA-jk-6Ex" userLabel="y small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="328" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -195,7 +195,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="al1-mE-tBS" userLabel="e" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="al1-mE-tBS" userLabel="e" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="72" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -207,7 +207,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AUS-2h-7Uz" userLabel="e reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AUS-2h-7Uz" userLabel="e reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="108" y="72" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -219,7 +219,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qxr-er-xYA" userLabel="o barred" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qxr-er-xYA" userLabel="o barred" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="152" y="72" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -231,7 +231,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G7x-Hc-tgn" userLabel="o stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G7x-Hc-tgn" userLabel="o stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="72" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -243,7 +243,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XnF-E1-HUM" userLabel="rams horn" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XnF-E1-HUM" userLabel="rams horn" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="196" y="72" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -255,7 +255,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wCH-cc-mbN" userLabel="o" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wCH-cc-mbN" userLabel="o" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="240" y="72" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -267,7 +267,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YRj-ee-EUN" userLabel="schwa" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YRj-ee-EUN" userLabel="schwa" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="328" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -279,7 +279,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sB-6Z-tcg" userLabel="e open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sB-6Z-tcg" userLabel="e open" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="116" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -291,7 +291,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xNi-Ql-x65" userLabel="e open reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xNi-Ql-x65" userLabel="e open reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="108" y="116" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -303,7 +303,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GqG-Hk-qNh" userLabel="oe ligature" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GqG-Hk-qNh" userLabel="oe ligature" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="116" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -317,7 +317,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEk-Lg-hi4" userLabel="e open closed reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEk-Lg-hi4" userLabel="e open closed reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="152" y="116" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -329,7 +329,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Soc-d2-dFc" userLabel="v turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Soc-d2-dFc" userLabel="v turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="196" y="116" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -341,7 +341,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4BY-P3-WZ9" userLabel="o open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4BY-P3-WZ9" userLabel="o open" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="240" y="116" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -353,7 +353,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edG-yL-5JG" userLabel="a turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edG-yL-5JG" userLabel="a turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="352" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -365,7 +365,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nch-oY-lkE" userLabel="ae" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nch-oY-lkE" userLabel="ae" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="308" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -377,7 +377,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fss-zt-sFY" userLabel="a" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fss-zt-sFY" userLabel="a" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="108" y="160" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -389,7 +389,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxF-HR-uNa" userLabel="oe small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxF-HR-uNa" userLabel="oe small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="152" y="160" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -401,7 +401,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bT-Wx-wt6" userLabel="alpha" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bT-Wx-wt6" userLabel="alpha" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="196" y="160" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -413,7 +413,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2B0-za-jtr" userLabel="alpha turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2B0-za-jtr" userLabel="alpha turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="240" y="160" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -503,7 +503,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVV-nA-sZF" userLabel="i" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVV-nA-sZF" userLabel="i" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -515,7 +515,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZC-Cm-2b2" userLabel="y" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZC-Cm-2b2" userLabel="y" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -527,7 +527,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsd-Tx-HXe" userLabel="i stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsd-Tx-HXe" userLabel="i stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="128" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -539,7 +539,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9a-fk-pHy" userLabel="u stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9a-fk-pHy" userLabel="u stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="172" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -551,7 +551,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="USH-EF-YhS" userLabel="m turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="USH-EF-YhS" userLabel="m turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="236" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -563,7 +563,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6f-XC-Fdc" userLabel="u" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6f-XC-Fdc" userLabel="u" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="280" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -610,7 +610,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="720" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1VX-hO-WUH" userLabel="front" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1VX-hO-WUH" userLabel="front" customClass="LineView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="80" y="33" width="269" height="259"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -621,7 +621,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="descending"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yvj-Hd-pNP" userLabel="central" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yvj-Hd-pNP" userLabel="central" customClass="LineView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="346" y="33" width="135" height="259"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -632,7 +632,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="descending"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rD4-Db-g2c" userLabel="back" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rD4-Db-g2c" userLabel="back" customClass="LineView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="606" y="33" width="16" height="259"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -643,7 +643,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="vertical"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QG5-fc-4Zp" userLabel="open" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QG5-fc-4Zp" userLabel="open" customClass="LineView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="346" y="290" width="262" height="14"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -653,7 +653,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="horizontal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jng-NE-0cf" userLabel="open-mid" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jng-NE-0cf" userLabel="open-mid" customClass="LineView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="256" y="201" width="352" height="13"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -664,7 +664,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="horizontal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8V-Aq-DzB" userLabel="close-mid" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8V-Aq-DzB" userLabel="close-mid" customClass="LineView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="166" y="116" width="442" height="16"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -675,7 +675,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="horizontal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z6i-hY-I4m" userLabel="close" customClass="LineView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z6i-hY-I4m" userLabel="close" customClass="LineView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="80" y="33" width="528" height="16"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -686,7 +686,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="horizontal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jL4-cr-UJe" userLabel="i small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jL4-cr-UJe" userLabel="i small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="172" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -698,7 +698,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZ5-yI-QHR" userLabel="i" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZ5-yI-QHR" userLabel="i" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="8" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -710,7 +710,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="paI-J4-9E3" userLabel="y" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="paI-J4-9E3" userLabel="y" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="108" y="8" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -722,7 +722,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJb-hY-qfd" userLabel="e" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJb-hY-qfd" userLabel="e" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="108" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -734,7 +734,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TS6-CX-koC" userLabel="e open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TS6-CX-koC" userLabel="e open" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="196" y="184" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -746,7 +746,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jNv-QJ-o4p" userLabel="a" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jNv-QJ-o4p" userLabel="a" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="284" y="272" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -758,7 +758,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="axi-ps-NiR" userLabel="i stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="axi-ps-NiR" userLabel="i stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="284" y="8" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -770,7 +770,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJc-c5-Sbs" userLabel="e reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJc-c5-Sbs" userLabel="e reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="328" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -782,7 +782,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-7J-44w" userLabel="e open reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-7J-44w" userLabel="e open reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="372" y="184" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -794,7 +794,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mag-44-bbB" userLabel="o barred" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mag-44-bbB" userLabel="o barred" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="416" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -806,7 +806,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVQ-KB-lvv" userLabel="o stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVQ-KB-lvv" userLabel="o stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="196" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -818,7 +818,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNZ-UP-y8Q" userLabel="oe ligature" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNZ-UP-y8Q" userLabel="oe ligature" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="284" y="184" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -830,7 +830,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Yd-ys-bEM" userLabel="oe small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Yd-ys-bEM" userLabel="oe small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="372" y="272" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -842,7 +842,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdl-8s-9as" userLabel="u stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdl-8s-9as" userLabel="u stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="372" y="8" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -854,7 +854,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xK5-kU-Z8P" userLabel="e open closed reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xK5-kU-Z8P" userLabel="e open closed reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="460" y="184" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -866,7 +866,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j66-j2-S3Z" userLabel="v turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j66-j2-S3Z" userLabel="v turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="548" y="184" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -878,7 +878,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xe6-lI-qY6" userLabel="alpha" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xe6-lI-qY6" userLabel="alpha" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="548" y="272" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -890,7 +890,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZE-d1-pgg" userLabel="o open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZE-d1-pgg" userLabel="o open" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="636" y="184" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -902,7 +902,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAL-pa-nmQ" userLabel="a turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAL-pa-nmQ" userLabel="a turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="440" y="228" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -914,7 +914,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZzC-4s-LAw" userLabel="y small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZzC-4s-LAw" userLabel="y small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="216" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -926,7 +926,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iOq-pk-wYV" userLabel="alpha turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iOq-pk-wYV" userLabel="alpha turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="636" y="272" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -938,7 +938,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OFR-ZH-eNY" userLabel="m turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OFR-ZH-eNY" userLabel="m turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="548" y="8" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -950,7 +950,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Old-R6-rZs" userLabel="rams horn" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Old-R6-rZs" userLabel="rams horn" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="548" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -962,7 +962,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQE-Ut-Mu3" userLabel="u" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQE-Ut-Mu3" userLabel="u" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="636" y="8" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -974,7 +974,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKW-4l-FjI" userLabel="o" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKW-4l-FjI" userLabel="o" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="636" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -986,7 +986,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qpf-I2-oFp" userLabel="upsilon" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qpf-I2-oFp" userLabel="upsilon" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="500" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -998,7 +998,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ib1-PD-VcK" userLabel="schwa" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ib1-PD-VcK" userLabel="schwa" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="390" y="140" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1010,7 +1010,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vtQ-1c-YGH" userLabel="ae" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vtQ-1c-YGH" userLabel="ae" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="240" y="228" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1119,7 +1119,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMa-ZX-3PN" userLabel="close" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMa-ZX-3PN" userLabel="close" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="28" width="84" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1144,7 +1144,7 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFi-jx-4kL" userLabel="close-mid" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFi-jx-4kL" userLabel="close-mid" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="72" width="84" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1157,7 +1157,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="nextSceneID" value="closeMid"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QqD-sw-arX" userLabel="open-mid" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QqD-sw-arX" userLabel="open-mid" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="116" width="84" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1170,7 +1170,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="nextSceneID" value="openMid"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvd-aM-pDO" userLabel="a" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvd-aM-pDO" userLabel="a" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="160" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1182,7 +1182,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7w-jt-LI5" userLabel="oe small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7w-jt-LI5" userLabel="oe small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="53" y="160" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1194,7 +1194,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2p-1r-5lK" userLabel="alpha" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2p-1r-5lK" userLabel="alpha" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="86" y="160" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1206,7 +1206,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRH-Af-yZy" userLabel="alpha turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRH-Af-yZy" userLabel="alpha turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="119" y="160" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1218,7 +1218,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHe-7K-KFL" userLabel="ae" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHe-7K-KFL" userLabel="ae" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="172" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1230,7 +1230,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TlU-cw-QGS" userLabel="a turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TlU-cw-QGS" userLabel="a turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="216" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1242,7 +1242,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ncs-Jb-Qv1" userLabel="i small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ncs-Jb-Qv1" userLabel="i small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="152" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1254,7 +1254,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hmd-w7-m0M" userLabel="y small cap" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hmd-w7-m0M" userLabel="y small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="196" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1266,7 +1266,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2v-lV-MBt" userLabel="upsilon" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2v-lV-MBt" userLabel="upsilon" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="240" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1278,7 +1278,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tft-Ev-LzV" userLabel="schwa" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tft-Ev-LzV" userLabel="schwa" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="196" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1338,7 +1338,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Vs-Db-r4y" userLabel="i" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Vs-Db-r4y" userLabel="i" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1350,7 +1350,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qVE-Tc-bpt" userLabel="y" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qVE-Tc-bpt" userLabel="y" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1362,7 +1362,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NK0-Dx-SbF" userLabel="i stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NK0-Dx-SbF" userLabel="i stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="116" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1374,7 +1374,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nvi-SC-g3e" userLabel="u stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nvi-SC-g3e" userLabel="u stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="160" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1386,7 +1386,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siJ-AE-oZw" userLabel="m turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siJ-AE-oZw" userLabel="m turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="212" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1398,7 +1398,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drf-3o-hCe" userLabel="u" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drf-3o-hCe" userLabel="u" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="256" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1444,7 +1444,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ffy-Gy-KxR" userLabel="e" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ffy-Gy-KxR" userLabel="e" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1456,7 +1456,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JgU-jV-f1V" userLabel="o stroke" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JgU-jV-f1V" userLabel="o stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1468,7 +1468,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cbs-Q3-bDn" userLabel="e reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cbs-Q3-bDn" userLabel="e reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="128" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1480,7 +1480,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iD-wK-oLk" userLabel="o barred" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iD-wK-oLk" userLabel="o barred" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="172" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1492,7 +1492,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePb-d2-uyO" userLabel="rams horn" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePb-d2-uyO" userLabel="rams horn" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="236" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1504,7 +1504,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fp-GW-mVn" userLabel="o" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fp-GW-mVn" userLabel="o" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="280" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1550,7 +1550,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3W-aw-TVH" userLabel="p" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3W-aw-TVH" userLabel="p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1562,7 +1562,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHg-I8-bVs" userLabel="m hook" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHg-I8-bVs" userLabel="m hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1574,7 +1574,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sd1-lM-nXw" userLabel="t" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sd1-lM-nXw" userLabel="t" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="116" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1586,7 +1586,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKi-gr-Nbo" userLabel="n retroflex" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKi-gr-Nbo" userLabel="n retroflex" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="160" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1598,7 +1598,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHT-0X-bm3" userLabel="n left hook" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHT-0X-bm3" userLabel="n left hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="212" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1610,7 +1610,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMB-Cw-TeH" userLabel="eng" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMB-Cw-TeH" userLabel="eng" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="256" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1656,7 +1656,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEh-42-zsl" userLabel="e open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEh-42-zsl" userLabel="e open" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1668,7 +1668,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBH-Xm-VH3" userLabel="e open reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBH-Xm-VH3" userLabel="e open reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="128" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1680,7 +1680,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="coz-KY-v8f" userLabel="oe ligature" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="coz-KY-v8f" userLabel="oe ligature" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1692,7 +1692,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XpF-l4-C0E" userLabel="e open closed reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XpF-l4-C0E" userLabel="e open closed reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="172" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1704,7 +1704,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ni8-ji-yz3" userLabel="v turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ni8-ji-yz3" userLabel="v turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="236" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1716,7 +1716,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXv-oO-X26" userLabel="o open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXv-oO-X26" userLabel="o open" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="280" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1762,7 +1762,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BvN-uz-dQ5" userLabel="e open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BvN-uz-dQ5" userLabel="e open" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="20" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1774,7 +1774,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmd-5V-zaf" userLabel="e open reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmd-5V-zaf" userLabel="e open reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="116" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1786,7 +1786,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qii-9S-58U" userLabel="oe ligature" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qii-9S-58U" userLabel="oe ligature" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="64" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1798,7 +1798,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LE6-rn-iiy" userLabel="e open closed reversed" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LE6-rn-iiy" userLabel="e open closed reversed" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="160" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1810,7 +1810,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="veJ-L1-IfB" userLabel="v turned" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="veJ-L1-IfB" userLabel="v turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="212" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1822,7 +1822,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="kindAdapter" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UqF-8b-ATJ" userLabel="o open" customClass="KeyView" customModule="DevelopKeyboard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UqF-8b-ATJ" userLabel="o open" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                 <rect key="frame" x="256" y="28" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>

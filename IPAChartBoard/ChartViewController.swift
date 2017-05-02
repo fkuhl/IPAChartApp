@@ -19,6 +19,7 @@ class ChartViewController: UIViewController  {
         //This is happening with a rotation animation, so don't animate this change!
         print("ChartVC.updateDesign to \(newSceneKind)")
         if newSceneKind == currentScene?.sceneKind { return }
+        print("ChartVC.updateDesign about to instantiate \(chartKind!.rawValue)")
         chartStoryboard = UIStoryboard(name: chartKind!.rawValue, bundle: nil)
         //No point in checking that the preceding call succeeded; it will throw a horrible exception if it doesn't.
         guard let newViewController = chartStoryboard?.instantiateViewController(withIdentifier: newSceneKind.sceneID) else {

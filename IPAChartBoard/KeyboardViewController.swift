@@ -13,7 +13,8 @@ import UIKit
 class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     @IBOutlet weak var content: UIView!
-    var currentSceneIfAny: (scene: Scene, controller: ChartViewController)!
+    var currentScene = Scene(chart: .consonants)
+    var currentControllerIfAny: ChartViewController!
     
     @IBAction func globeTapped(_ sender: UIButton) {
         self.advanceToNextInputMode()
@@ -69,44 +70,50 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        revealView(scene: Scene(chart: .consonants))
+        print("KeyboardVC.viewDidLoad, scene set to \(currentScene)")
+        revealView(scene: currentScene)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         let favorites = FavoritesCache.sharedInstance
         favorites.readFromDefaults()
-        print("KeyboardViewController viewWillAppear got \(favorites.count) entries")
+        print("KeyboardVC viewWillAppear got \(favorites.count) entries")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         let favorites = FavoritesCache.sharedInstance
         favorites.writeToDefaults()
-        print("KeyboardViewController viewDidDisappear stored \(favorites.count) entries")
-        favorites.printEntries()
+        print("KeyboardVC viewDidDisappear stored \(favorites.count) entries")
+        //favorites.printEntries()
     }
     
     override func viewWillLayoutSubviews() {
         //Why I have to set these here is a mystery.
-        content.widthAnchor.constraint(equalToConstant: view.bounds.size.width).isActive = true
-        content.heightAnchor.constraint(equalToConstant: 184.0).isActive = true
+        let widthConstraint = content.widthAnchor.constraint(greaterThanOrEqualToConstant: view.bounds.size.width)
+        widthConstraint.identifier = "contentWidth"
+        widthConstraint.priority = 500
+        widthConstraint.isActive = true
+        let heightConstraint = content.heightAnchor.constraint(greaterThanOrEqualToConstant: 184.0)
+        heightConstraint.identifier = "contentHeight"
+        heightConstraint.priority = 500
+        heightConstraint.isActive = true
         //this gets called because of rotation or other change of size (not new further view)
-        if let currentSceneKind = currentSceneIfAny?.scene.sceneKind {
-            var newSceneKind: SceneKind
-            switch currentSceneKind {
-            case .base, .regular, .compactWide, .compactNarrow:
-                newSceneKind = sceneKindFor(trait: self.traitCollection.horizontalSizeClass, size: view.bounds.size)
-            case .furtherNarrow(let id), .furtherWide(let id):
-                newSceneKind = sceneKindFor(further: id, size: view.bounds.size)
-            }
-            print("KeyboardVC.viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
-            currentSceneIfAny?.controller.updateDesign(to: newSceneKind)
-            currentSceneIfAny?.scene = update(scene: (currentSceneIfAny?.scene)!, toKind: newSceneKind)
+        let currentSceneKind = currentScene.sceneKind
+        var newSceneKind: SceneKind
+        switch currentSceneKind {
+        case .base, .regular, .compactWide, .compactNarrow:
+            newSceneKind = sceneKindFor(trait: self.traitCollection.horizontalSizeClass, size: view.bounds.size)
+        case .furtherNarrow(let id), .furtherWide(let id):
+            newSceneKind = sceneKindFor(further: id, size: view.bounds.size)
         }
+        print("KeyboardVC.viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
+        currentControllerIfAny?.updateDesign(to: newSceneKind)
+        currentScene = update(scene: currentScene, toKind: newSceneKind)
     }
     
     private func revealView(scene: Scene) {
         print("KeyboardVC.revealView of \(scene)")
-        if scene == currentSceneIfAny?.scene { return }
+        if scene == currentScene && currentControllerIfAny != nil { return }
         let storyboard = UIStoryboard(name: scene.chartKind.rawValue, bundle: nil)
         let storyboardID = scene.sceneKind.sceneID
         let newChartViewController = storyboard.instantiateViewController(withIdentifier: storyboardID)
@@ -117,10 +124,10 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
             //print("setting keybdVC in reveal of \(chart.rawValue)")
         }
         UIView.animate(withDuration: 0.25, animations: {
-            if let currentChart = self.currentSceneIfAny {
-                currentChart.controller.willMove(toParentViewController: nil)
-                currentChart.controller.view.removeFromSuperview()
-                currentChart.controller.removeFromParentViewController()
+            if let currentChart = self.currentControllerIfAny {
+                currentChart.willMove(toParentViewController: nil)
+                currentChart.view.removeFromSuperview()
+                currentChart.removeFromParentViewController()
             }
             self.addChildViewController(newChartViewController)
             self.content!.addSubview(newChartViewController.view)
@@ -143,7 +150,8 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
                                 sceneAfterAdjustment = Scene(chart: scene.chartKind, scene: newSceneKind)
                                 newChart.updateDesign(to: newSceneKind)
                             }
-                            self.currentSceneIfAny = (scene: sceneAfterAdjustment, controller: newChart)
+                            self.currentScene = sceneAfterAdjustment
+                            self.currentControllerIfAny = newChart
                         }
                         self.initializeKey(self.view!)
         })
@@ -182,10 +190,10 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     }
     
     func changeScene(to newSceneID: String) {
-        let newScene = Scene(chart: currentSceneIfAny!.scene.chartKind,
+        let newScene = Scene(chart: currentScene.chartKind,
                              scene: sceneKindFor(further: newSceneID, size: view.bounds.size))
-        currentSceneIfAny?.controller.updateDesign(to: newScene.sceneKind)
-        currentSceneIfAny = (scene: newScene, controller: currentSceneIfAny!.controller)
+        currentControllerIfAny?.updateDesign(to: newScene.sceneKind)
+        currentScene = newScene //controller doesn't change
     }
     
     func backspaceTapped() {
