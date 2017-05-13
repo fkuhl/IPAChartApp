@@ -24,10 +24,14 @@
 		27818AB01EA92EA70018CBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27818AAE1EA92EA70018CBA3 /* LaunchScreen.storyboard */; };
 		27818ABE1EA92F540018CBA3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */; };
 		27818AC21EA92F540018CBA3 /* IPAChartBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27DCF2791EC75642003B6970 /* Diacritics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF27B1EC75642003B6970 /* Diacritics.storyboard */; };
+		27DCF2821EC756E4003B6970 /* Nonpulmonics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF2841EC756E4003B6970 /* Nonpulmonics.storyboard */; };
+		27DCF28B1EC7572C003B6970 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF28D1EC7572C003B6970 /* Other.storyboard */; };
+		27DCF2941EC75764003B6970 /* Suprasegmentals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF2961EC75764003B6970 /* Suprasegmentals.storyboard */; };
+		27DCF29D1EC75794003B6970 /* Tones.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF29F1EC75794003B6970 /* Tones.storyboard */; };
 		27E723951EABEBC700173354 /* ChartKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7237C1EABEBC700173354 /* ChartKind.swift */; };
 		27E723961EABEBC700173354 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7237D1EABEBC700173354 /* ChartViewController.swift */; };
 		27E723971EABEBC700173354 /* Consonants.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E7237E1EABEBC700173354 /* Consonants.storyboard */; };
-		27E723981EABEBC700173354 /* Diacritics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E7237F1EABEBC700173354 /* Diacritics.storyboard */; };
 		27E723991EABEBC700173354 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E723801EABEBC700173354 /* Favorites.storyboard */; };
 		27E7239A1EABEBC700173354 /* FavoritesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723811EABEBC700173354 /* FavoritesCache.swift */; };
 		27E7239B1EABEBC700173354 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723821EABEBC700173354 /* FavoritesViewController.swift */; };
@@ -38,15 +42,11 @@
 		27E723A11EABEBC700173354 /* KeyViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723881EABEBC700173354 /* KeyViewDelegate.swift */; };
 		27E723A21EABEBC700173354 /* KeyViewKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723891EABEBC700173354 /* KeyViewKind.swift */; };
 		27E723A31EABEBC700173354 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7238A1EABEBC700173354 /* LineView.swift */; };
-		27E723A41EABEBC700173354 /* Nonpulmonics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E7238B1EABEBC700173354 /* Nonpulmonics.storyboard */; };
 		27E723A51EABEBC700173354 /* Numbers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E7238C1EABEBC700173354 /* Numbers.storyboard */; };
-		27E723A61EABEBC700173354 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E7238D1EABEBC700173354 /* Other.storyboard */; };
 		27E723A71EABEBC700173354 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7238E1EABEBC700173354 /* Scene.swift */; };
 		27E723A81EABEBC700173354 /* Scene+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7238F1EABEBC700173354 /* Scene+Equatable.swift */; };
 		27E723A91EABEBC700173354 /* SceneKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723901EABEBC700173354 /* SceneKind.swift */; };
 		27E723AA1EABEBC700173354 /* SceneKind+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723911EABEBC700173354 /* SceneKind+Equatable.swift */; };
-		27E723AB1EABEBC700173354 /* Suprasegmentals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E723921EABEBC700173354 /* Suprasegmentals.storyboard */; };
-		27E723AC1EABEBC700173354 /* Tones.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E723931EABEBC700173354 /* Tones.storyboard */; };
 		27E723AD1EABEBC700173354 /* Vowels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E723941EABEBC700173354 /* Vowels.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -97,10 +97,31 @@
 		27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IPAChartBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		27818ABF1EA92F540018CBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27DCF2771EC75477003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		27DCF2781EC75477003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		27DCF27A1EC75642003B6970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Diacritics.storyboard; sourceTree = "<group>"; };
+		27DCF27D1EC75652003B6970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Diacritics.strings; sourceTree = "<group>"; };
+		27DCF27F1EC7565B003B6970 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Diacritics.strings; sourceTree = "<group>"; };
+		27DCF2811EC7565F003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Diacritics.strings; sourceTree = "<group>"; };
+		27DCF2831EC756E4003B6970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Nonpulmonics.storyboard; sourceTree = "<group>"; };
+		27DCF2861EC756F8003B6970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Nonpulmonics.strings; sourceTree = "<group>"; };
+		27DCF2881EC756FB003B6970 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Nonpulmonics.strings; sourceTree = "<group>"; };
+		27DCF28A1EC75701003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Nonpulmonics.strings; sourceTree = "<group>"; };
+		27DCF28C1EC7572C003B6970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Other.storyboard; sourceTree = "<group>"; };
+		27DCF28F1EC75731003B6970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Other.strings; sourceTree = "<group>"; };
+		27DCF2911EC75736003B6970 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Other.strings; sourceTree = "<group>"; };
+		27DCF2931EC7573B003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Other.strings; sourceTree = "<group>"; };
+		27DCF2951EC75764003B6970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Suprasegmentals.storyboard; sourceTree = "<group>"; };
+		27DCF2981EC75769003B6970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Suprasegmentals.strings; sourceTree = "<group>"; };
+		27DCF29A1EC7576E003B6970 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Suprasegmentals.strings; sourceTree = "<group>"; };
+		27DCF29C1EC75772003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Suprasegmentals.strings; sourceTree = "<group>"; };
+		27DCF29E1EC75794003B6970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Tones.storyboard; sourceTree = "<group>"; };
+		27DCF2A11EC7579B003B6970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Tones.strings; sourceTree = "<group>"; };
+		27DCF2A31EC7579F003B6970 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Tones.strings; sourceTree = "<group>"; };
+		27DCF2A51EC757A4003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Tones.strings; sourceTree = "<group>"; };
 		27E7237C1EABEBC700173354 /* ChartKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartKind.swift; sourceTree = "<group>"; };
 		27E7237D1EABEBC700173354 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		27E7237E1EABEBC700173354 /* Consonants.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Consonants.storyboard; sourceTree = "<group>"; };
-		27E7237F1EABEBC700173354 /* Diacritics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Diacritics.storyboard; sourceTree = "<group>"; };
 		27E723801EABEBC700173354 /* Favorites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
 		27E723811EABEBC700173354 /* FavoritesCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesCache.swift; sourceTree = "<group>"; };
 		27E723821EABEBC700173354 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
@@ -111,15 +132,11 @@
 		27E723881EABEBC700173354 /* KeyViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyViewDelegate.swift; sourceTree = "<group>"; };
 		27E723891EABEBC700173354 /* KeyViewKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyViewKind.swift; sourceTree = "<group>"; };
 		27E7238A1EABEBC700173354 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
-		27E7238B1EABEBC700173354 /* Nonpulmonics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Nonpulmonics.storyboard; sourceTree = "<group>"; };
 		27E7238C1EABEBC700173354 /* Numbers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Numbers.storyboard; sourceTree = "<group>"; };
-		27E7238D1EABEBC700173354 /* Other.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Other.storyboard; sourceTree = "<group>"; };
 		27E7238E1EABEBC700173354 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		27E7238F1EABEBC700173354 /* Scene+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scene+Equatable.swift"; sourceTree = "<group>"; };
 		27E723901EABEBC700173354 /* SceneKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneKind.swift; sourceTree = "<group>"; };
 		27E723911EABEBC700173354 /* SceneKind+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneKind+Equatable.swift"; sourceTree = "<group>"; };
-		27E723921EABEBC700173354 /* Suprasegmentals.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Suprasegmentals.storyboard; sourceTree = "<group>"; };
-		27E723931EABEBC700173354 /* Tones.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tones.storyboard; sourceTree = "<group>"; };
 		27E723941EABEBC700173354 /* Vowels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Vowels.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,7 +212,7 @@
 				27E7237C1EABEBC700173354 /* ChartKind.swift */,
 				27E7237D1EABEBC700173354 /* ChartViewController.swift */,
 				27E7237E1EABEBC700173354 /* Consonants.storyboard */,
-				27E7237F1EABEBC700173354 /* Diacritics.storyboard */,
+				27DCF27B1EC75642003B6970 /* Diacritics.storyboard */,
 				27E723801EABEBC700173354 /* Favorites.storyboard */,
 				27E723811EABEBC700173354 /* FavoritesCache.swift */,
 				27E723821EABEBC700173354 /* FavoritesViewController.swift */,
@@ -208,16 +225,16 @@
 				27E723881EABEBC700173354 /* KeyViewDelegate.swift */,
 				27E723891EABEBC700173354 /* KeyViewKind.swift */,
 				27E7238A1EABEBC700173354 /* LineView.swift */,
-				27E7238B1EABEBC700173354 /* Nonpulmonics.storyboard */,
+				27DCF2841EC756E4003B6970 /* Nonpulmonics.storyboard */,
 				27E7238C1EABEBC700173354 /* Numbers.storyboard */,
-				27E7238D1EABEBC700173354 /* Other.storyboard */,
+				27DCF28D1EC7572C003B6970 /* Other.storyboard */,
 				275B3A621EA931C1005CDBF1 /* Resources */,
 				27E7238E1EABEBC700173354 /* Scene.swift */,
 				27E7238F1EABEBC700173354 /* Scene+Equatable.swift */,
 				27E723901EABEBC700173354 /* SceneKind.swift */,
 				27E723911EABEBC700173354 /* SceneKind+Equatable.swift */,
-				27E723921EABEBC700173354 /* Suprasegmentals.storyboard */,
-				27E723931EABEBC700173354 /* Tones.storyboard */,
+				27DCF2961EC75764003B6970 /* Suprasegmentals.storyboard */,
+				27DCF29F1EC75794003B6970 /* Tones.storyboard */,
 				27E723941EABEBC700173354 /* Vowels.storyboard */,
 			);
 			path = IPAChartBoard;
@@ -289,6 +306,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				es,
 			);
 			mainGroup = 27818A991EA92EA70018CBA3;
 			productRefGroup = 27818AA31EA92EA70018CBA3 /* Products */;
@@ -318,7 +337,7 @@
 			files = (
 				275B3A5F1EA930A1005CDBF1 /* 764-arrow-down@2x.png in Resources */,
 				275B3A5C1EA930A1005CDBF1 /* 748-heart@2x.png in Resources */,
-				27E723A61EABEBC700173354 /* Other.storyboard in Resources */,
+				27DCF28B1EC7572C003B6970 /* Other.storyboard in Resources */,
 				27E723991EABEBC700173354 /* Favorites.storyboard in Resources */,
 				27E7239C1EABEBC700173354 /* Keyboard.storyboard in Resources */,
 				27E723971EABEBC700173354 /* Consonants.storyboard in Resources */,
@@ -327,14 +346,14 @@
 				275B3A5D1EA930A1005CDBF1 /* 748-heart@3x.png in Resources */,
 				275B3A5E1EA930A1005CDBF1 /* 764-arrow-down.png in Resources */,
 				275B3A601EA930A1005CDBF1 /* 764-arrow-down@3x.png in Resources */,
-				27E723981EABEBC700173354 /* Diacritics.storyboard in Resources */,
+				27DCF2791EC75642003B6970 /* Diacritics.storyboard in Resources */,
 				275B3A5A1EA930A1005CDBF1 /* 715-globe@3x.png in Resources */,
 				275B3A591EA930A1005CDBF1 /* 715-globe@2x.png in Resources */,
-				27E723A41EABEBC700173354 /* Nonpulmonics.storyboard in Resources */,
-				27E723AB1EABEBC700173354 /* Suprasegmentals.storyboard in Resources */,
+				27DCF2821EC756E4003B6970 /* Nonpulmonics.storyboard in Resources */,
+				27DCF2941EC75764003B6970 /* Suprasegmentals.storyboard in Resources */,
 				27E723AD1EABEBC700173354 /* Vowels.storyboard in Resources */,
 				275B3A611EA930A1005CDBF1 /* CharisSIL-R.ttf in Resources */,
-				27E723AC1EABEBC700173354 /* Tones.storyboard in Resources */,
+				27DCF29D1EC75794003B6970 /* Tones.storyboard in Resources */,
 				275B3A581EA930A1005CDBF1 /* 715-globe.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +408,7 @@
 			children = (
 				27818AAA1EA92EA70018CBA3 /* Base */,
 				2702F0E31EB3B6E800D39BD1 /* de */,
+				27DCF2771EC75477003B6970 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -398,8 +418,64 @@
 			children = (
 				27818AAF1EA92EA70018CBA3 /* Base */,
 				2702F0E41EB3B6E800D39BD1 /* de */,
+				27DCF2781EC75477003B6970 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		27DCF27B1EC75642003B6970 /* Diacritics.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DCF27A1EC75642003B6970 /* Base */,
+				27DCF27D1EC75652003B6970 /* en */,
+				27DCF27F1EC7565B003B6970 /* de */,
+				27DCF2811EC7565F003B6970 /* es */,
+			);
+			name = Diacritics.storyboard;
+			sourceTree = "<group>";
+		};
+		27DCF2841EC756E4003B6970 /* Nonpulmonics.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DCF2831EC756E4003B6970 /* Base */,
+				27DCF2861EC756F8003B6970 /* en */,
+				27DCF2881EC756FB003B6970 /* de */,
+				27DCF28A1EC75701003B6970 /* es */,
+			);
+			name = Nonpulmonics.storyboard;
+			sourceTree = "<group>";
+		};
+		27DCF28D1EC7572C003B6970 /* Other.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DCF28C1EC7572C003B6970 /* Base */,
+				27DCF28F1EC75731003B6970 /* en */,
+				27DCF2911EC75736003B6970 /* de */,
+				27DCF2931EC7573B003B6970 /* es */,
+			);
+			name = Other.storyboard;
+			sourceTree = "<group>";
+		};
+		27DCF2961EC75764003B6970 /* Suprasegmentals.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DCF2951EC75764003B6970 /* Base */,
+				27DCF2981EC75769003B6970 /* en */,
+				27DCF29A1EC7576E003B6970 /* de */,
+				27DCF29C1EC75772003B6970 /* es */,
+			);
+			name = Suprasegmentals.storyboard;
+			sourceTree = "<group>";
+		};
+		27DCF29F1EC75794003B6970 /* Tones.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DCF29E1EC75794003B6970 /* Base */,
+				27DCF2A11EC7579B003B6970 /* en */,
+				27DCF2A31EC7579F003B6970 /* de */,
+				27DCF2A51EC757A4003B6970 /* es */,
+			);
+			name = Tones.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

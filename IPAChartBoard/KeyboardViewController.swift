@@ -70,8 +70,12 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("KeyboardVC.viewDidLoad, scene set to \(currentScene)")
-        revealView(scene: currentScene)
+        if currentControllerIfAny == nil {
+            revealView(scene: currentScene)
+            print("KeyboardVC.viewDidLoad on \(self), scene set to \(currentScene)")
+        } else {
+            print("KeyboardVC.viewDidLoad on \(self), scene already set to \(currentScene)")
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

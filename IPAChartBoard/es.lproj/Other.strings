@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "voiced epiglottal fricative"; ObjectID = "9ub-p7-z0u"; Note = "the label for the 'voiced epiglottal fricative' key"; */
+"9ub-p7-z0u.text" = "voiced epiglottal fricative";
+
+/* Class = "UILabel"; text = "voiced labial-velar approximant"; ObjectID = "JeL-AX-Hft"; Note = "the label for the 'dental' key"; */
+"JeL-AX-Hft.text" = "voiced labial-velar approximant";
+
+/* Class = "UILabel"; text = "alveolar lateral flap"; ObjectID = "LpO-jh-ZQg"; Note = "the label for the 'alveolar lateral flap' key"; */
+"LpO-jh-ZQg.text" = "alveolar lateral flap";
+
+/* Class = "UILabel"; text = "voiced labial-palatal approximant"; ObjectID = "PP2-8J-cu3"; Note = "the label for the 'voiced labial-palatal approximantr' key"; */
+"PP2-8J-cu3.text" = "voiced labial-palatal approximant";
+
+/* Class = "UILabel"; text = "simultaneous ʃ and X"; ObjectID = "SOW-iP-ZRU"; Note = "the label for the 'simultaneous ʃ and X' key"; */
+"SOW-iP-ZRU.text" = "simultaneous ʃ and X";
+
+/* Class = "UILabel"; text = "double articulation"; ObjectID = "U99-F9-Y8h"; Note = "the label for the 'double articulation' key"; */
+"U99-F9-Y8h.text" = "double articulation";
+
+/* Class = "UILabel"; text = "epiglottal plosive"; ObjectID = "Udt-hA-4B3"; Note = "the label for the 'epiglottal plosive' key"; */
+"Udt-hA-4B3.text" = "epiglottal plosive";
+
+/* Class = "UILabel"; text = "voiceless epiglottal fricative"; ObjectID = "YsF-Hf-6hL"; Note = "the label for the 'voiceless epiglottal fricative' key"; */
+"YsF-Hf-6hL.text" = "voiceless epiglottal fricative";
+
+/* Class = "UILabel"; text = "alveolo-palatal fricatives"; ObjectID = "a0I-gL-e7k"; Note = "the label for the 'alveolo-palatal fricatives' key"; */
+"a0I-gL-e7k.text" = "alveolo-palatal fricatives";
+
+/* Class = "UILabel"; text = "voiceless labial-velar fricative"; ObjectID = "vAE-Mi-Wug"; Note = "the label for the 'bilabial' key"; */
+"vAE-Mi-Wug.text" = "voiceless labial-velar fricative";

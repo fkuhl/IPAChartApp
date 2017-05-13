@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "extra low"; ObjectID = "9ub-p7-z0u"; Note = "the label for the 'extra low' key"; */
+"9ub-p7-z0u.text" = "extra low";
+
+/* Class = "UILabel"; text = "high"; ObjectID = "JeL-AX-Hft"; Note = "the label for the 'high' key"; */
+"JeL-AX-Hft.text" = "high";
+
+/* Class = "UILabel"; text = "falling"; ObjectID = "LpO-jh-ZQg"; Note = "the label for the 'falling' key"; */
+"LpO-jh-ZQg.text" = "falling";
+
+/* Class = "UILabel"; text = "upstep"; ObjectID = "O8E-uW-EEW"; Note = "the label for the 'up step' key"; */
+"O8E-uW-EEW.text" = "upstep";
+
+/* Class = "UILabel"; text = "mid"; ObjectID = "PP2-8J-cu3"; Note = "the label for the 'mid' key"; */
+"PP2-8J-cu3.text" = "mid";
+
+/* Class = "UILabel"; text = "high rising"; ObjectID = "SOW-iP-ZRU"; Note = "the label for the 'high rising' key"; */
+"SOW-iP-ZRU.text" = "high rising";
+
+/* Class = "UILabel"; text = "global fall"; ObjectID = "TwF-54-Iln"; Note = "the label for the 'global fall' key"; */
+"TwF-54-Iln.text" = "global fall";
+
+/* Class = "UILabel"; text = "low rising"; ObjectID = "U99-F9-Y8h"; Note = "the label for the 'low rising' key"; */
+"U99-F9-Y8h.text" = "low rising";
+
+/* Class = "UILabel"; text = "rising-falling"; ObjectID = "Yj8-cY-7yh"; Note = "the label for the 'rising-falling' key"; */
+"Yj8-cY-7yh.text" = "rising-falling";
+
+/* Class = "UILabel"; text = "low"; ObjectID = "YsF-Hf-6hL"; Note = "the label for the 'low' key"; */
+"YsF-Hf-6hL.text" = "low";
+
+/* Class = "UILabel"; text = "rising"; ObjectID = "a0I-gL-e7k"; Note = "the label for the 'minor (foot) group' key"; */
+"a0I-gL-e7k.text" = "rising";
+
+/* Class = "UILabel"; text = "downstep"; ObjectID = "pYL-mf-Bi3"; Note = "the label for the 'down step' key"; */
+"pYL-mf-Bi3.text" = "downstep";
+
+/* Class = "UILabel"; text = "global rise"; ObjectID = "ryL-ru-OeR"; Note = "the label for the 'global rise' key"; */
+"ryL-ru-OeR.text" = "global rise";
+
+/* Class = "UILabel"; text = "extra high"; ObjectID = "vAE-Mi-Wug"; Note = "the label for the 'extra high' key"; */
+"vAE-Mi-Wug.text" = "extra high";

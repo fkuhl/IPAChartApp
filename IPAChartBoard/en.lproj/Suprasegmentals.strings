@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "long"; ObjectID = "68T-1O-DW8"; Note = "the label for the 'long' key"; */
+"68T-1O-DW8.text" = "long";
+
+/* Class = "UILabel"; text = "extra short"; ObjectID = "9ub-p7-z0u"; Note = "the label for the 'extra short' key"; */
+"9ub-p7-z0u.text" = "extra short";
+
+/* Class = "UILabel"; text = "half-long"; ObjectID = "BOu-mE-vpe"; Note = "the label for the 'half-long' key"; */
+"BOu-mE-vpe.text" = "half-long";
+
+/* Class = "UILabel"; text = "secondary stress"; ObjectID = "JeL-AX-Hft"; Note = "the label for the 'secondary stress' key"; */
+"JeL-AX-Hft.text" = "secondary stress";
+
+/* Class = "UILabel"; text = "primary stress"; ObjectID = "LOK-xu-4r0"; Note = "the label for the 'primary stress' key"; */
+"LOK-xu-4r0.text" = "primary stress";
+
+/* Class = "UILabel"; text = "major (intonation) group"; ObjectID = "LpO-jh-ZQg"; Note = "the label for the 'major (intonation) group' key"; */
+"LpO-jh-ZQg.text" = "major (intonation) group";
+
+/* Class = "UILabel"; text = "long"; ObjectID = "PP2-8J-cu3"; Note = "the label for the 'long' key"; */
+"PP2-8J-cu3.text" = "long";
+
+/* Class = "UILabel"; text = "syllable break"; ObjectID = "SOW-iP-ZRU"; Note = "the label for the 'syllable break' key"; */
+"SOW-iP-ZRU.text" = "syllable break";
+
+/* Class = "UILabel"; text = "linking (absence of a break)"; ObjectID = "U99-F9-Y8h"; Note = "the label for the 'linking (absence of a break)' key"; */
+"U99-F9-Y8h.text" = "linking (absence of a break)";
+
+/* Class = "UILabel"; text = "syllable break"; ObjectID = "Wws-Wl-nom"; Note = "the label for the 'syllable break' key"; */
+"Wws-Wl-nom.text" = "syllable break";
+
+/* Class = "UILabel"; text = "half-long"; ObjectID = "YsF-Hf-6hL"; Note = "the label for the 'half-long' key"; */
+"YsF-Hf-6hL.text" = "half-long";
+
+/* Class = "UILabel"; text = "minor (foot) group"; ObjectID = "a0I-gL-e7k"; Note = "the label for the 'minor (foot) group' key"; */
+"a0I-gL-e7k.text" = "minor (foot) group";
+
+/* Class = "UILabel"; text = "minor (foot) group"; ObjectID = "em6-Vs-YpB"; Note = "the label for the 'minor (foot) group' key"; */
+"em6-Vs-YpB.text" = "minor (foot) group";
+
+/* Class = "UILabel"; text = "linking (absence of a break)"; ObjectID = "enN-Vm-ang"; Note = "the label for the 'linking (absence of a break)' key"; */
+"enN-Vm-ang.text" = "linking (absence of a break)";
+
+/* Class = "UILabel"; text = "extra short"; ObjectID = "hfl-JX-rWj"; Note = "the label for the 'extra short' key"; */
+"hfl-JX-rWj.text" = "extra short";
+
+/* Class = "UILabel"; text = "major (intonation) group"; ObjectID = "mZB-dO-KVl"; Note = "the label for the 'major (intonation) group' key"; */
+"mZB-dO-KVl.text" = "major (intonation) group";
+
+/* Class = "UILabel"; text = "secondary stress"; ObjectID = "mmI-A3-WEG"; Note = "the label for the 'secondary stress' key"; */
+"mmI-A3-WEG.text" = "secondary stress";
+
+/* Class = "UILabel"; text = "primary stress"; ObjectID = "vAE-Mi-Wug"; Note = "the label for the 'primary stress' key"; */
+"vAE-Mi-Wug.text" = "primary stress";

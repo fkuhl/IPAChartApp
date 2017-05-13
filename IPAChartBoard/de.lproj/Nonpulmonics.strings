@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "dental/alveolar"; ObjectID = "0PL-sL-acX"; Note = "the label for the 'dental/alveolar ejective' example"; */
+"0PL-sL-acX.text" = "dental/alveolar";
+
+/* Class = "UILabel"; text = "velar"; ObjectID = "9V7-8I-eOU"; Note = "the label for the 'velar ejective' example"; */
+"9V7-8I-eOU.text" = "velar";
+
+/* Class = "UILabel"; text = "alveolar lateral click"; ObjectID = "9ub-p7-z0u"; Note = "the label for the 'alveolar lateral click' key"; */
+"9ub-p7-z0u.text" = "alveolar lateral click";
+
+/* Class = "UILabel"; text = "pʼ"; ObjectID = "BzU-8F-LiD"; Note = "no translation required"; */
+"BzU-8F-LiD.text" = "pʼ";
+
+/* Class = "UILabel"; text = "dental click"; ObjectID = "JeL-AX-Hft"; Note = "the label for the 'dental click' key"; */
+"JeL-AX-Hft.text" = "dental click";
+
+/* Class = "UILabel"; text = "dental/alveolar implosive"; ObjectID = "LpO-jh-ZQg"; Note = "the label for the 'dental/alveolar implosive' key"; */
+"LpO-jh-ZQg.text" = "dental/alveolar implosive";
+
+/* Class = "UILabel"; text = "(post)alveolar click"; ObjectID = "PP2-8J-cu3"; Note = "the label for the '(post)alveolar click' key"; */
+"PP2-8J-cu3.text" = "(post)alveolar click";
+
+/* Class = "UILabel"; text = "bilabial"; ObjectID = "PX3-6d-h9H"; Note = "the label for the 'bilabial ejective' example"; */
+"PX3-6d-h9H.text" = "bilabial";
+
+/* Class = "UILabel"; text = "palatal implosive"; ObjectID = "SOW-iP-ZRU"; Note = "the label for the 'palatal implosive' key"; */
+"SOW-iP-ZRU.text" = "palatal implosive";
+
+/* Class = "UILabel"; text = "kʼ"; ObjectID = "TEU-zy-EQv"; Note = "no translation required"; */
+"TEU-zy-EQv.text" = "kʼ";
+
+/* Class = "UILabel"; text = "velar implosive"; ObjectID = "U99-F9-Y8h"; Note = "the label for the 'velar implosive' key"; */
+"U99-F9-Y8h.text" = "velar implosive";
+
+/* Class = "UILabel"; text = "uvular implosive"; ObjectID = "Yj8-cY-7yh"; Note = "the label for the 'uvular implosive' key"; */
+"Yj8-cY-7yh.text" = "uvular implosive";
+
+/* Class = "UILabel"; text = "palatoalveolar click"; ObjectID = "YsF-Hf-6hL"; Note = "the label for the 'palatoalveolar click' key"; */
+"YsF-Hf-6hL.text" = "palatoalveolar click";
+
+/* Class = "UILabel"; text = "bilabial implosive"; ObjectID = "a0I-gL-e7k"; Note = "the label for the 'bilabial implosive' key"; */
+"a0I-gL-e7k.text" = "bilabial implosive";
+
+/* Class = "UILabel"; text = "kʼ"; ObjectID = "a0v-ge-f3d"; Note = "no translation required"; */
+"a0v-ge-f3d.text" = "kʼ";
+
+/* Class = "UILabel"; text = "sʼ"; ObjectID = "bEz-rn-8Iz"; Note = "no translation required"; */
+"bEz-rn-8Iz.text" = "sʼ";
+
+/* Class = "UILabel"; text = "tʼ"; ObjectID = "hbh-Qj-sGC"; Note = "no translation required"; */
+"hbh-Qj-sGC.text" = "tʼ";
+
+/* Class = "UILabel"; text = "pʼ"; ObjectID = "iCh-9a-JDq"; Note = "no translation required"; */
+"iCh-9a-JDq.text" = "pʼ";
+
+/* Class = "UILabel"; text = "ejectives examples:"; ObjectID = "oge-ug-X67"; Note = "the label for the 'ejectives examples:"; */
+"oge-ug-X67.text" = "ejectives examples:";
+
+/* Class = "UILabel"; text = "alveolar fricative"; ObjectID = "qqJ-K5-25M"; Note = "the label for the alveolar fricative ejective' example"; */
+"qqJ-K5-25M.text" = "alveolar fricative";
+
+/* Class = "UILabel"; text = "bilabial click"; ObjectID = "vAE-Mi-Wug"; Note = "the label for the 'bilabial click' key"; */
+"vAE-Mi-Wug.text" = "bilabial click";
+
+/* Class = "UILabel"; text = "sʼ"; ObjectID = "yhS-qJ-jVC"; Note = "no translation required"; */
+"yhS-qJ-jVC.text" = "sʼ";
+
+/* Class = "UILabel"; text = "tʼ"; ObjectID = "zga-xg-m0b"; Note = "no translation required"; */
+"zga-xg-m0b.text" = "tʼ";

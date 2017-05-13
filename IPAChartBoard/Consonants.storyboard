@@ -25,7 +25,54 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JGL-q5-POl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1077.717391304348" y="-1294.2028985507247"/>
+            <point key="canvasLocation" x="-1084" y="-1395"/>
+        </scene>
+        <!--Consonants Compact Wide-->
+        <scene sceneID="J9e-Bm-3lT">
+            <objects>
+                <viewController storyboardIdentifier="compactWide" id="A2v-bM-5vk" userLabel="Consonants Compact Wide" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="niC-Zf-eon"/>
+                        <viewControllerLayoutGuide type="bottom" id="xKI-iO-Q87"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Fv-Uh-5kc">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="elm-bC-MqB">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <subviews>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBj-UV-M4k">
+                                        <rect key="frame" x="0.0" y="0.0" width="400" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="hUB-mb-OX5"/>
+                                            <constraint firstAttribute="width" constant="400" id="re3-ex-rtj"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="3rM-RJ-yhn" kind="embed" id="iqA-NX-uFl"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="RBj-UV-M4k" firstAttribute="top" secondItem="elm-bC-MqB" secondAttribute="top" id="5v8-tq-v7u"/>
+                                    <constraint firstItem="RBj-UV-M4k" firstAttribute="leading" secondItem="elm-bC-MqB" secondAttribute="leading" id="Ant-mR-jmn"/>
+                                    <constraint firstAttribute="trailing" secondItem="RBj-UV-M4k" secondAttribute="trailing" id="BR2-oe-wyy"/>
+                                    <constraint firstAttribute="bottom" secondItem="RBj-UV-M4k" secondAttribute="bottom" id="iho-ZX-OA4"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="elm-bC-MqB" firstAttribute="top" secondItem="9Fv-Uh-5kc" secondAttribute="top" id="DZs-w8-s07"/>
+                            <constraint firstAttribute="trailing" secondItem="elm-bC-MqB" secondAttribute="trailing" id="Emi-90-Ajg"/>
+                            <constraint firstItem="elm-bC-MqB" firstAttribute="leading" secondItem="9Fv-Uh-5kc" secondAttribute="leading" id="R5w-wd-BBw"/>
+                            <constraint firstItem="xKI-iO-Q87" firstAttribute="top" secondItem="elm-bC-MqB" secondAttribute="bottom" id="Xpx-Or-ZWV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29Y-s4-NxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1085.9154929577464" y="-660"/>
         </scene>
         <!--Consonants Regular-->
         <scene sceneID="zNl-de-vVx">
@@ -72,22 +119,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BrL-89-NVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1686" y="-536"/>
+            <point key="canvasLocation" x="-1863" y="-660"/>
         </scene>
-        <!--Consonants Compact Wide-->
+        <!--Consonants Compact Wide Content-->
         <scene sceneID="ZMg-OO-xcD">
             <objects>
-                <viewController storyboardIdentifier="compactWide" id="3rM-RJ-yhn" userLabel="Consonants Compact Wide" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="compactWideContent" id="3rM-RJ-yhn" userLabel="Consonants Compact Wide Content" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IO4-Kt-mcl"/>
                         <viewControllerLayoutGuide type="bottom" id="Kqb-Kx-s1Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="w5t-8e-Wll">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mkz-RD-buY" userLabel="plosive" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="28" width="84" height="40"/>
+                                <rect key="frame" x="20" y="8" width="84" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="84" id="JJW-us-cdx"/>
@@ -100,7 +147,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l0E-pw-1FQ" userLabel="nasal" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="260" y="28" width="105" height="40"/>
+                                <rect key="frame" x="260" y="8" width="105" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="DvD-tw-fQh"/>
@@ -113,7 +160,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrC-jC-oI2" userLabel="B" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="72" width="40" height="40"/>
+                                <rect key="frame" x="20" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="J82-jC-JSQ"/>
@@ -131,7 +178,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hOK-7b-F6U" userLabel="v hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="160" width="40" height="40"/>
+                                <rect key="frame" x="20" y="140" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="MVP-1F-yKX"/>
@@ -148,7 +195,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9dG-ny-uwl" userLabel="l" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="260" y="160" width="29" height="40"/>
+                                <rect key="frame" x="260" y="140" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="VlR-mn-VNI"/>
@@ -164,7 +211,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ne8-ZZ-oD9" userLabel="r" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="72" width="40" height="40"/>
+                                <rect key="frame" x="64" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZxH-09-Zer"/>
@@ -180,7 +227,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pux-RB-QWY" userLabel="r turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="160" width="40" height="40"/>
+                                <rect key="frame" x="64" y="140" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="2jN-11-MgB"/>
@@ -196,7 +243,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rty-2e-XVO" userLabel="l retroflex" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="293" y="160" width="29" height="40"/>
+                                <rect key="frame" x="293" y="140" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IfF-Rn-9vN"/>
@@ -212,7 +259,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LOa-6y-YIg" userLabel="fricative" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="116" width="84" height="40"/>
+                                <rect key="frame" x="20" y="96" width="84" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="84" id="jQ0-LH-Mbe"/>
@@ -225,7 +272,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zcT-UF-wWI" userLabel="R" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="72" width="40" height="40"/>
+                                <rect key="frame" x="108" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="koB-q5-hHa"/>
@@ -241,7 +288,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDi-mR-KRF" userLabel="l belt" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="260" y="116" width="40" height="40"/>
+                                <rect key="frame" x="260" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="7Xg-wH-qPY"/>
@@ -257,7 +304,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGN-Wy-gJU" userLabel="hook V" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="260" y="72" width="40" height="40"/>
+                                <rect key="frame" x="260" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Lkl-bO-L0V"/>
@@ -273,7 +320,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbe-vo-p1a" userLabel="r fishhook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="304" y="72" width="40" height="40"/>
+                                <rect key="frame" x="304" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="5Dr-Ni-p5Y"/>
@@ -289,7 +336,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GT9-QG-hFL" userLabel="lezh" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="304" y="116" width="40" height="40"/>
+                                <rect key="frame" x="304" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Gjk-gR-N2M"/>
@@ -305,7 +352,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JCm-jr-9IT" userLabel="r tail" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="348" y="72" width="40" height="40"/>
+                                <rect key="frame" x="348" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="52e-i9-owE"/>
@@ -321,7 +368,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yVl-EF-yTF" userLabel="r turned hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="160" width="40" height="40"/>
+                                <rect key="frame" x="108" y="140" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="V2h-aX-DF5"/>
@@ -337,7 +384,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ecD-bO-VnV" userLabel="y turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="326" y="160" width="29" height="40"/>
+                                <rect key="frame" x="326" y="140" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="29" id="ANm-l9-huP"/>
@@ -353,7 +400,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y6M-rd-9Mu" userLabel="j" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="160" width="40" height="40"/>
+                                <rect key="frame" x="152" y="140" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GFb-cR-Us2"/>
@@ -369,7 +416,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qB-78-MlT" userLabel="m long leg" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="160" width="40" height="40"/>
+                                <rect key="frame" x="196" y="140" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="IqV-tZ-kxe"/>
@@ -385,7 +432,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ndf-EH-bz4" userLabel="l small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="359" y="160" width="29" height="40"/>
+                                <rect key="frame" x="359" y="140" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="29" id="D9J-Is-4aX"/>
@@ -445,10 +492,12 @@
                             <constraint firstItem="l0E-pw-1FQ" firstAttribute="top" secondItem="IO4-Kt-mcl" secondAttribute="bottom" constant="8" id="zgI-hX-GsJ"/>
                         </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="250"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p8G-s2-w6O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-739" y="-581"/>
+            <point key="canvasLocation" x="-1086" y="233"/>
         </scene>
         <!--plosive wide-->
         <scene sceneID="EAh-o5-e7V">
@@ -2251,7 +2300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tgU-b3-CUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1687" y="227"/>
+            <point key="canvasLocation" x="-1863" y="234"/>
         </scene>
         <!--Consonants Compact Narrow-->
         <scene sceneID="4Gs-s9-2gr">
