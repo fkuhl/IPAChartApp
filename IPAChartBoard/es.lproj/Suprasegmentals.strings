@@ -1,54 +1,54 @@
+/* Class = "UILabel"; text = "extra short"; ObjectID = "9ub-p7-z0u"; Note = "the label for the 'extra short' key"; */
+"9ub-p7-z0u.text" = "Extra breve";
 
 /* Class = "UILabel"; text = "long"; ObjectID = "68T-1O-DW8"; Note = "the label for the 'long' key"; */
-"68T-1O-DW8.text" = "long";
-
-/* Class = "UILabel"; text = "extra short"; ObjectID = "9ub-p7-z0u"; Note = "the label for the 'extra short' key"; */
-"9ub-p7-z0u.text" = "extra short";
+"68T-1O-DW8.text" = "Consonante geminada o vocal larga";
 
 /* Class = "UILabel"; text = "half-long"; ObjectID = "BOu-mE-vpe"; Note = "the label for the 'half-long' key"; */
-"BOu-mE-vpe.text" = "half-long";
+"BOu-mE-vpe.text" = "Semilarga";
 
 /* Class = "UILabel"; text = "secondary stress"; ObjectID = "JeL-AX-Hft"; Note = "the label for the 'secondary stress' key"; */
-"JeL-AX-Hft.text" = "secondary stress";
+"JeL-AX-Hft.text" = "Acento secundario";
 
 /* Class = "UILabel"; text = "primary stress"; ObjectID = "LOK-xu-4r0"; Note = "the label for the 'primary stress' key"; */
-"LOK-xu-4r0.text" = "primary stress";
+"LOK-xu-4r0.text" = "Acento primario";
 
 /* Class = "UILabel"; text = "major (intonation) group"; ObjectID = "LpO-jh-ZQg"; Note = "the label for the 'major (intonation) group' key"; */
-"LpO-jh-ZQg.text" = "major (intonation) group";
+"LpO-jh-ZQg.text" = "Ruptura mayor";
 
 /* Class = "UILabel"; text = "long"; ObjectID = "PP2-8J-cu3"; Note = "the label for the 'long' key"; */
-"PP2-8J-cu3.text" = "long";
+"PP2-8J-cu3.text" = "Consonante geminada o vocal larga";
 
 /* Class = "UILabel"; text = "syllable break"; ObjectID = "SOW-iP-ZRU"; Note = "the label for the 'syllable break' key"; */
-"SOW-iP-ZRU.text" = "syllable break";
+"SOW-iP-ZRU.text" = "Ruptura silábica";
 
 /* Class = "UILabel"; text = "linking (absence of a break)"; ObjectID = "U99-F9-Y8h"; Note = "the label for the 'linking (absence of a break)' key"; */
-"U99-F9-Y8h.text" = "linking (absence of a break)";
+"U99-F9-Y8h.text" = "Ausencia de ruptura";
 
 /* Class = "UILabel"; text = "syllable break"; ObjectID = "Wws-Wl-nom"; Note = "the label for the 'syllable break' key"; */
-"Wws-Wl-nom.text" = "syllable break";
+"Wws-Wl-nom.text" = "Ruptura silábica";
 
 /* Class = "UILabel"; text = "half-long"; ObjectID = "YsF-Hf-6hL"; Note = "the label for the 'half-long' key"; */
-"YsF-Hf-6hL.text" = "half-long";
+"YsF-Hf-6hL.text" = "Semilarga";
 
 /* Class = "UILabel"; text = "minor (foot) group"; ObjectID = "a0I-gL-e7k"; Note = "the label for the 'minor (foot) group' key"; */
-"a0I-gL-e7k.text" = "minor (foot) group";
+"a0I-gL-e7k.text" = "Ruptura menor";
 
 /* Class = "UILabel"; text = "minor (foot) group"; ObjectID = "em6-Vs-YpB"; Note = "the label for the 'minor (foot) group' key"; */
-"em6-Vs-YpB.text" = "minor (foot) group";
+"em6-Vs-YpB.text" = "Ruptura menor";
 
 /* Class = "UILabel"; text = "linking (absence of a break)"; ObjectID = "enN-Vm-ang"; Note = "the label for the 'linking (absence of a break)' key"; */
-"enN-Vm-ang.text" = "linking (absence of a break)";
+"enN-Vm-ang.text" = "Ausencia de ruptura";
 
 /* Class = "UILabel"; text = "extra short"; ObjectID = "hfl-JX-rWj"; Note = "the label for the 'extra short' key"; */
-"hfl-JX-rWj.text" = "extra short";
+"hfl-JX-rWj.text" = "Extra breve";
 
 /* Class = "UILabel"; text = "major (intonation) group"; ObjectID = "mZB-dO-KVl"; Note = "the label for the 'major (intonation) group' key"; */
-"mZB-dO-KVl.text" = "major (intonation) group";
+"mZB-dO-KVl.text" = "Ruptura mayor";
 
 /* Class = "UILabel"; text = "secondary stress"; ObjectID = "mmI-A3-WEG"; Note = "the label for the 'secondary stress' key"; */
-"mmI-A3-WEG.text" = "secondary stress";
+"mmI-A3-WEG.text" = "Acento secundario";
 
 /* Class = "UILabel"; text = "primary stress"; ObjectID = "vAE-Mi-Wug"; Note = "the label for the 'primary stress' key"; */
-"vAE-Mi-Wug.text" = "primary stress";
+"vAE-Mi-Wug.text" = "Acento primario";
+

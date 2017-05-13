@@ -123,6 +123,8 @@
 		27DCF2A51EC757A4003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Tones.strings; sourceTree = "<group>"; };
 		27E40F161EC75DEF0089C2E0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27E40F1B1EC75DF00089C2E0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27E40F1D1EC782D20089C2E0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27E40F1E1EC782D30089C2E0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27E7237C1EABEBC700173354 /* ChartKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartKind.swift; sourceTree = "<group>"; };
 		27E7237D1EABEBC700173354 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		27E7237E1EABEBC700173354 /* Consonants.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Consonants.storyboard; sourceTree = "<group>"; };
@@ -490,6 +492,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				27E40F161EC75DEF0089C2E0 /* de */,
+				27E40F1D1EC782D20089C2E0 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				27E40F1B1EC75DF00089C2E0 /* de */,
+				27E40F1E1EC782D30089C2E0 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
