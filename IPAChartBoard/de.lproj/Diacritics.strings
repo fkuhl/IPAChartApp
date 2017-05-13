@@ -1,186 +1,186 @@
-
-/* Class = "UILabel"; text = "labalized"; ObjectID = "10j-6Z-ZqU"; Note = "the label for the 'labalized' key"; */
-"10j-6Z-ZqU.text" = "labalized";
-
 /* Class = "UILabel"; text = "creaky voiced"; ObjectID = "1N0-qj-qOJ"; Note = "the label for the 'creaky voiced' key"; */
-"1N0-qj-qOJ.text" = "creaky voiced";
+"1N0-qj-qOJ.text" = "knarrig";
 
 /* Class = "UILabel"; text = "retracted"; ObjectID = "2bc-K3-FrX"; Note = "the label for the ''retracted' key"; */
-"2bc-K3-FrX.text" = "retracted";
+"2bc-K3-FrX.text" = "weiter hinten";
 
 /* Class = "UILabel"; text = "rhotic"; ObjectID = "4TW-D5-1rt"; Note = "the label for the ''rhotic' key"; */
-"4TW-D5-1rt.text" = "rhotic";
+"4TW-D5-1rt.text" = "rhotisch";
 
 /* Class = "UILabel"; text = "mid-centralized"; ObjectID = "6DX-CI-4wC"; Note = "the label for the ''mid-centralized' key"; */
-"6DX-CI-4wC.text" = "mid-centralized";
-
-/* Class = "UILabel"; text = "apical"; ObjectID = "70L-Yf-5g9"; Note = "the label for the 'apical' key"; */
-"70L-Yf-5g9.text" = "apical";
+"6DX-CI-4wC.text" = "zur Mitte zentralisiert";
 
 /* Class = "UILabel"; text = "linguolabial"; ObjectID = "9h3-5M-biC"; Note = "the label for the 'linguolabial' key"; */
 "9h3-5M-biC.text" = "linguolabial";
 
 /* Class = "UILabel"; text = "less rounded"; ObjectID = "9ub-p7-z0u"; Note = "the label for the 'less rounded' key"; */
-"9ub-p7-z0u.text" = "less rounded";
+"9ub-p7-z0u.text" = "weniger gerundet";
+
+/* Class = "UILabel"; text = "labalized"; ObjectID = "10j-6Z-ZqU"; Note = "the label for the 'labalized' key"; */
+"10j-6Z-ZqU.text" = "labialisiert";
+
+/* Class = "UILabel"; text = "apical"; ObjectID = "70L-Yf-5g9"; Note = "the label for the 'apical' key"; */
+"70L-Yf-5g9.text" = "apikal";
 
 /* Class = "UILabel"; text = "mid-centralized"; ObjectID = "BFh-lg-0K4"; Note = "the label for the ''mid-centralized' key"; */
-"BFh-lg-0K4.text" = "mid-centralized";
+"BFh-lg-0K4.text" = "zur Mitte zentralisiert";
 
 /* Class = "UILabel"; text = "creaky voiced"; ObjectID = "BwL-AK-lbO"; Note = "the label for the 'creaky voiced' key"; */
-"BwL-AK-lbO.text" = "creaky voiced";
+"BwL-AK-lbO.text" = "knarrig";
 
 /* Class = "UILabel"; text = "lateral release"; ObjectID = "D56-qL-9XY"; Note = "the label for the 'lateral release' key"; */
-"D56-qL-9XY.text" = "lateral release";
+"D56-qL-9XY.text" = "laterale Verschlusslösung";
 
 /* Class = "UILabel"; text = "nasalized"; ObjectID = "DQF-xc-Upc"; Note = "the label for the 'nasalized' key"; */
-"DQF-xc-Upc.text" = "nasalized";
+"DQF-xc-Upc.text" = "nasaliert";
 
 /* Class = "UILabel"; text = "velarized or pharyngealized"; ObjectID = "FNO-nV-wyH"; Note = "the label for the 'velarized or palatalized' key"; */
-"FNO-nV-wyH.text" = "velarized or pharyngealized";
+"FNO-nV-wyH.text" = "velarisiert oder pharyngalisiert";
 
 /* Class = "UILabel"; text = "centralized"; ObjectID = "FYN-FC-JzB"; Note = "the label for the ''centralized' key"; */
-"FYN-FC-JzB.text" = "centralized";
+"FYN-FC-JzB.text" = "zentralisiert";
 
 /* Class = "UILabel"; text = "less rounded"; ObjectID = "JXC-Tr-chM"; Note = "the label for the 'less rounded' key"; */
-"JXC-Tr-chM.text" = "less rounded";
+"JXC-Tr-chM.text" = "weniger gerundet";
 
 /* Class = "UILabel"; text = "voiced"; ObjectID = "Jly-wU-Qba"; Note = "the label for the 'voiced' key"; */
-"Jly-wU-Qba.text" = "voiced";
+"Jly-wU-Qba.text" = "stimmhaft";
 
 /* Class = "UILabel"; text = "velarized"; ObjectID = "MPs-CA-c82"; Note = "the label for the 'palatalized' key"; */
-"MPs-CA-c82.text" = "velarized";
+"MPs-CA-c82.text" = "velarisiert";
 
 /* Class = "UILabel"; text = "advanced"; ObjectID = "NwL-Mt-HKX"; Note = "the label for the 'retracted' key"; */
-"NwL-Mt-HKX.text" = "advanced";
+"NwL-Mt-HKX.text" = "weiter vorne";
 
 /* Class = "UILabel"; text = "aspirated"; ObjectID = "PP2-8J-cu3"; Note = "the label for the 'aspirated' key"; */
-"PP2-8J-cu3.text" = "aspirated";
+"PP2-8J-cu3.text" = "aspiriert";
 
 /* Class = "UILabel"; text = "advanced tongue root"; ObjectID = "PRu-pw-7oH"; Note = "the label for the 'advanced tongue root' key"; */
-"PRu-pw-7oH.text" = "advanced tongue root";
+"PRu-pw-7oH.text" = "vorverlagerte Zungenwurzel";
 
 /* Class = "UILabel"; text = "voiceless"; ObjectID = "Q2r-bV-dyY"; Note = "the label for the 'voiceless' key"; */
-"Q2r-bV-dyY.text" = "voiceless";
+"Q2r-bV-dyY.text" = "stimmlos";
 
 /* Class = "UILabel"; text = "dental"; ObjectID = "Q3f-Hf-wjI"; Note = "the label for the 'dental' key"; */
-"Q3f-Hf-wjI.text" = "dental";
+"Q3f-Hf-wjI.text" = "dentaler Klick";
 
 /* Class = "UILabel"; text = "lowered"; ObjectID = "QLz-yB-muv"; Note = "the label for the 'lowered' key"; */
-"QLz-yB-muv.text" = "lowered";
+"QLz-yB-muv.text" = "gesenkt";
 
 /* Class = "UILabel"; text = "advanced"; ObjectID = "QqX-i0-E6o"; Note = "the label for the 'retracted' key"; */
-"QqX-i0-E6o.text" = "advanced";
+"QqX-i0-E6o.text" = "weiter vorne";
 
 /* Class = "UILabel"; text = "palatalized"; ObjectID = "RtK-qE-ypS"; Note = "the label for the 'palatalized' key"; */
-"RtK-qE-ypS.text" = "palatalized";
+"RtK-qE-ypS.text" = "palatalisiert";
 
 /* Class = "UILabel"; text = "apical"; ObjectID = "Tv0-U7-o5p"; Note = "the label for the 'apical' key"; */
-"Tv0-U7-o5p.text" = "apical";
+"Tv0-U7-o5p.text" = "apikal";
 
 /* Class = "UILabel"; text = "syllabic"; ObjectID = "Tx1-0k-h4h"; Note = "the label for the ''syllabic' key"; */
-"Tx1-0k-h4h.text" = "syllabic";
+"Tx1-0k-h4h.text" = "silbisch";
 
 /* Class = "UILabel"; text = "nasal release"; ObjectID = "Utm-EP-7uN"; Note = "the label for the 'nasal release' key"; */
-"Utm-EP-7uN.text" = "nasal release";
+"Utm-EP-7uN.text" = "nasale Verschlusslösung";
 
 /* Class = "UILabel"; text = "advanced tongue root"; ObjectID = "UvM-cP-oew"; Note = "the label for the 'advanced tongue root' key"; */
-"UvM-cP-oew.text" = "advanced tongue root";
+"UvM-cP-oew.text" = "vorverlagerte Zungenwurzel";
 
 /* Class = "UILabel"; text = "dental"; ObjectID = "VSN-kk-s6H"; Note = "the label for the 'dental' key"; */
-"VSN-kk-s6H.text" = "dental";
+"VSN-kk-s6H.text" = "dentaler Klick";
 
 /* Class = "UILabel"; text = "pharyngealized"; ObjectID = "Vpd-jM-5qx"; Note = "the label for the 'palatalized' key"; */
-"Vpd-jM-5qx.text" = "pharyngealized";
+"Vpd-jM-5qx.text" = "pharyngalisiert";
 
 /* Class = "UILabel"; text = "laminal"; ObjectID = "YSh-gK-7DA"; Note = "the label for the 'laminal' key"; */
 "YSh-gK-7DA.text" = "laminal";
 
 /* Class = "UILabel"; text = "more rounded"; ObjectID = "YsF-Hf-6hL"; Note = "the label for the 'more rounded' key"; */
-"YsF-Hf-6hL.text" = "more rounded";
+"YsF-Hf-6hL.text" = "stärker gerundet";
 
 /* Class = "UILabel"; text = "voiced"; ObjectID = "ZXm-xC-UUl"; Note = "the label for the 'voiced' key"; */
-"ZXm-xC-UUl.text" = "voiced";
+"ZXm-xC-UUl.text" = "stimmhaft";
 
 /* Class = "UILabel"; text = "laminal"; ObjectID = "b8I-X4-Zzh"; Note = "the label for the 'laminal' key"; */
 "b8I-X4-Zzh.text" = "laminal";
 
 /* Class = "UILabel"; text = "non-syllabic"; ObjectID = "blA-te-8mO"; Note = "the label for the ''non-syllabic' key"; */
-"blA-te-8mO.text" = "non-syllabic";
+"blA-te-8mO.text" = "nichtsilbisch";
 
 /* Class = "UILabel"; text = "velarized"; ObjectID = "c1f-Cg-pmE"; Note = "the label for the 'palatalized' key"; */
-"c1f-Cg-pmE.text" = "velarized";
+"c1f-Cg-pmE.text" = "velarisiert";
 
 /* Class = "UILabel"; text = "pharyngealized"; ObjectID = "dFb-iN-f61"; Note = "the label for the 'palatalized' key"; */
-"dFb-iN-f61.text" = "pharyngealized";
+"dFb-iN-f61.text" = "pharyngalisiert";
 
 /* Class = "UILabel"; text = "non-syllabic"; ObjectID = "f3j-gE-Xga"; Note = "the label for the ''non-syllabic' key"; */
-"f3j-gE-Xga.text" = "non-syllabic";
+"f3j-gE-Xga.text" = "nichtsilbisch";
 
 /* Class = "UILabel"; text = "raised"; ObjectID = "fa1-pt-er1"; Note = "the label for the 'velarized or palatalized' key"; */
-"fa1-pt-er1.text" = "raised";
+"fa1-pt-er1.text" = "angehoben";
 
 /* Class = "UILabel"; text = "lateral release"; ObjectID = "fdY-XL-P9F"; Note = "the label for the 'lateral release' key"; */
-"fdY-XL-P9F.text" = "lateral release";
+"fdY-XL-P9F.text" = "laterale Verschlusslösung";
 
 /* Class = "UILabel"; text = "nasal release"; ObjectID = "gx8-ZU-fc6"; Note = "the label for the 'nasal release' key"; */
-"gx8-ZU-fc6.text" = "nasal release";
+"gx8-ZU-fc6.text" = "nasale Verschlusslösung";
 
 /* Class = "UILabel"; text = "labalized"; ObjectID = "hhS-hL-SAk"; Note = "the label for the 'labalized' key"; */
-"hhS-hL-SAk.text" = "labalized";
+"hhS-hL-SAk.text" = "labialisiert";
 
 /* Class = "UILabel"; text = "breathy voiced"; ObjectID = "jCw-tG-a6t"; Note = "the label for the 'breathy voiced' key"; */
-"jCw-tG-a6t.text" = "breathy voiced";
+"jCw-tG-a6t.text" = "behaucht";
 
 /* Class = "UILabel"; text = "velarized or pharyngealized"; ObjectID = "k4v-R2-MLH"; Note = "the label for the 'velarized or palatalized' key"; */
-"k4v-R2-MLH.text" = "velarized or pharyngealized";
+"k4v-R2-MLH.text" = "velarisiert oder pharyngalisiert";
 
 /* Class = "UILabel"; text = "lowered"; ObjectID = "kOi-yh-gGb"; Note = "the label for the 'lowered' key"; */
-"kOi-yh-gGb.text" = "lowered";
+"kOi-yh-gGb.text" = "gesenkt";
 
 /* Class = "UILabel"; text = "rhotic"; ObjectID = "kbe-Ar-Cdo"; Note = "the label for the ''rhotic' key"; */
-"kbe-Ar-Cdo.text" = "rhotic";
+"kbe-Ar-Cdo.text" = "rhotisch";
 
 /* Class = "UILabel"; text = "nasalized"; ObjectID = "lib-rT-mwT"; Note = "the label for the 'nasalized' key"; */
-"lib-rT-mwT.text" = "nasalized";
+"lib-rT-mwT.text" = "nasaliert";
 
 /* Class = "UILabel"; text = "more rounded"; ObjectID = "oDZ-AB-Cc1"; Note = "the label for the 'more rounded' key"; */
-"oDZ-AB-Cc1.text" = "more rounded";
+"oDZ-AB-Cc1.text" = "stärker gerundet";
 
 /* Class = "UILabel"; text = "palatalized"; ObjectID = "plJ-X4-oNS"; Note = "the label for the 'palatalized' key"; */
-"plJ-X4-oNS.text" = "palatalized";
+"plJ-X4-oNS.text" = "palatalisiert";
 
 /* Class = "UILabel"; text = "centralized"; ObjectID = "qhb-VY-ahJ"; Note = "the label for the ''centralized' key"; */
-"qhb-VY-ahJ.text" = "centralized";
+"qhb-VY-ahJ.text" = "zentralisiert";
 
 /* Class = "UILabel"; text = "no audible release"; ObjectID = "qjv-vA-YgG"; Note = "the label for the 'no audible release' key"; */
-"qjv-vA-YgG.text" = "no audible release";
+"qjv-vA-YgG.text" = "keine hörbare Verschlusslösung";
 
 /* Class = "UILabel"; text = "linguolabial"; ObjectID = "rz1-hO-WNq"; Note = "the label for the 'linguolabial' key"; */
 "rz1-hO-WNq.text" = "linguolabial";
 
 /* Class = "UILabel"; text = "aspirated"; ObjectID = "tBS-gx-Vff"; Note = "the label for the 'aspirated' key"; */
-"tBS-gx-Vff.text" = "aspirated";
+"tBS-gx-Vff.text" = "aspiriert";
 
 /* Class = "UILabel"; text = "retracted tongue root"; ObjectID = "uRj-9a-gWJ"; Note = "the label for the 'retracted tongue root' key"; */
-"uRj-9a-gWJ.text" = "retracted tongue root";
+"uRj-9a-gWJ.text" = "zurückverlagerte Zungenwurzel";
 
 /* Class = "UILabel"; text = "voiceless"; ObjectID = "vAE-Mi-Wug"; Note = "the label for the 'voiceless' key"; */
-"vAE-Mi-Wug.text" = "voiceless";
+"vAE-Mi-Wug.text" = "stimmlos";
 
 /* Class = "UILabel"; text = "syllabic"; ObjectID = "vTb-Xm-a7f"; Note = "the label for the ''syllabic' key"; */
-"vTb-Xm-a7f.text" = "syllabic";
+"vTb-Xm-a7f.text" = "silbisch";
 
 /* Class = "UILabel"; text = "breathy voiced"; ObjectID = "voB-jr-fvN"; Note = "the label for the 'breathy voiced' key"; */
-"voB-jr-fvN.text" = "breathy voiced";
+"voB-jr-fvN.text" = "behaucht";
 
 /* Class = "UILabel"; text = "raised"; ObjectID = "wFI-26-F0V"; Note = "the label for the 'velarized or palatalized' key"; */
-"wFI-26-F0V.text" = "raised";
+"wFI-26-F0V.text" = "angehoben";
 
 /* Class = "UILabel"; text = "retracted"; ObjectID = "wfW-Kd-gTc"; Note = "the label for the ''retracted' key"; */
-"wfW-Kd-gTc.text" = "retracted";
+"wfW-Kd-gTc.text" = "weiter hinten";
 
 /* Class = "UILabel"; text = "no audible release"; ObjectID = "xVO-eQ-qFA"; Note = "the label for the 'no audible release' key"; */
-"xVO-eQ-qFA.text" = "no audible release";
+"xVO-eQ-qFA.text" = "keine hörbare Verschlusslösung";
 
 /* Class = "UILabel"; text = "retracted tongue root"; ObjectID = "ydK-ss-fuz"; Note = "the label for the 'retracted tongue root' key"; */
-"ydK-ss-fuz.text" = "retracted tongue root";
+"ydK-ss-fuz.text" = "zurückverlagerte Zungenwurzel";
+

@@ -29,6 +29,8 @@
 		27DCF28B1EC7572C003B6970 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF28D1EC7572C003B6970 /* Other.storyboard */; };
 		27DCF2941EC75764003B6970 /* Suprasegmentals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF2961EC75764003B6970 /* Suprasegmentals.storyboard */; };
 		27DCF29D1EC75794003B6970 /* Tones.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF29F1EC75794003B6970 /* Tones.storyboard */; };
+		27E40F151EC75DEF0089C2E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27E40F171EC75DEF0089C2E0 /* InfoPlist.strings */; };
+		27E40F1A1EC75DF00089C2E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27E40F1C1EC75DF00089C2E0 /* InfoPlist.strings */; };
 		27E723951EABEBC700173354 /* ChartKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7237C1EABEBC700173354 /* ChartKind.swift */; };
 		27E723961EABEBC700173354 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7237D1EABEBC700173354 /* ChartViewController.swift */; };
 		27E723971EABEBC700173354 /* Consonants.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E7237E1EABEBC700173354 /* Consonants.storyboard */; };
@@ -119,6 +121,8 @@
 		27DCF2A11EC7579B003B6970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Tones.strings; sourceTree = "<group>"; };
 		27DCF2A31EC7579F003B6970 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Tones.strings; sourceTree = "<group>"; };
 		27DCF2A51EC757A4003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Tones.strings; sourceTree = "<group>"; };
+		27E40F161EC75DEF0089C2E0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27E40F1B1EC75DF00089C2E0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27E7237C1EABEBC700173354 /* ChartKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartKind.swift; sourceTree = "<group>"; };
 		27E7237D1EABEBC700173354 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		27E7237E1EABEBC700173354 /* Consonants.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Consonants.storyboard; sourceTree = "<group>"; };
@@ -196,6 +200,7 @@
 		27818AA41EA92EA70018CBA3 /* IPAChartApp */ = {
 			isa = PBXGroup;
 			children = (
+				27E40F1C1EC75DF00089C2E0 /* InfoPlist.strings */,
 				27818AA51EA92EA70018CBA3 /* AppDelegate.swift */,
 				27818AA71EA92EA70018CBA3 /* ViewController.swift */,
 				27818AA91EA92EA70018CBA3 /* Main.storyboard */,
@@ -209,6 +214,7 @@
 		27818ABC1EA92F540018CBA3 /* IPAChartBoard */ = {
 			isa = PBXGroup;
 			children = (
+				27E40F171EC75DEF0089C2E0 /* InfoPlist.strings */,
 				27E7237C1EABEBC700173354 /* ChartKind.swift */,
 				27E7237D1EABEBC700173354 /* ChartViewController.swift */,
 				27E7237E1EABEBC700173354 /* Consonants.storyboard */,
@@ -326,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27818AB01EA92EA70018CBA3 /* LaunchScreen.storyboard in Resources */,
+				27E40F1A1EC75DF00089C2E0 /* InfoPlist.strings in Resources */,
 				27818AAD1EA92EA70018CBA3 /* Assets.xcassets in Resources */,
 				27818AAB1EA92EA70018CBA3 /* Main.storyboard in Resources */,
 			);
@@ -336,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				275B3A5F1EA930A1005CDBF1 /* 764-arrow-down@2x.png in Resources */,
+				27E40F151EC75DEF0089C2E0 /* InfoPlist.strings in Resources */,
 				275B3A5C1EA930A1005CDBF1 /* 748-heart@2x.png in Resources */,
 				27DCF28B1EC7572C003B6970 /* Other.storyboard in Resources */,
 				27E723991EABEBC700173354 /* Favorites.storyboard in Resources */,
@@ -476,6 +484,22 @@
 				27DCF2A51EC757A4003B6970 /* es */,
 			);
 			name = Tones.storyboard;
+			sourceTree = "<group>";
+		};
+		27E40F171EC75DEF0089C2E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E40F161EC75DEF0089C2E0 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27E40F1C1EC75DF00089C2E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E40F1B1EC75DF00089C2E0 /* de */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
