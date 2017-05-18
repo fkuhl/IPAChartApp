@@ -17,13 +17,21 @@
 		275B3A5F1EA930A1005CDBF1 /* 764-arrow-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A551EA930A1005CDBF1 /* 764-arrow-down@2x.png */; };
 		275B3A601EA930A1005CDBF1 /* 764-arrow-down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A561EA930A1005CDBF1 /* 764-arrow-down@3x.png */; };
 		275B3A611EA930A1005CDBF1 /* CharisSIL-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */; };
+		276F90F51ECD154C006C4C5A /* app-index.html in Resources */ = {isa = PBXBuildFile; fileRef = 276F90F41ECD154C006C4C5A /* app-index.html */; };
+		276F90F61ECD16E5006C4C5A /* 715-globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A4E1EA930A1005CDBF1 /* 715-globe.png */; };
 		27818AA61EA92EA70018CBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818AA51EA92EA70018CBA3 /* AppDelegate.swift */; };
-		27818AA81EA92EA70018CBA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818AA71EA92EA70018CBA3 /* ViewController.swift */; };
+		27818AA81EA92EA70018CBA3 /* CarryingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818AA71EA92EA70018CBA3 /* CarryingViewController.swift */; };
 		27818AAB1EA92EA70018CBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27818AA91EA92EA70018CBA3 /* Main.storyboard */; };
 		27818AAD1EA92EA70018CBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27818AAC1EA92EA70018CBA3 /* Assets.xcassets */; };
 		27818AB01EA92EA70018CBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27818AAE1EA92EA70018CBA3 /* LaunchScreen.storyboard */; };
 		27818ABE1EA92F540018CBA3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */; };
 		27818AC21EA92F540018CBA3 /* IPAChartBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		278CB5C51ECE294B00EDFABB /* 765-arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5BF1ECE294B00EDFABB /* 765-arrow-left.png */; };
+		278CB5C61ECE294B00EDFABB /* 765-arrow-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5C01ECE294B00EDFABB /* 765-arrow-left@2x.png */; };
+		278CB5C71ECE294B00EDFABB /* 765-arrow-left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5C11ECE294B00EDFABB /* 765-arrow-left@3x.png */; };
+		278CB5C81ECE294B00EDFABB /* 766-arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5C21ECE294B00EDFABB /* 766-arrow-right.png */; };
+		278CB5C91ECE294B00EDFABB /* 766-arrow-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5C31ECE294B00EDFABB /* 766-arrow-right@2x.png */; };
+		278CB5CA1ECE294B00EDFABB /* 766-arrow-right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5C41ECE294B00EDFABB /* 766-arrow-right@3x.png */; };
 		27DCF2791EC75642003B6970 /* Diacritics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF27B1EC75642003B6970 /* Diacritics.storyboard */; };
 		27DCF2821EC756E4003B6970 /* Nonpulmonics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF2841EC756E4003B6970 /* Nonpulmonics.storyboard */; };
 		27DCF28B1EC7572C003B6970 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DCF28D1EC7572C003B6970 /* Other.storyboard */; };
@@ -89,9 +97,10 @@
 		275B3A551EA930A1005CDBF1 /* 764-arrow-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "764-arrow-down@2x.png"; sourceTree = "<group>"; };
 		275B3A561EA930A1005CDBF1 /* 764-arrow-down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "764-arrow-down@3x.png"; sourceTree = "<group>"; };
 		275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CharisSIL-R.ttf"; sourceTree = "<group>"; };
+		276F90F41ECD154C006C4C5A /* app-index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "app-index.html"; sourceTree = "<group>"; };
 		27818AA21EA92EA70018CBA3 /* IPAChartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPAChartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27818AA51EA92EA70018CBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27818AA71EA92EA70018CBA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27818AA71EA92EA70018CBA3 /* CarryingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarryingViewController.swift; sourceTree = "<group>"; };
 		27818AAA1EA92EA70018CBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27818AAC1EA92EA70018CBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27818AAF1EA92EA70018CBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,6 +108,12 @@
 		27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IPAChartBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		27818ABF1EA92F540018CBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278CB5BF1ECE294B00EDFABB /* 765-arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "765-arrow-left.png"; sourceTree = "<group>"; };
+		278CB5C01ECE294B00EDFABB /* 765-arrow-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "765-arrow-left@2x.png"; sourceTree = "<group>"; };
+		278CB5C11ECE294B00EDFABB /* 765-arrow-left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "765-arrow-left@3x.png"; sourceTree = "<group>"; };
+		278CB5C21ECE294B00EDFABB /* 766-arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "766-arrow-right.png"; sourceTree = "<group>"; };
+		278CB5C31ECE294B00EDFABB /* 766-arrow-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "766-arrow-right@2x.png"; sourceTree = "<group>"; };
+		278CB5C41ECE294B00EDFABB /* 766-arrow-right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "766-arrow-right@3x.png"; sourceTree = "<group>"; };
 		27DCF2771EC75477003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		27DCF2781EC75477003B6970 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		27DCF27A1EC75642003B6970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Diacritics.storyboard; sourceTree = "<group>"; };
@@ -202,9 +217,10 @@
 		27818AA41EA92EA70018CBA3 /* IPAChartApp */ = {
 			isa = PBXGroup;
 			children = (
+				278CB5CB1ECE295900EDFABB /* Resource */,
 				27E40F1C1EC75DF00089C2E0 /* InfoPlist.strings */,
 				27818AA51EA92EA70018CBA3 /* AppDelegate.swift */,
-				27818AA71EA92EA70018CBA3 /* ViewController.swift */,
+				27818AA71EA92EA70018CBA3 /* CarryingViewController.swift */,
 				27818AA91EA92EA70018CBA3 /* Main.storyboard */,
 				27818AAC1EA92EA70018CBA3 /* Assets.xcassets */,
 				27818AAE1EA92EA70018CBA3 /* LaunchScreen.storyboard */,
@@ -246,6 +262,20 @@
 				27E723941EABEBC700173354 /* Vowels.storyboard */,
 			);
 			path = IPAChartBoard;
+			sourceTree = "<group>";
+		};
+		278CB5CB1ECE295900EDFABB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				278CB5BF1ECE294B00EDFABB /* 765-arrow-left.png */,
+				278CB5C01ECE294B00EDFABB /* 765-arrow-left@2x.png */,
+				278CB5C11ECE294B00EDFABB /* 765-arrow-left@3x.png */,
+				278CB5C21ECE294B00EDFABB /* 766-arrow-right.png */,
+				278CB5C31ECE294B00EDFABB /* 766-arrow-right@2x.png */,
+				278CB5C41ECE294B00EDFABB /* 766-arrow-right@3x.png */,
+				276F90F41ECD154C006C4C5A /* app-index.html */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,10 +363,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276F90F61ECD16E5006C4C5A /* 715-globe.png in Resources */,
 				27818AB01EA92EA70018CBA3 /* LaunchScreen.storyboard in Resources */,
+				278CB5CA1ECE294B00EDFABB /* 766-arrow-right@3x.png in Resources */,
 				27E40F1A1EC75DF00089C2E0 /* InfoPlist.strings in Resources */,
 				27818AAD1EA92EA70018CBA3 /* Assets.xcassets in Resources */,
+				278CB5C61ECE294B00EDFABB /* 765-arrow-left@2x.png in Resources */,
+				276F90F51ECD154C006C4C5A /* app-index.html in Resources */,
+				278CB5C51ECE294B00EDFABB /* 765-arrow-left.png in Resources */,
 				27818AAB1EA92EA70018CBA3 /* Main.storyboard in Resources */,
+				278CB5C81ECE294B00EDFABB /* 766-arrow-right.png in Resources */,
+				278CB5C71ECE294B00EDFABB /* 765-arrow-left@3x.png in Resources */,
+				278CB5C91ECE294B00EDFABB /* 766-arrow-right@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27818AA81EA92EA70018CBA3 /* ViewController.swift in Sources */,
+				27818AA81EA92EA70018CBA3 /* CarryingViewController.swift in Sources */,
 				27818AA61EA92EA70018CBA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
