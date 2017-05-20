@@ -39,12 +39,12 @@ class CarryingViewController: UIViewController, UIWebViewDelegate {
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
-        print ("finished load")
+        //print ("finished load")
         updateButtons()
     }
     
     private func updateButtons() {
-        print("update. fwd:\(webView!.canGoForward) back:\(webView!.canGoForward)")
+        //print("update. fwd:\(webView!.canGoForward) back:\(webView!.canGoForward)")
         forward?.isEnabled = (webView?.canGoForward)!
         back?.isEnabled = (webView?.canGoBack)!
     }

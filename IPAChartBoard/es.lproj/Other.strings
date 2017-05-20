@@ -5,7 +5,7 @@
 "JeL-AX-Hft.text" = "Aproximante velar labializada sonora";
 
 /* Class = "UILabel"; text = "alveolar lateral flap"; ObjectID = "LpO-jh-ZQg"; Note = "the label for the 'alveolar lateral flap' key"; */
-"LpO-jh-ZQg.text" = "Vibrante simple lateral alveolar";
+"LpO-jh-ZQg.text" = "Vibrante simple alveolar lateral";
 
 /* Class = "UILabel"; text = "voiced labial-palatal approximant"; ObjectID = "PP2-8J-cu3"; Note = "the label for the 'voiced labial-palatal approximantr' key"; */
 "PP2-8J-cu3.text" = "Aproximante palatal labializada sonora";
@@ -20,7 +20,7 @@
 "Udt-hA-4B3.text" = "Oclusiva epiglotal";
 
 /* Class = "UILabel"; text = "voiceless epiglottal fricative"; ObjectID = "YsF-Hf-6hL"; Note = "the label for the 'voiceless epiglottal fricative' key"; */
-"YsF-Hf-6hL.text" = "Vibrante múltiple epiglotal";
+"YsF-Hf-6hL.text" = "Fricativa epiglotal sorda";
 
 /* Class = "UILabel"; text = "alveolo-palatal fricatives"; ObjectID = "a0I-gL-e7k"; Note = "the label for the 'alveolo-palatal fricatives' key"; */
 "a0I-gL-e7k.text" = "Fricativa postalveolar palatalizada (alveolo-palatal) sorda, sonora";
