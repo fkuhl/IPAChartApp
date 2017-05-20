@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -9,31 +9,67 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Carrying View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IPAChartApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="main" id="BYZ-38-t0r" customClass="CarryingViewController" customModule="IPAChartApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4j-ii-Cit">
-                                <rect key="frame" x="16" y="20" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOf-rc-9au">
+                                <rect key="frame" x="0.0" y="20" width="768" height="960"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ds-Se-NCD">
+                                <rect key="frame" x="0.0" y="980" width="768" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="nwj-f6-xld"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem image="765-arrow-left" style="plain" id="IvS-1x-Syt" userLabel="rewind">
+                                        <connections>
+                                            <action selector="goBack:" destination="BYZ-38-t0r" id="wHe-Dr-Z0a"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Sgu-MV-PCT"/>
+                                    <barButtonItem image="766-arrow-right" style="plain" id="ZDg-d9-Z8R" userLabel="ffwd">
+                                        <connections>
+                                            <action selector="goForward:" destination="BYZ-38-t0r" id="8yP-YD-XtI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YOf-rc-9au" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="68z-Qx-XVS"/>
+                            <constraint firstItem="1ds-Se-NCD" firstAttribute="top" secondItem="YOf-rc-9au" secondAttribute="bottom" id="AyL-FD-3aH"/>
+                            <constraint firstItem="1ds-Se-NCD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ChW-dg-tz5"/>
+                            <constraint firstAttribute="trailing" secondItem="YOf-rc-9au" secondAttribute="trailing" id="GUb-PA-OZm"/>
+                            <constraint firstItem="YOf-rc-9au" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Pvx-fT-qoL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1ds-Se-NCD" secondAttribute="bottom" id="e3n-RU-K4h"/>
+                            <constraint firstAttribute="trailing" secondItem="1ds-Se-NCD" secondAttribute="trailing" id="r8e-Rs-cV4"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="back" destination="IvS-1x-Syt" id="ZBK-o6-SmG"/>
+                        <outlet property="forward" destination="ZDg-d9-Z8R" id="Qv3-3l-B6c"/>
+                        <outlet property="webView" destination="YOf-rc-9au" id="EtE-A6-wE8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="765-arrow-left" width="14" height="28"/>
+        <image name="766-arrow-right" width="14" height="28"/>
+    </resources>
+    <color key="tintColor" red="0.18788509070000001" green="0.49808165430000001" blue="0.24038209020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
