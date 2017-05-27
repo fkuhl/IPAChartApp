@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>CharisSIL-R.ttf</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -21,13 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSExtension</key>
 	<dict>
-		<key>NSExtensionMainStoryboard</key>
-		<string>Keyboard</string>
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>IsASCIICapable</key>
@@ -39,8 +33,14 @@
 			<key>RequestsOpenAccess</key>
 			<false/>
 		</dict>
+		<key>NSExtensionMainStoryboard</key>
+		<string>Keyboard</string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.keyboard-service</string>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CharisSIL-R.ttf</string>
+	</array>
 </dict>
 </plist>
