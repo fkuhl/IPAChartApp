@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ufs-Zx-eo0">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ufs-Zx-eo0">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -23,185 +23,251 @@
                         <viewControllerLayoutGuide type="bottom" id="10p-1z-GPO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="neg-rm-dcQ" customClass="UIInputView">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="1ny-c9-XWO" userLabel="left stack">
-                                <rect key="frame" x="8" y="637" width="293" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-Zw-hok">
+                                <rect key="frame" x="4" y="556" width="5.5" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo8-BC-XO7" userLabel="Globe">
+                                <rect key="frame" x="16" y="538" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3O3-5X-JtV"/>
+                                    <constraint firstAttribute="width" constant="30" id="pQ6-Ey-ab5"/>
+                                </constraints>
+                                <state key="normal" image="715-globe.png"/>
+                                <connections>
+                                    <action selector="globeTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="nVK-ne-zUm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aX-te-IzI" userLabel="Heart">
+                                <rect key="frame" x="46" y="538" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="HfY-qP-gO1"/>
+                                    <constraint firstAttribute="height" constant="30" id="IL9-3O-dBb"/>
+                                </constraints>
+                                <state key="normal" image="748-heart.png"/>
+                                <connections>
+                                    <action selector="heartTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="dUT-ZO-G0J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMb-Vx-SrI" userLabel="space">
+                                <rect key="frame" x="184" y="538" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Wqe-VB-8MY"/>
+                                    <constraint firstAttribute="height" constant="30" id="sGS-FJ-tAi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="␠"/>
+                                <connections>
+                                    <action selector="spaceTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="XU0-YA-HXh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj9-FX-rgV" userLabel="carriage return">
+                                <rect key="frame" x="244" y="538" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2bC-4L-mxj"/>
+                                    <constraint firstAttribute="width" constant="30" id="Tgd-fH-pWo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="⏎"/>
+                                <connections>
+                                    <action selector="backspaceTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="DEK-yU-DDb"/>
+                                    <action selector="carriageReturnTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="Rwr-6W-MgD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yt-nb-Kyv" userLabel="down-arrow">
+                                <rect key="frame" x="274" y="538" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9CJ-CK-beE"/>
+                                    <constraint firstAttribute="width" constant="30" id="TpG-c9-Uy9"/>
+                                </constraints>
+                                <state key="normal" image="764-arrow-down.png"/>
+                                <connections>
+                                    <action selector="downArrowTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="X01-Zh-edu"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="or2-3S-QhE" userLabel="Content">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="530"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxC-aV-93j" userLabel="123">
+                                <rect key="frame" x="76" y="538" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Qr1-ry-V1X"/>
+                                    <constraint firstAttribute="height" constant="30" id="Z6C-Ks-bz0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="17"/>
+                                <state key="normal" title=" ¹2₃"/>
+                                <connections>
+                                    <action selector="numbersTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="cyo-UN-zxc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OF-cf-6Wx" userLabel="backspace">
+                                <rect key="frame" x="214" y="538" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="8BH-XP-WGV"/>
+                                    <constraint firstAttribute="height" constant="30" id="aHq-9h-VDs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="⌫"/>
+                                <connections>
+                                    <action selector="backspaceTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="KSq-a1-CZK"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="hof-pv-nRt">
+                                <rect key="frame" x="110" y="384" width="210" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo8-BC-XO7" userLabel="Globe">
-                                        <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYB-3A-gIG" userLabel="consonants">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="GYV-Ug-X2f"/>
-                                            <constraint firstAttribute="width" constant="22" id="QgL-Ix-v8i"/>
-                                        </constraints>
-                                        <state key="normal" image="715-globe.png"/>
-                                        <connections>
-                                            <action selector="globeTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="nVK-ne-zUm"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aX-te-IzI" userLabel="Heart">
-                                        <rect key="frame" x="28.5" y="0.0" width="22" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="22" id="ekq-kw-OcG"/>
-                                            <constraint firstAttribute="height" constant="22" id="pFO-Ko-jfP"/>
-                                        </constraints>
-                                        <state key="normal" image="748-heart.png"/>
-                                        <connections>
-                                            <action selector="heartTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="dUT-ZO-G0J"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxC-aV-93j" userLabel="123">
-                                        <rect key="frame" x="53" y="0.0" width="30" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="ckb-1u-md8"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="12"/>
-                                        <state key="normal" title=" ¹2₃"/>
-                                        <connections>
-                                            <action selector="numbersTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="cyo-UN-zxc"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zn1-Mt-KBN" userLabel="consonants">
-                                        <rect key="frame" x="83" y="0.0" width="30" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="4BK-0Y-eiY"/>
+                                            <constraint firstAttribute="width" constant="30" id="Im9-Jd-Ex5"/>
+                                            <constraint firstAttribute="height" constant="30" id="ym0-Ue-IQa"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
                                         <state key="normal" title=" p"/>
                                         <connections>
-                                            <action selector="consonantsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="84P-VW-E6m"/>
+                                            <action selector="consonantsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="8eh-sx-Xul"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkv-eY-YOx" userLabel="vowels">
-                                        <rect key="frame" x="113" y="0.0" width="30" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lub-90-yMX" userLabel="vowels">
+                                        <rect key="frame" x="30" y="0.0" width="30" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="izy-2z-eTB"/>
+                                            <constraint firstAttribute="width" constant="30" id="eji-o2-D2i"/>
+                                            <constraint firstAttribute="height" constant="30" id="n2i-k8-y7z"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
                                         <state key="normal" title="i"/>
                                         <connections>
-                                            <action selector="vowelsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="Rzu-cd-xYX"/>
+                                            <action selector="vowelsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="EeR-Xq-dlM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8O-hH-ZiP" userLabel="suprasegmentals">
-                                        <rect key="frame" x="143" y="0.0" width="30" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0H-Pq-fu7" userLabel="suprasegmentals">
+                                        <rect key="frame" x="60" y="0.0" width="30" height="22"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="HT9-R5-Jrx"/>
+                                            <constraint firstAttribute="height" constant="22" id="sQn-CL-yZ7"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
                                         <state key="normal" title="ː"/>
                                         <connections>
-                                            <action selector="suprasegmentalsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="nia-kR-xNC"/>
+                                            <action selector="suprasegmentalsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="QUJ-B3-lt3"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlZ-0D-db0" userLabel="tones">
-                                        <rect key="frame" x="173" y="0.0" width="30" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sg-cq-7zP" userLabel="tones">
+                                        <rect key="frame" x="90" y="0.0" width="30" height="22"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="4LX-oZ-f3m"/>
+                                            <constraint firstAttribute="height" constant="22" id="zvY-B0-jhd"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
                                         <state key="normal" title="˧"/>
                                         <connections>
-                                            <action selector="tonesTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="X5D-pn-rKf"/>
+                                            <action selector="tonesTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="3xV-8T-giz"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbc-S8-imh" userLabel="diacritics">
-                                        <rect key="frame" x="203" y="0.0" width="30" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYX-sL-CVQ" userLabel="diacritics">
+                                        <rect key="frame" x="120" y="0.0" width="30" height="22"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="Xef-Yv-Vid"/>
+                                            <constraint firstAttribute="height" constant="22" id="mRC-og-XGm"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
                                         <state key="normal" title="tʰ"/>
                                         <connections>
-                                            <action selector="diacriticsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="zeP-qn-8mI"/>
+                                            <action selector="diacriticsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="wQc-So-gem"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSF-XX-IzZ" userLabel="nonpulmonic">
-                                        <rect key="frame" x="233" y="0.0" width="30" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcF-I2-idx" userLabel="nonpulmonic">
+                                        <rect key="frame" x="150" y="0.0" width="30" height="22"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="gbS-GZ-Ajb"/>
+                                            <constraint firstAttribute="height" constant="22" id="wo1-WF-FVb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
                                         <state key="normal" title="ʘ"/>
                                         <connections>
-                                            <action selector="nonpulmonicTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="65R-R6-HQX"/>
+                                            <action selector="nonpulmonicTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="scW-Sq-EXP"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVP-ki-KlA" userLabel="other">
-                                        <rect key="frame" x="263" y="0.0" width="30" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1L-MW-Uex" userLabel="other">
+                                        <rect key="frame" x="180" y="0.0" width="30" height="22"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="f3C-Pr-qsB"/>
+                                            <constraint firstAttribute="height" constant="22" id="3UB-Kf-FnB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
                                         <state key="normal" title="ɧ"/>
                                         <connections>
-                                            <action selector="otherTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="ap8-w1-12j"/>
+                                            <action selector="otherTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="9d1-JE-b9F"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                            </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhW-2O-JGd" userLabel="spacer">
-                                <rect key="frame" x="301" y="637" width="0.0" height="22"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="iLO-04-B4n"/>
+                                    <constraint firstAttribute="height" constant="30" id="GlO-cG-vFt"/>
                                 </constraints>
-                            </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ygU-z7-9NK" userLabel="right stack">
-                                <rect key="frame" x="301" y="637" width="66" height="22"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMb-Vx-SrI" userLabel="space">
-                                        <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="YUQ-vg-rrV"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="␠"/>
-                                        <connections>
-                                            <action selector="spaceTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="XU0-YA-HXh"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OF-cf-6Wx" userLabel="backspace">
-                                        <rect key="frame" x="22" y="0.0" width="22" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="FxR-cc-Os2"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <state key="normal" title="⌫"/>
-                                        <connections>
-                                            <action selector="backspaceTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="KSq-a1-CZK"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yt-nb-Kyv" userLabel="down-arrow">
-                                        <rect key="frame" x="44" y="0.0" width="22" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="1BA-ga-rfc"/>
-                                            <constraint firstAttribute="width" constant="22" id="kTh-vZ-iv4"/>
-                                        </constraints>
-                                        <state key="normal" image="764-arrow-down.png"/>
-                                        <connections>
-                                            <action selector="downArrowTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="X01-Zh-edu"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="or2-3S-QhE" userLabel="Content">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="629"/>
-                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sjp-J5-3by" userLabel="charts">
+                                <rect key="frame" x="106" y="538" width="90" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QLC-7M-rir"/>
+                                    <constraint firstAttribute="width" constant="90" id="jfQ-Wi-wVU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
+                                <state key="normal" title="p, i, ː, ..."/>
+                                <connections>
+                                    <action selector="consonantsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="vim-gG-zgm"/>
+                                    <segue destination="bdv-86-9So" kind="popoverPresentation" identifier="Chart Popover" popoverAnchorView="Sjp-J5-3by" id="WS5-Lo-1Se">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="or2-3S-QhE" firstAttribute="top" secondItem="neg-rm-dcQ" secondAttribute="top" id="7Aw-hj-7Bx"/>
                             <constraint firstItem="or2-3S-QhE" firstAttribute="leading" secondItem="neg-rm-dcQ" secondAttribute="leading" id="9Vp-e2-uNJ"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="TxC-aV-93j" secondAttribute="bottom" id="ELL-SC-m9N"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="yo8-BC-XO7" secondAttribute="bottom" id="GTH-6u-IwZ"/>
+                            <constraint firstItem="xCk-Zw-hok" firstAttribute="leading" secondItem="neg-rm-dcQ" secondAttribute="leadingMargin" constant="-12" id="HIp-YQ-Q6R"/>
+                            <constraint firstItem="3aX-te-IzI" firstAttribute="leading" secondItem="yo8-BC-XO7" secondAttribute="trailing" id="LBV-GN-XBW"/>
                             <constraint firstAttribute="trailing" secondItem="or2-3S-QhE" secondAttribute="trailing" id="Nac-hh-xHE"/>
-                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="1ny-c9-XWO" secondAttribute="bottom" constant="8" id="QAe-jA-O6X"/>
-                            <constraint firstAttribute="bottom" secondItem="hhW-2O-JGd" secondAttribute="bottom" constant="8" id="QUK-0D-rIU"/>
-                            <constraint firstItem="ygU-z7-9NK" firstAttribute="leading" secondItem="hhW-2O-JGd" secondAttribute="trailing" id="T4J-2X-kBL"/>
+                            <constraint firstItem="7OF-cf-6Wx" firstAttribute="leading" secondItem="pMb-Vx-SrI" secondAttribute="trailing" id="Ooh-NS-Dnm"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="7OF-cf-6Wx" secondAttribute="bottom" id="P3V-s0-Hua"/>
+                            <constraint firstItem="Sjp-J5-3by" firstAttribute="leading" secondItem="TxC-aV-93j" secondAttribute="trailing" id="QjP-ej-748"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="pMb-Vx-SrI" secondAttribute="bottom" id="Ue4-TD-MCC"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="7yt-nb-Kyv" secondAttribute="bottom" id="UmI-gx-kkf"/>
                             <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="or2-3S-QhE" secondAttribute="bottom" constant="38" id="cSt-um-dBH"/>
-                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="ygU-z7-9NK" secondAttribute="bottom" constant="8" id="gKv-gc-ahV"/>
-                            <constraint firstAttribute="trailing" secondItem="ygU-z7-9NK" secondAttribute="trailing" constant="8" id="ibb-az-Ocm"/>
-                            <constraint firstItem="1ny-c9-XWO" firstAttribute="leading" secondItem="neg-rm-dcQ" secondAttribute="leading" constant="8" id="ylq-yD-MB9"/>
-                            <constraint firstItem="hhW-2O-JGd" firstAttribute="leading" secondItem="1ny-c9-XWO" secondAttribute="trailing" id="zRP-Tl-m50"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="Sjp-J5-3by" secondAttribute="bottom" id="dN9-U2-q90"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="xCk-Zw-hok" secondAttribute="bottom" constant="2" id="dry-3P-d2q"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="hof-pv-nRt" secondAttribute="bottom" id="nbX-t3-HpO"/>
+                            <constraint firstItem="yo8-BC-XO7" firstAttribute="leading" secondItem="neg-rm-dcQ" secondAttribute="leadingMargin" id="qhS-Dy-FAj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7yt-nb-Kyv" secondAttribute="trailing" id="rn0-AZ-Z5d"/>
+                            <constraint firstItem="TxC-aV-93j" firstAttribute="leading" secondItem="3aX-te-IzI" secondAttribute="trailing" id="uSs-wx-1df"/>
+                            <constraint firstItem="7yt-nb-Kyv" firstAttribute="leading" secondItem="Yj9-FX-rgV" secondAttribute="trailing" id="uda-59-pMG"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="Yj9-FX-rgV" secondAttribute="bottom" id="uvJ-37-OVl"/>
+                            <constraint firstItem="Yj9-FX-rgV" firstAttribute="leading" secondItem="7OF-cf-6Wx" secondAttribute="trailing" id="ux6-1R-VpL"/>
+                            <constraint firstItem="10p-1z-GPO" firstAttribute="top" secondItem="3aX-te-IzI" secondAttribute="bottom" id="w1V-Eb-Shr"/>
+                            <constraint firstItem="hof-pv-nRt" firstAttribute="leading" secondItem="TxC-aV-93j" secondAttribute="trailing" id="zXj-dV-WRX"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="hof-pv-nRt"/>
+                                <exclude reference="Sjp-J5-3by"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="QjP-ej-748"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Sjp-J5-3by"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="QjP-ej-748"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="hof-pv-nRt"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="content" destination="or2-3S-QhE" id="Dx6-48-ZzW"/>
@@ -209,7 +275,123 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zrg-jJ-HTJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-108" y="30.134932533733135"/>
+            <point key="canvasLocation" x="-108.75" y="28.52112676056338"/>
+        </scene>
+        <!--Charts Popup-->
+        <scene sceneID="9Mj-q2-x3e">
+            <objects>
+                <viewController id="bdv-86-9So" userLabel="Charts Popup" customClass="ChartsPopoverViewController" customModule="IPAChartBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ghi-r3-oww"/>
+                        <viewControllerLayoutGuide type="bottom" id="mbS-fB-aq4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="r7N-VS-lql">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="40"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="5Ux-zZ-2zP">
+                                <rect key="frame" x="0.0" y="2" width="210" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zn1-Mt-KBN" userLabel="consonants">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="pmE-Fs-zAj"/>
+                                            <constraint firstAttribute="width" constant="30" id="yT9-Hf-PWt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
+                                        <state key="normal" title=" p"/>
+                                        <connections>
+                                            <action selector="consonantsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="84P-VW-E6m"/>
+                                            <action selector="consonantsTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="gdJ-Mj-xJd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkv-eY-YOx" userLabel="vowels">
+                                        <rect key="frame" x="30" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="Dxf-lZ-l73"/>
+                                            <constraint firstAttribute="height" constant="30" id="ncb-T1-yBD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
+                                        <state key="normal" title="i"/>
+                                        <connections>
+                                            <action selector="vowelsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="Rzu-cd-xYX"/>
+                                            <action selector="vowelsTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="ZaR-72-xkH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8O-hH-ZiP" userLabel="suprasegmentals">
+                                        <rect key="frame" x="60" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="HT9-R5-Jrx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
+                                        <state key="normal" title="ː"/>
+                                        <connections>
+                                            <action selector="suprasegmentalsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="nia-kR-xNC"/>
+                                            <action selector="suprasegmentalsTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="vef-BS-LKO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlZ-0D-db0" userLabel="tones">
+                                        <rect key="frame" x="90" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="4LX-oZ-f3m"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
+                                        <state key="normal" title="˧"/>
+                                        <connections>
+                                            <action selector="tonesTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="X5D-pn-rKf"/>
+                                            <action selector="tonesTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="YpB-Oi-GZL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbc-S8-imh" userLabel="diacritics">
+                                        <rect key="frame" x="120" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Xef-Yv-Vid"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
+                                        <state key="normal" title="tʰ"/>
+                                        <connections>
+                                            <action selector="diacriticsTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="Tj2-kn-zmR"/>
+                                            <action selector="diacriticsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="zeP-qn-8mI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSF-XX-IzZ" userLabel="nonpulmonic">
+                                        <rect key="frame" x="150" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="gbS-GZ-Ajb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
+                                        <state key="normal" title="ʘ"/>
+                                        <connections>
+                                            <action selector="nonpulmonicTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="65R-R6-HQX"/>
+                                            <action selector="nonpulmonicTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="uA3-Es-jWj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVP-ki-KlA" userLabel="other">
+                                        <rect key="frame" x="180" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="f3C-Pr-qsB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
+                                        <state key="normal" title="ɧ"/>
+                                        <connections>
+                                            <action selector="otherTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="6oS-xI-FC9"/>
+                                            <action selector="otherTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="ap8-w1-12j"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="5Ux-zZ-2zP" firstAttribute="leading" secondItem="r7N-VS-lql" secondAttribute="leading" id="OXi-Ot-gBv"/>
+                            <constraint firstItem="mbS-fB-aq4" firstAttribute="top" secondItem="5Ux-zZ-2zP" secondAttribute="bottom" constant="8" id="uoO-2u-h41"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="250" height="40"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LjJ-wu-kBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108" y="586"/>
         </scene>
     </scenes>
     <resources>

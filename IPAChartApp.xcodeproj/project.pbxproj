@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2753FAD81F018624007D96FD /* ChartsPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753FAD71F018624007D96FD /* ChartsPopoverViewController.swift */; };
 		275B3A611EA930A1005CDBF1 /* CharisSIL-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */; };
 		27818AA61EA92EA70018CBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818AA51EA92EA70018CBA3 /* AppDelegate.swift */; };
 		27818AA81EA92EA70018CBA3 /* CarryingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818AA71EA92EA70018CBA3 /* CarryingViewController.swift */; };
@@ -79,6 +80,7 @@
 /* Begin PBXFileReference section */
 		2702F0E31EB3B6E800D39BD1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		2702F0E41EB3B6E800D39BD1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2753FAD71F018624007D96FD /* ChartsPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsPopoverViewController.swift; sourceTree = "<group>"; };
 		275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CharisSIL-R.ttf"; sourceTree = "<group>"; };
 		27818AA21EA92EA70018CBA3 /* IPAChartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPAChartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27818AA51EA92EA70018CBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 			children = (
 				27E40F171EC75DEF0089C2E0 /* InfoPlist.strings */,
 				27E7237C1EABEBC700173354 /* ChartKind.swift */,
+				2753FAD71F018624007D96FD /* ChartsPopoverViewController.swift */,
 				27E7237D1EABEBC700173354 /* ChartViewController.swift */,
 				27E7237E1EABEBC700173354 /* Consonants.storyboard */,
 				27DCF27B1EC75642003B6970 /* Diacritics.storyboard */,
@@ -400,6 +403,7 @@
 			files = (
 				27E723951EABEBC700173354 /* ChartKind.swift in Sources */,
 				27818ABE1EA92F540018CBA3 /* KeyboardViewController.swift in Sources */,
+				2753FAD81F018624007D96FD /* ChartsPopoverViewController.swift in Sources */,
 				27E7239A1EABEBC700173354 /* FavoritesCache.swift in Sources */,
 				27E723A81EABEBC700173354 /* Scene+Equatable.swift in Sources */,
 				27E7239F1EABEBC700173354 /* KeySpecification.swift in Sources */,

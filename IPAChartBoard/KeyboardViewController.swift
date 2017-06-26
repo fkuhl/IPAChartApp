@@ -15,6 +15,7 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     @IBOutlet weak var content: UIView!
     var currentScene = Scene(chart: .consonants)
     var currentControllerIfAny: ChartViewController!
+    private var chartsPopover: ChartsPopoverViewController?
     
     @IBAction func globeTapped(_ sender: UIButton) {
         self.advanceToNextInputMode()
@@ -30,30 +31,51 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     @IBAction func consonantsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .consonants))
+        chartsPopover?.dismiss(animated: false) {
+            self.chartsPopover = nil
+        }
     }
     
     @IBAction func vowelsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .vowels))
+        chartsPopover?.dismiss(animated: false) {
+            self.chartsPopover = nil
+        }
     }
     
     @IBAction func suprasegmentalsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .suprasegmentals))
+        chartsPopover?.dismiss(animated: false) {
+            self.chartsPopover = nil
+        }
     }
     
     @IBAction func tonesTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .tones))
+        chartsPopover?.dismiss(animated: false) {
+            self.chartsPopover = nil
+        }
     }
     
     @IBAction func diacriticsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .diacritics))
+        chartsPopover?.dismiss(animated: false) {
+            self.chartsPopover = nil
+        }
     }
     
     @IBAction func nonpulmonicTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .nonpulmonics))
+        chartsPopover?.dismiss(animated: false) {
+            self.chartsPopover = nil
+        }
     }
     
     @IBAction func otherTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .other))
+        chartsPopover?.dismiss(animated: false) {
+            self.chartsPopover = nil
+        }
     }
     
     @IBAction func spaceTapped(_ sender: UIButton) {
@@ -62,6 +84,10 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     @IBAction func backspaceTapped(_ sender: UIButton) {
         self.textDocumentProxy.deleteBackward()
+    }
+    
+    @IBAction func carriageReturnTapped(_ sender: UIButton) {
+        self.addText("\n")
     }
     
     @IBAction func downArrowTapped(_ sender: UIButton) {
@@ -170,6 +196,13 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
                 initializeKey(subView)
             }
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("preparing seque \(String(describing: segue.identifier))")
+        if segue.identifier != "Chart Popover" { return }
+        chartsPopover = segue.destination as? ChartsPopoverViewController
+        chartsPopover?.keyboardViewController = self
     }
     
     
