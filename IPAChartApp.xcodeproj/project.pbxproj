@@ -19,6 +19,7 @@
 		278CB5CE1ECE2DDA00EDFABB /* 748-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5CC1ECE2DDA00EDFABB /* 748-heart.png */; };
 		278CB5CF1ECE2DDB00EDFABB /* 764-arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5CD1ECE2DDA00EDFABB /* 764-arrow-down.png */; };
 		278CB5D01ECE31A100EDFABB /* app-index.html in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5D21ECE31A100EDFABB /* app-index.html */; };
+		27C9773F1F058A3A006735FE /* Symbola605.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C9773E1F058A3A006735FE /* Symbola605.ttf */; };
 		27D0BDEB1ED0ACF1005F2AB7 /* 715-globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D0BDEE1ED0ACF1005F2AB7 /* 715-globe.png */; };
 		27D0BDEC1ED0ACF1005F2AB7 /* 715-globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D0BDEE1ED0ACF1005F2AB7 /* 715-globe.png */; };
 		27D0BDF21ED0ACFE005F2AB7 /* icon-small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D0BDF51ED0ACFE005F2AB7 /* icon-small-40@2x.png */; };
@@ -98,6 +99,7 @@
 		278CB5D31ECE31A600EDFABB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = "en.lproj/app-index.html"; sourceTree = "<group>"; };
 		278CB5D41ECE31A800EDFABB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = de; path = "de.lproj/app-index.html"; sourceTree = "<group>"; };
 		278CB5D51ECE31AA00EDFABB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = es; path = "es.lproj/app-index.html"; sourceTree = "<group>"; };
+		27C9773E1F058A3A006735FE /* Symbola605.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbola605.ttf; sourceTree = "<group>"; };
 		27D0BDED1ED0ACF1005F2AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/715-globe.png"; sourceTree = "<group>"; };
 		27D0BDEF1ED0ACF4005F2AB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/715-globe.png"; sourceTree = "<group>"; };
 		27D0BDF01ED0ACF5005F2AB7 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = "de.lproj/715-globe.png"; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		275B3A621EA931C1005CDBF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				27C9773E1F058A3A006735FE /* Symbola605.ttf */,
 				278CB5CC1ECE2DDA00EDFABB /* 748-heart.png */,
 				278CB5CD1ECE2DDA00EDFABB /* 764-arrow-down.png */,
 				27D0BDEE1ED0ACF1005F2AB7 /* 715-globe.png */,
@@ -380,6 +383,7 @@
 				278CB5CE1ECE2DDA00EDFABB /* 748-heart.png in Resources */,
 				275B3A611EA930A1005CDBF1 /* CharisSIL-R.ttf in Resources */,
 				278CB5CF1ECE2DDB00EDFABB /* 764-arrow-down.png in Resources */,
+				27C9773F1F058A3A006735FE /* Symbola605.ttf in Resources */,
 				27DCF29D1EC75794003B6970 /* Tones.storyboard in Resources */,
 				27D0BDEC1ED0ACF1005F2AB7 /* 715-globe.png in Resources */,
 			);

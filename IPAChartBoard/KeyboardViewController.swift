@@ -31,51 +31,37 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     @IBAction func consonantsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .consonants))
-        chartsPopover?.dismiss(animated: false) {
-            self.chartsPopover = nil
-        }
+        dismissAnyPopover()
     }
     
     @IBAction func vowelsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .vowels))
-        chartsPopover?.dismiss(animated: false) {
-            self.chartsPopover = nil
-        }
+        dismissAnyPopover()
     }
     
     @IBAction func suprasegmentalsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .suprasegmentals))
-        chartsPopover?.dismiss(animated: false) {
-            self.chartsPopover = nil
-        }
+        dismissAnyPopover()
     }
     
     @IBAction func tonesTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .tones))
-        chartsPopover?.dismiss(animated: false) {
-            self.chartsPopover = nil
-        }
+        dismissAnyPopover()
     }
     
     @IBAction func diacriticsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .diacritics))
-        chartsPopover?.dismiss(animated: false) {
-            self.chartsPopover = nil
-        }
+        dismissAnyPopover()
     }
     
     @IBAction func nonpulmonicTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .nonpulmonics))
-        chartsPopover?.dismiss(animated: false) {
-            self.chartsPopover = nil
-        }
+        dismissAnyPopover()
     }
     
     @IBAction func otherTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .other))
-        chartsPopover?.dismiss(animated: false) {
-            self.chartsPopover = nil
-        }
+        dismissAnyPopover()
     }
     
     @IBAction func spaceTapped(_ sender: UIButton) {
@@ -92,6 +78,13 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     @IBAction func downArrowTapped(_ sender: UIButton) {
         self.dismissKeyboard()
+    }
+    
+    //Is called by ChartsPopoverVC on rotation
+    func dismissAnyPopover() {
+        chartsPopover?.dismiss(animated: false) {
+            self.chartsPopover = nil
+        }
     }
     
     override func viewDidLoad() {

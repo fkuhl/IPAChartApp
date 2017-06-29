@@ -40,4 +40,13 @@ class ChartsPopoverViewController: UIViewController {
         keyboardViewController?.otherTapped(sender)
     }
     
+    override func viewWillLayoutSubviews() {
+        //this gets called because of rotation or other change of size, when the popover is up
+        let newSizeClass = self.traitCollection.horizontalSizeClass
+        print("ChartsPopoverVC.viewWillLayoutSubviews for horiz size class \(newSizeClass.rawValue)")
+        if newSizeClass == .regular {
+            keyboardViewController?.dismissAnyPopover()
+        }
+    }
+    
 }
