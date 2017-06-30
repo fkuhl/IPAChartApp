@@ -16,8 +16,6 @@
 		27818AB01EA92EA70018CBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27818AAE1EA92EA70018CBA3 /* LaunchScreen.storyboard */; };
 		27818ABE1EA92F540018CBA3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */; };
 		27818AC21EA92F540018CBA3 /* IPAChartBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		278CB5CE1ECE2DDA00EDFABB /* 748-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5CC1ECE2DDA00EDFABB /* 748-heart.png */; };
-		278CB5CF1ECE2DDB00EDFABB /* 764-arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5CD1ECE2DDA00EDFABB /* 764-arrow-down.png */; };
 		278CB5D01ECE31A100EDFABB /* app-index.html in Resources */ = {isa = PBXBuildFile; fileRef = 278CB5D21ECE31A100EDFABB /* app-index.html */; };
 		27C9773F1F058A3A006735FE /* Symbola605.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C9773E1F058A3A006735FE /* Symbola605.ttf */; };
 		27D0BDEB1ED0ACF1005F2AB7 /* 715-globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D0BDEE1ED0ACF1005F2AB7 /* 715-globe.png */; };
@@ -39,7 +37,6 @@
 		27E723991EABEBC700173354 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E723801EABEBC700173354 /* Favorites.storyboard */; };
 		27E7239A1EABEBC700173354 /* FavoritesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723811EABEBC700173354 /* FavoritesCache.swift */; };
 		27E7239B1EABEBC700173354 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723821EABEBC700173354 /* FavoritesViewController.swift */; };
-		27E7239C1EABEBC700173354 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E723831EABEBC700173354 /* Keyboard.storyboard */; };
 		27E7239D1EABEBC700173354 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723841EABEBC700173354 /* KeyboardView.swift */; };
 		27E7239F1EABEBC700173354 /* KeySpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723861EABEBC700173354 /* KeySpecification.swift */; };
 		27E723A01EABEBC700173354 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723871EABEBC700173354 /* KeyView.swift */; };
@@ -52,6 +49,7 @@
 		27E723A91EABEBC700173354 /* SceneKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723901EABEBC700173354 /* SceneKind.swift */; };
 		27E723AA1EABEBC700173354 /* SceneKind+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723911EABEBC700173354 /* SceneKind+Equatable.swift */; };
 		27E723AD1EABEBC700173354 /* Vowels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E723941EABEBC700173354 /* Vowels.storyboard */; };
+		27E77BAE1F06A67F00FB2077 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E77BB01F06A67F00FB2077 /* Keyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +79,7 @@
 /* Begin PBXFileReference section */
 		2702F0E31EB3B6E800D39BD1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		2702F0E41EB3B6E800D39BD1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		271B14D81F06D2C1006D1A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Keyboard.strings; sourceTree = "<group>"; };
 		2753FAD71F018624007D96FD /* ChartsPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsPopoverViewController.swift; sourceTree = "<group>"; };
 		275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CharisSIL-R.ttf"; sourceTree = "<group>"; };
 		27818AA21EA92EA70018CBA3 /* IPAChartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPAChartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +92,6 @@
 		27818ABB1EA92F540018CBA3 /* IPAChartBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IPAChartBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		27818ABF1EA92F540018CBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		278CB5CC1ECE2DDA00EDFABB /* 748-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "748-heart.png"; sourceTree = "<group>"; };
-		278CB5CD1ECE2DDA00EDFABB /* 764-arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "764-arrow-down.png"; sourceTree = "<group>"; };
 		278CB5D11ECE31A100EDFABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = "Base.lproj/app-index.html"; sourceTree = "<group>"; };
 		278CB5D31ECE31A600EDFABB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = "en.lproj/app-index.html"; sourceTree = "<group>"; };
 		278CB5D41ECE31A800EDFABB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = de; path = "de.lproj/app-index.html"; sourceTree = "<group>"; };
@@ -143,7 +140,6 @@
 		27E723801EABEBC700173354 /* Favorites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
 		27E723811EABEBC700173354 /* FavoritesCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesCache.swift; sourceTree = "<group>"; };
 		27E723821EABEBC700173354 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
-		27E723831EABEBC700173354 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
 		27E723841EABEBC700173354 /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		27E723861EABEBC700173354 /* KeySpecification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySpecification.swift; sourceTree = "<group>"; };
 		27E723871EABEBC700173354 /* KeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
@@ -156,6 +152,9 @@
 		27E723901EABEBC700173354 /* SceneKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneKind.swift; sourceTree = "<group>"; };
 		27E723911EABEBC700173354 /* SceneKind+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneKind+Equatable.swift"; sourceTree = "<group>"; };
 		27E723941EABEBC700173354 /* Vowels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Vowels.storyboard; sourceTree = "<group>"; };
+		27E77BAF1F06A67F00FB2077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Keyboard.storyboard; sourceTree = "<group>"; };
+		27E77BB41F06A68A00FB2077 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Keyboard.strings; sourceTree = "<group>"; };
+		27E77BB61F06A68B00FB2077 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Keyboard.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,8 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				27C9773E1F058A3A006735FE /* Symbola605.ttf */,
-				278CB5CC1ECE2DDA00EDFABB /* 748-heart.png */,
-				278CB5CD1ECE2DDA00EDFABB /* 764-arrow-down.png */,
 				27D0BDEE1ED0ACF1005F2AB7 /* 715-globe.png */,
 				275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */,
 			);
@@ -234,7 +231,7 @@
 				27E723811EABEBC700173354 /* FavoritesCache.swift */,
 				27E723821EABEBC700173354 /* FavoritesViewController.swift */,
 				27818ABF1EA92F540018CBA3 /* Info.plist */,
-				27E723831EABEBC700173354 /* Keyboard.storyboard */,
+				27E77BB01F06A67F00FB2077 /* Keyboard.storyboard */,
 				27E723841EABEBC700173354 /* KeyboardView.swift */,
 				27818ABD1EA92F540018CBA3 /* KeyboardViewController.swift */,
 				27E723861EABEBC700173354 /* KeySpecification.swift */,
@@ -373,16 +370,14 @@
 				27E40F151EC75DEF0089C2E0 /* InfoPlist.strings in Resources */,
 				27DCF28B1EC7572C003B6970 /* Other.storyboard in Resources */,
 				27E723991EABEBC700173354 /* Favorites.storyboard in Resources */,
-				27E7239C1EABEBC700173354 /* Keyboard.storyboard in Resources */,
+				27E77BAE1F06A67F00FB2077 /* Keyboard.storyboard in Resources */,
 				27E723971EABEBC700173354 /* Consonants.storyboard in Resources */,
 				27E723A51EABEBC700173354 /* Numbers.storyboard in Resources */,
 				27DCF2791EC75642003B6970 /* Diacritics.storyboard in Resources */,
 				27DCF2821EC756E4003B6970 /* Nonpulmonics.storyboard in Resources */,
 				27DCF2941EC75764003B6970 /* Suprasegmentals.storyboard in Resources */,
 				27E723AD1EABEBC700173354 /* Vowels.storyboard in Resources */,
-				278CB5CE1ECE2DDA00EDFABB /* 748-heart.png in Resources */,
 				275B3A611EA930A1005CDBF1 /* CharisSIL-R.ttf in Resources */,
-				278CB5CF1ECE2DDB00EDFABB /* 764-arrow-down.png in Resources */,
 				27C9773F1F058A3A006735FE /* Symbola605.ttf in Resources */,
 				27DCF29D1EC75794003B6970 /* Tones.storyboard in Resources */,
 				27D0BDEC1ED0ACF1005F2AB7 /* 715-globe.png in Resources */,
@@ -560,6 +555,17 @@
 				27E40F1E1EC782D30089C2E0 /* es */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27E77BB01F06A67F00FB2077 /* Keyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E77BAF1F06A67F00FB2077 /* Base */,
+				27E77BB41F06A68A00FB2077 /* de */,
+				27E77BB61F06A68B00FB2077 /* es */,
+				271B14D81F06D2C1006D1A3F /* en */,
+			);
+			name = Keyboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

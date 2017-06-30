@@ -14,11 +14,17 @@ class ChartViewController: UIViewController  {
     var chartKind: ChartKind?
     private var keysHaveBeenWired = false
     private var currentScene: (sceneKind: SceneKind, controller: UIViewController)? = nil
+    private let updateQueue = DispatchQueue(label: "com.tyndalesoft.ipaboard.chartvc", attributes: .concurrent)
     
     func updateDesign(to newSceneKind: SceneKind) {
+        updateQueue.sync { doUpdate(newSceneKind) }
+    }
+    
+    private func doUpdate(_ newSceneKind: SceneKind) {
         //This is happening with a rotation animation, so don't animate this change!
-        print("ChartVC.updateDesign to \(newSceneKind)")
+        print("ChartVC.updateDesign to \(newSceneKind); currentScene is \(String(describing: currentScene))")
         if newSceneKind == currentScene?.sceneKind { return }
+        print("Current thread \(Thread.current)")
         print("ChartVC.updateDesign about to instantiate \(chartKind!.rawValue)")
         chartStoryboard = UIStoryboard(name: chartKind!.rawValue, bundle: nil)
         //No point in checking that the preceding call succeeded; it will throw a horrible exception if it doesn't.
@@ -26,6 +32,8 @@ class ChartViewController: UIViewController  {
             //Once again, if the preceding failed, there would be a horrible exception.
             return
         }
+        self.currentScene = (newSceneKind, newViewController)
+        print("currentScene set to \(String(describing: currentScene))")
         newViewController.view.translatesAutoresizingMaskIntoConstraints = false
         if let currentController = self.currentScene?.controller {
             currentController.willMove(toParentViewController: nil)
@@ -45,7 +53,6 @@ class ChartViewController: UIViewController  {
         newViewController.view.setNeedsLayout()
         newViewController.view.setNeedsDisplay()
         newViewController.didMove(toParentViewController: self)
-        self.currentScene = (newSceneKind, newViewController)
         self.initializeKey(self.view!)
     }
     

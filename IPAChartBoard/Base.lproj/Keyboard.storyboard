@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ufs-Zx-eo0">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -26,17 +26,17 @@
                         <viewControllerLayoutGuide type="bottom" id="10p-1z-GPO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="neg-rm-dcQ" customClass="UIInputView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-Zw-hok">
-                                <rect key="frame" x="8" y="724.33333333333348" width="5.3333333333333339" height="9.6666666666666288"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-Zw-hok" userLabel="build no">
+                                <rect key="frame" x="8" y="402" width="6" height="10"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo8-BC-XO7" userLabel="Globe">
-                                <rect key="frame" x="12" y="698" width="38" height="38"/>
+                                <rect key="frame" x="12" y="376" width="38" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="38" id="59Y-WG-RKC"/>
                                     <constraint firstAttribute="height" constant="38" id="Vx3-hA-tuz"/>
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aX-te-IzI" userLabel="Favorites">
-                                <rect key="frame" x="50" y="698" width="38" height="38"/>
+                                <rect key="frame" x="50" y="376" width="38" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="38" id="2W1-Du-jYQ"/>
                                     <constraint firstAttribute="height" constant="38" id="3jI-aJ-Gt8"/>
@@ -72,19 +72,27 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMb-Vx-SrI" userLabel="space">
-                                <rect key="frame" x="220" y="698" width="80" height="38"/>
+                                <rect key="frame" x="542" y="376" width="80" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="JhN-XM-5Qc"/>
                                     <constraint firstAttribute="height" constant="38" id="YO3-wP-xg3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <state key="normal" title="   space   "/>
+                                <state key="normal" title="[  space  ]"/>
+                                <attributedString key="userComments">
+                                    <fragment content="space key">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <connections>
                                     <action selector="spaceTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="XU0-YA-HXh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OF-cf-6Wx" userLabel="backspace">
-                                <rect key="frame" x="300" y="698" width="38" height="38"/>
+                                <rect key="frame" x="622" y="376" width="38" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="QNz-QD-97B"/>
                                     <constraint firstAttribute="width" constant="38" id="Ww2-1r-d5H"/>
@@ -104,7 +112,7 @@
                                             <constraint firstAttribute="width" constant="38" id="Im9-Jd-Ex5"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="  p  "/>
+                                        <state key="normal" title="[p]"/>
                                         <connections>
                                             <action selector="consonantsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="8eh-sx-Xul"/>
                                         </connections>
@@ -115,7 +123,7 @@
                                             <constraint firstAttribute="width" constant="38" id="eji-o2-D2i"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="  i  "/>
+                                        <state key="normal" title="[ i ]"/>
                                         <connections>
                                             <action selector="vowelsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="EeR-Xq-dlM"/>
                                         </connections>
@@ -126,7 +134,7 @@
                                             <constraint firstAttribute="width" constant="38" id="2C5-0x-lZO"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="  ː  "/>
+                                        <state key="normal" title="[ ː ]"/>
                                         <connections>
                                             <action selector="suprasegmentalsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="QUJ-B3-lt3"/>
                                         </connections>
@@ -137,7 +145,7 @@
                                             <constraint firstAttribute="width" constant="38" id="36x-9g-tgk"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="  ˧  "/>
+                                        <state key="normal" title="[ ˧ ]"/>
                                         <connections>
                                             <action selector="tonesTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="3xV-8T-giz"/>
                                         </connections>
@@ -148,7 +156,7 @@
                                             <constraint firstAttribute="width" constant="38" id="cNE-Q6-sEN"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="  tʰ  "/>
+                                        <state key="normal" title="[tʰ]"/>
                                         <connections>
                                             <action selector="diacriticsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="wQc-So-gem"/>
                                         </connections>
@@ -159,7 +167,7 @@
                                             <constraint firstAttribute="width" constant="38" id="JRZ-E3-Xzh"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="  ʘ  "/>
+                                        <state key="normal" title="[ʘ]"/>
                                         <connections>
                                             <action selector="nonpulmonicTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="scW-Sq-EXP"/>
                                         </connections>
@@ -170,7 +178,7 @@
                                             <constraint firstAttribute="width" constant="38" id="K8u-7h-NIC"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="  ɧ  "/>
+                                        <state key="normal" title="[ɧ]"/>
                                         <connections>
                                             <action selector="otherTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="9d1-JE-b9F"/>
                                         </connections>
@@ -191,7 +199,7 @@
                                 </variation>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj9-FX-rgV" userLabel="carriage return">
-                                <rect key="frame" x="338" y="698" width="38" height="38"/>
+                                <rect key="frame" x="660" y="376" width="38" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="i9O-p6-iDS"/>
                                     <constraint firstAttribute="width" constant="38" id="jFt-sO-lN2"/>
@@ -204,7 +212,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxC-aV-93j" userLabel="123">
-                                <rect key="frame" x="376" y="698" width="38" height="38"/>
+                                <rect key="frame" x="698" y="376" width="38" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="ZLq-hr-pCs"/>
                                     <constraint firstAttribute="width" constant="38" id="pms-NR-wNG"/>
@@ -216,7 +224,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="or2-3S-QhE" userLabel="Content">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="698"/>
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="376"/>
                             </view>
                         </subviews>
                         <constraints>
@@ -250,6 +258,7 @@
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="nbX-t3-HpO"/>
+                                <exclude reference="UIr-Ty-6j8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -263,6 +272,7 @@
                             </mask>
                             <mask key="constraints">
                                 <include reference="nbX-t3-HpO"/>
+                                <include reference="UIr-Ty-6j8"/>
                             </mask>
                         </variation>
                     </view>
@@ -296,7 +306,7 @@
                                             <constraint firstAttribute="width" constant="38" id="yT9-Hf-PWt"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title=" p"/>
+                                        <state key="normal" title="[p]"/>
                                         <connections>
                                             <action selector="consonantsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="84P-VW-E6m"/>
                                             <action selector="consonantsTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="gdJ-Mj-xJd"/>
@@ -309,7 +319,7 @@
                                             <constraint firstAttribute="height" constant="38" id="ncb-T1-yBD"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="i"/>
+                                        <state key="normal" title="[ i ]"/>
                                         <connections>
                                             <action selector="vowelsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="Rzu-cd-xYX"/>
                                             <action selector="vowelsTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="ZaR-72-xkH"/>
@@ -322,7 +332,7 @@
                                             <constraint firstAttribute="height" constant="38" id="HT9-R5-Jrx"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="ː"/>
+                                        <state key="normal" title="[ ː ]"/>
                                         <connections>
                                             <action selector="suprasegmentalsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="nia-kR-xNC"/>
                                             <action selector="suprasegmentalsTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="vef-BS-LKO"/>
@@ -335,7 +345,7 @@
                                             <constraint firstAttribute="width" constant="38" id="qdf-ca-rTb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="˧"/>
+                                        <state key="normal" title="[ ˧ ]"/>
                                         <connections>
                                             <action selector="tonesTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="X5D-pn-rKf"/>
                                             <action selector="tonesTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="YpB-Oi-GZL"/>
@@ -348,7 +358,7 @@
                                             <constraint firstAttribute="height" constant="38" id="tJD-gJ-Nve"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="tʰ"/>
+                                        <state key="normal" title="[tʰ]"/>
                                         <connections>
                                             <action selector="diacriticsTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="Tj2-kn-zmR"/>
                                             <action selector="diacriticsTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="zeP-qn-8mI"/>
@@ -361,7 +371,7 @@
                                             <constraint firstAttribute="height" constant="38" id="gbS-GZ-Ajb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="ʘ"/>
+                                        <state key="normal" title="[ʘ]"/>
                                         <connections>
                                             <action selector="nonpulmonicTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="65R-R6-HQX"/>
                                             <action selector="nonpulmonicTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="uA3-Es-jWj"/>
@@ -374,7 +384,7 @@
                                             <constraint firstAttribute="height" constant="38" id="f3C-Pr-qsB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
-                                        <state key="normal" title="ɧ"/>
+                                        <state key="normal" title="[ɧ]"/>
                                         <connections>
                                             <action selector="otherTapped:" destination="bdv-86-9So" eventType="touchUpInside" id="6oS-xI-FC9"/>
                                             <action selector="otherTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="ap8-w1-12j"/>
