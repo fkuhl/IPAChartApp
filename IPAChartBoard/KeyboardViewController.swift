@@ -15,7 +15,7 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     @IBOutlet weak var content: UIView!
     var currentScene = Scene(chart: .consonants)
     var currentControllerIfAny: ChartViewController!
-    private var chartsPopover: ChartsPopoverViewController?
+    @IBOutlet weak var popupView: UIView!
     
     @IBAction func globeTapped(_ sender: UIButton) {
         self.advanceToNextInputMode()
@@ -25,43 +25,43 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         self.revealView(scene: Scene(chart: .favorites))
     }
     
+    @IBAction func chartsTapped(_ sender: Any) {
+        UIView.animate(withDuration: 0.5, animations: {
+            //"show" the popup with the chart keys
+            self.popupView.alpha = 1.0
+        })
+    }
+    
     @IBAction func numbersTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .numbers))
     }
     
     @IBAction func consonantsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .consonants))
-        dismissAnyPopover()
     }
     
     @IBAction func vowelsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .vowels))
-        dismissAnyPopover()
     }
     
     @IBAction func suprasegmentalsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .suprasegmentals))
-        dismissAnyPopover()
     }
     
     @IBAction func tonesTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .tones))
-        dismissAnyPopover()
     }
     
     @IBAction func diacriticsTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .diacritics))
-        dismissAnyPopover()
     }
     
     @IBAction func nonpulmonicTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .nonpulmonics))
-        dismissAnyPopover()
     }
     
     @IBAction func otherTapped(_ sender: UIButton) {
         self.revealView(scene: Scene(chart: .other))
-        dismissAnyPopover()
     }
     
     @IBAction func spaceTapped(_ sender: UIButton) {
@@ -80,11 +80,8 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         self.dismissKeyboard()
     }
     
-    //Is called by ChartsPopoverVC on rotation
-    func dismissAnyPopover() {
-        chartsPopover?.dismiss(animated: false) {
-            self.chartsPopover = nil
-        }
+    func hidePopup() {
+        popupView.alpha = 0.0
     }
     
     override func viewDidLoad() {
@@ -101,6 +98,10 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         let favorites = FavoritesCache.sharedInstance
         favorites.readFromDefaults()
         print("KeyboardVC viewWillAppear got \(favorites.count) entries")
+        if self.traitCollection.horizontalSizeClass == .compact {
+            //"hide" the popup with the chart keys
+            hidePopup()
+        }
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -162,6 +163,9 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
             leadingConstraint.isActive = true
             let trailingConstraint = self.content!.trailingAnchor.constraint(equalTo: newChartViewController.view.trailingAnchor)
             trailingConstraint.isActive = true
+            if let installedPopupView = self.popupView {
+                installedPopupView.alpha = 0.0
+            }
         },
                        completion: { _ in
                         newChartViewController.didMove(toParentViewController: self)
@@ -189,13 +193,6 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
                 initializeKey(subView)
             }
         }
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("preparing seque \(String(describing: segue.identifier))")
-        if segue.identifier != "Chart Popover" { return }
-        chartsPopover = segue.destination as? ChartsPopoverViewController
-        chartsPopover?.keyboardViewController = self
     }
     
     
