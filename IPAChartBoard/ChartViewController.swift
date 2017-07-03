@@ -22,9 +22,9 @@ class ChartViewController: UIViewController  {
     
     private func doUpdate(_ newSceneKind: SceneKind) {
         //This is happening with a rotation animation, so don't animate this change!
-        print("ChartVC.updateDesign to \(newSceneKind); currentScene is \(String(describing: currentScene))")
+        print("ChartVC \(self) updateDesign to \(newSceneKind); currentScene is \(String(describing: currentScene))")
         if newSceneKind == currentScene?.sceneKind { return }
-        print("Current thread \(Thread.current)")
+        //print("Current thread \(Thread.current)")
         print("ChartVC.updateDesign about to instantiate \(chartKind!.rawValue)")
         chartStoryboard = UIStoryboard(name: chartKind!.rawValue, bundle: nil)
         //No point in checking that the preceding call succeeded; it will throw a horrible exception if it doesn't.
@@ -32,8 +32,6 @@ class ChartViewController: UIViewController  {
             //Once again, if the preceding failed, there would be a horrible exception.
             return
         }
-        self.currentScene = (newSceneKind, newViewController)
-        print("currentScene set to \(String(describing: currentScene))")
         newViewController.view.translatesAutoresizingMaskIntoConstraints = false
         if let currentController = self.currentScene?.controller {
             currentController.willMove(toParentViewController: nil)
@@ -54,6 +52,8 @@ class ChartViewController: UIViewController  {
         newViewController.view.setNeedsDisplay()
         newViewController.didMove(toParentViewController: self)
         self.initializeKey(self.view!)
+        self.currentScene = (newSceneKind, newViewController)
+        //print("currentScene set to \(String(describing: currentScene))")
     }
     
     /*

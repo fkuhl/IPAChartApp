@@ -54,3 +54,12 @@ func sceneKindFor(further: String, size: CGSize) -> SceneKind {
 private func isWide(size: CGSize) -> Bool {
     return size.width >= size.height * 1.5
 }
+
+func horizontalSizeClass(forKind:SceneKind) -> UIUserInterfaceSizeClass {
+    switch (forKind) {
+        case .base, .regular, .furtherWide:
+        return .regular
+    case .compactWide, .compactNarrow, .furtherNarrow:
+        return .compact
+    }
+}

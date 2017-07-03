@@ -90,10 +90,10 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         if currentControllerIfAny == nil {
+            print("KeyboardVC \(self) viewDidLoad, scene to be set to \(currentScene)")
             revealView(scene: currentScene)
-            print("KeyboardVC.viewDidLoad on \(self), scene set to \(currentScene)")
         } else {
-            print("KeyboardVC.viewDidLoad on \(self), scene already set to \(currentScene)")
+            print("KeyboardVC \(self) viewDidLoad, scene already set to \(currentScene)")
         }
     }
     
@@ -129,13 +129,13 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         case .furtherNarrow(let id), .furtherWide(let id):
             newSceneKind = sceneKindFor(further: id, size: view.bounds.size)
         }
-        print("KeyboardVC.viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
+        print("KeyboardVC \(self) viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
         currentControllerIfAny?.updateDesign(to: newSceneKind)
         currentScene = update(scene: currentScene, toKind: newSceneKind)
     }
     
     private func revealView(scene: Scene) {
-        print("KeyboardVC.revealView of \(scene)")
+        print("KeyboardVC \(self) revealView of \(scene)")
         if scene == currentScene && currentControllerIfAny != nil { return }
         let storyboard = UIStoryboard(name: scene.chartKind.rawValue, bundle: nil)
         let storyboardID = scene.sceneKind.sceneID

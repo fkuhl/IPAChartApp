@@ -30,7 +30,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-Zw-hok" userLabel="build no">
-                                <rect key="frame" x="8" y="402" width="6" height="10"/>
+                                <rect key="frame" x="8" y="402.33333333333326" width="5.3333333333333339" height="9.6666666666666856"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -68,7 +68,9 @@
                                 <fontDescription key="fontDescription" name="CharisSIL" family="Charis SIL" pointSize="20"/>
                                 <state key="normal" title="p, i, ..."/>
                                 <connections>
-                                    <segue destination="bdv-86-9So" kind="presentation" identifier="Chart Popover" id="WS5-Lo-1Se"/>
+                                    <segue destination="bdv-86-9So" kind="popoverPresentation" identifier="Chart Popover" popoverAnchorView="Sjp-J5-3by" id="WS5-Lo-1Se">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMb-Vx-SrI" userLabel="space">
