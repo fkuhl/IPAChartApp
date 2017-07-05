@@ -29,7 +29,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-Zw-hok" userLabel="build no">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-Zw-hok" userLabel="build no">
                                 <rect key="frame" x="8" y="724.33333333333348" width="5.3333333333333339" height="9.6666666666666288"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -227,7 +227,7 @@
                                 <rect key="frame" x="57" y="692" width="300" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-Nw-mMx">
-                                        <rect key="frame" x="17" y="-0.33333333333337123" width="266" height="45"/>
+                                        <rect key="frame" x="17" y="0.0" width="266" height="45"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHh-1O-QQj" userLabel="consonants">
                                                 <rect key="frame" x="0.0" y="0.0" width="38" height="45"/>
@@ -376,8 +376,8 @@
                                 <exclude reference="0zn-eS-Iin"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="UIr-Ty-6j8"/>
                                 <exclude reference="nbX-t3-HpO"/>
+                                <exclude reference="UIr-Ty-6j8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -391,8 +391,8 @@
                                 <include reference="hof-pv-nRt"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="UIr-Ty-6j8"/>
                                 <include reference="nbX-t3-HpO"/>
+                                <include reference="UIr-Ty-6j8"/>
                             </mask>
                         </variation>
                     </view>
