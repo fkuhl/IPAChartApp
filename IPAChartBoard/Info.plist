@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -40,6 +40,7 @@
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Symbola605.ttf</string>
 		<string>CharisSIL-R.ttf</string>
 	</array>
 </dict>
