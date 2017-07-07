@@ -65,6 +65,8 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     }
     
     @IBAction func spaceTapped(_ sender: UIButton) {
+        print("context before input '\(String(describing: self.textDocumentProxy.documentContextBeforeInput))'")
+        print("context after  input '\(String(describing: self.textDocumentProxy.documentContextAfterInput))'")
         addText(" ")
     }
     
@@ -73,7 +75,7 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     }
     
     @IBAction func carriageReturnTapped(_ sender: UIButton) {
-        self.addText("\n")
+        addText("\n")
     }
     
     @IBAction func downArrowTapped(_ sender: UIButton) {

@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -207,8 +208,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <state key="normal" title="⏎"/>
                                 <connections>
-                                    <action selector="backspaceTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="DEK-yU-DDb"/>
-                                    <action selector="carriageReturnTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="Rwr-6W-MgD"/>
+                                    <action selector="carriageReturnTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="fGf-Gl-d5e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxC-aV-93j" userLabel="123">
@@ -227,7 +227,7 @@
                                 <rect key="frame" x="57" y="692" width="300" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-Nw-mMx">
-                                        <rect key="frame" x="17" y="0.0" width="266" height="45"/>
+                                        <rect key="frame" x="17" y="0.33333333333337123" width="266" height="45"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHh-1O-QQj" userLabel="consonants">
                                                 <rect key="frame" x="0.0" y="0.0" width="38" height="45"/>
