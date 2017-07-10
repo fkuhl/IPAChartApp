@@ -49,6 +49,7 @@
 		27E723AA1EABEBC700173354 /* SceneKind+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E723911EABEBC700173354 /* SceneKind+Equatable.swift */; };
 		27E723AD1EABEBC700173354 /* Vowels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E723941EABEBC700173354 /* Vowels.storyboard */; };
 		27E77BAE1F06A67F00FB2077 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E77BB01F06A67F00FB2077 /* Keyboard.storyboard */; };
+		27F3543E1F1121070032C294 /* test.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 27F3543D1F1121070032C294 /* test.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,7 @@
 		27E77BAF1F06A67F00FB2077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Keyboard.storyboard; sourceTree = "<group>"; };
 		27E77BB41F06A68A00FB2077 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Keyboard.strings; sourceTree = "<group>"; };
 		27E77BB61F06A68B00FB2077 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Keyboard.strings; sourceTree = "<group>"; };
+		27F3543D1F1121070032C294 /* test.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 		278CB5CB1ECE295900EDFABB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				27F3543D1F1121070032C294 /* test.m4v */,
 				27D0BDF91ED0BB22005F2AB7 /* icon-vowels-background-trimmed.png */,
 				27D0BDFA1ED0BB22005F2AB7 /* icon-vowels-logo-trimmed.png */,
 				27D0BDF51ED0ACFE005F2AB7 /* icon-small-40@2x.png */,
@@ -352,6 +355,7 @@
 				27818AB01EA92EA70018CBA3 /* LaunchScreen.storyboard in Resources */,
 				27D0BDFB1ED0BB22005F2AB7 /* icon-vowels-background-trimmed.png in Resources */,
 				27E40F1A1EC75DF00089C2E0 /* InfoPlist.strings in Resources */,
+				27F3543E1F1121070032C294 /* test.m4v in Resources */,
 				27D0BDFC1ED0BB22005F2AB7 /* icon-vowels-logo-trimmed.png in Resources */,
 				27818AAD1EA92EA70018CBA3 /* Assets.xcassets in Resources */,
 				278CB5D01ECE31A100EDFABB /* app-index.html in Resources */,
