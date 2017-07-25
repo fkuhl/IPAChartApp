@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class KeyView : UIView {
+class KeyView : UIView, UIInputViewAudioFeedback {
     private static let dottedCircle = "\u{25CC}"
     private static let keyLightColor = UIColor(red: 254.0/255.0, green: 254.0/255.0, blue: 254.0/255.0, alpha: 1.0)
     private static let keyDarkColor = UIColor(red: 210.0/255.0, green: 210.0/255.0, blue: 210.0/255.0, alpha: 1.0)
@@ -19,6 +19,8 @@ class KeyView : UIView {
     private static var _fontAttributes: Dictionary<String,Any>? = nil
     //private static var _font: UIFont? = UIFont.boldSystemFont(ofSize: KeyView.fontSize)
     private static var _font: UIFont? = UIFont(name: "CharisSIL", size: KeyView.fontSize)
+    var enableInputClicksWhenVisible: Bool { get{ return true }}
+    
     
     //thread-safe singleton in the age of Swift 3:
     //http://krakendev.io/blog/the-right-way-to-write-a-singleton
@@ -167,6 +169,7 @@ class KeyView : UIView {
         self.highlighted = true
         self.setNeedsDisplay()
         //print("touches began for \(displayedGlyphs!) (\(unicodeScalar))")
+        UIDevice.current.playInputClick()
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -190,5 +193,6 @@ class KeyView : UIView {
         super.touchesCancelled(touches, with: event)
         self.highlighted = false
     }
+    
     
 }
