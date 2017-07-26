@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ufs-Zx-eo0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ufs-Zx-eo0">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -30,7 +30,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-Zw-hok" userLabel="build no">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-Zw-hok" userLabel="build no">
                                 <rect key="frame" x="4" y="655" width="5.5" height="10"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -42,8 +42,7 @@
                                     <constraint firstAttribute="width" constant="38" id="59Y-WG-RKC"/>
                                     <constraint firstAttribute="height" constant="38" id="Vx3-hA-tuz"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Symbola" family="Symbola" pointSize="20"/>
-                                <state key="normal" title="🌐"/>
+                                <state key="normal" image="1523-globe"/>
                                 <connections>
                                     <action selector="globeTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="nVK-ne-zUm"/>
                                 </connections>
@@ -54,8 +53,7 @@
                                     <constraint firstAttribute="width" constant="38" id="2W1-Du-jYQ"/>
                                     <constraint firstAttribute="height" constant="38" id="3jI-aJ-Gt8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Symbola" family="Symbola" pointSize="23"/>
-                                <state key="normal" title="🕘"/>
+                                <state key="normal" image="1536-clock"/>
                                 <connections>
                                     <action selector="heartTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="dUT-ZO-G0J"/>
                                 </connections>
@@ -78,7 +76,7 @@
                                     <constraint firstAttribute="width" constant="80" id="JhN-XM-5Qc"/>
                                     <constraint firstAttribute="height" constant="38" id="YO3-wP-xg3"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                 <state key="normal" title="[  space  ]"/>
                                 <attributedString key="userComments">
                                     <fragment content="space key">
@@ -217,13 +215,13 @@
                                     <constraint firstAttribute="height" constant="38" id="ZLq-hr-pCs"/>
                                     <constraint firstAttribute="width" constant="38" id="pms-NR-wNG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Symbola" family="Symbola" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Symbola" family="Symbola" pointSize="22"/>
                                 <state key="normal" title="🔢"/>
                                 <connections>
                                     <action selector="numbersTapped:" destination="ufs-Zx-eo0" eventType="touchUpInside" id="cyo-UN-zxc"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0zn-eS-Iin" userLabel="popup view">
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0zn-eS-Iin" userLabel="popup view">
                                 <rect key="frame" x="37.5" y="623" width="300" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-Nw-mMx">
@@ -406,5 +404,9 @@
             <point key="canvasLocation" x="-108.75" y="28.52112676056338"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1523-globe" width="23" height="23"/>
+        <image name="1536-clock" width="23" height="23"/>
+    </resources>
     <color key="tintColor" red="0.18788509070000001" green="0.49808165430000001" blue="0.24038209020000001" alpha="1" colorSpace="calibratedRGB"/>
 </document>
