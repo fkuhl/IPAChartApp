@@ -65,8 +65,8 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     }
     
     @IBAction func spaceTapped(_ sender: UIButton) {
-        print("context before input '\(String(describing: self.textDocumentProxy.documentContextBeforeInput))'")
-        print("context after  input '\(String(describing: self.textDocumentProxy.documentContextAfterInput))'")
+        //print("context before input '\(String(describing: self.textDocumentProxy.documentContextBeforeInput))'")
+        //print("context after  input '\(String(describing: self.textDocumentProxy.documentContextAfterInput))'")
         addText(" ")
     }
     
@@ -89,17 +89,17 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         if currentControllerIfAny == nil {
-            print("KeyboardVC \(self) viewDidLoad, scene to be set to \(currentScene)")
+            //print("KeyboardVC \(self) viewDidLoad, scene to be set to \(currentScene)")
             revealView(scene: currentScene)
         } else {
-            print("KeyboardVC \(self) viewDidLoad, scene already set to \(currentScene)")
+            //print("KeyboardVC \(self) viewDidLoad, scene already set to \(currentScene)")
         }
     }
     
     override func viewWillAppear(_ animated: Bool) {
         let favorites = FavoritesCache.sharedInstance
         favorites.readFromDefaults()
-        print("KeyboardVC viewWillAppear got \(favorites.count) entries")
+        //print("KeyboardVC viewWillAppear got \(favorites.count) entries")
         if self.traitCollection.horizontalSizeClass == .compact {
             //"hide" the popup with the chart keys
             hidePopup()
@@ -109,7 +109,7 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     override func viewDidDisappear(_ animated: Bool) {
         let favorites = FavoritesCache.sharedInstance
         favorites.writeToDefaults()
-        print("KeyboardVC viewDidDisappear stored \(favorites.count) entries")
+        //print("KeyboardVC viewDidDisappear stored \(favorites.count) entries")
         //favorites.printEntries()
     }
     
@@ -132,13 +132,13 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         case .furtherNarrow(let id), .furtherWide(let id):
             newSceneKind = sceneKindFor(further: id, size: view.bounds.size)
         }
-        print("KeyboardVC \(self) viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
+        //print("KeyboardVC \(self) viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
         currentControllerIfAny?.updateDesign(to: newSceneKind)
         currentScene = update(scene: currentScene, toKind: newSceneKind)
     }
     
     private func revealView(scene: Scene) {
-        print("KeyboardVC \(self) revealView of \(scene)")
+        //print("KeyboardVC \(self) revealView of \(scene)")
         if scene == currentScene && currentControllerIfAny != nil { return }
         let storyboard = UIStoryboard(name: scene.chartKind.rawValue, bundle: nil)
         let storyboardID = scene.sceneKind.sceneID

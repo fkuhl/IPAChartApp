@@ -97,6 +97,8 @@
 		278CB5D31ECE31A600EDFABB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = "en.lproj/app-index.html"; sourceTree = "<group>"; };
 		278CB5D41ECE31A800EDFABB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = de; path = "de.lproj/app-index.html"; sourceTree = "<group>"; };
 		278CB5D51ECE31AA00EDFABB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = es; path = "es.lproj/app-index.html"; sourceTree = "<group>"; };
+		27B567B51F2A54A200DB7A1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27B567B71F2A7B5100DB7A1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		27C9773E1F058A3A006735FE /* Symbola605.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbola605.ttf; sourceTree = "<group>"; };
 		27D0BDF41ED0ACFE005F2AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/icon-small-40@2x.png"; sourceTree = "<group>"; };
 		27D0BDF61ED0AD00005F2AB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/icon-small-40@2x.png"; sourceTree = "<group>"; };
@@ -437,6 +439,7 @@
 				27818AAA1EA92EA70018CBA3 /* Base */,
 				2702F0E31EB3B6E800D39BD1 /* de */,
 				27DCF2771EC75477003B6970 /* es */,
+				27B567B71F2A7B5100DB7A1B /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -543,6 +546,7 @@
 			children = (
 				27E40F1B1EC75DF00089C2E0 /* de */,
 				27E40F1E1EC782D30089C2E0 /* es */,
+				27B567B51F2A54A200DB7A1B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -665,6 +669,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7LKQP3MSCV;
 				INFOPLIST_FILE = IPAChartApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -680,6 +685,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7LKQP3MSCV;
 				INFOPLIST_FILE = IPAChartApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;

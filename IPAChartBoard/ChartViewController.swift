@@ -22,10 +22,10 @@ class ChartViewController: UIViewController  {
     
     private func doUpdate(_ newSceneKind: SceneKind) {
         //This is happening with a rotation animation, so don't animate this change!
-        print("ChartVC \(self) updateDesign to \(newSceneKind); currentScene is \(String(describing: currentScene))")
+        //print("ChartVC \(self) updateDesign to \(newSceneKind); currentScene is \(String(describing: currentScene))")
         if newSceneKind == currentScene?.sceneKind { return }
         //print("Current thread \(Thread.current)")
-        print("ChartVC.updateDesign about to instantiate \(chartKind!.rawValue)")
+        //print("ChartVC.updateDesign about to instantiate \(chartKind!.rawValue)")
         chartStoryboard = UIStoryboard(name: chartKind!.rawValue, bundle: nil)
         //No point in checking that the preceding call succeeded; it will throw a horrible exception if it doesn't.
         guard let newViewController = chartStoryboard?.instantiateViewController(withIdentifier: newSceneKind.sceneID) else {
