@@ -225,7 +225,7 @@
                                 <rect key="frame" x="57" y="692" width="300" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-Nw-mMx">
-                                        <rect key="frame" x="17" y="0.0" width="266" height="45"/>
+                                        <rect key="frame" x="17" y="0.33333333333337123" width="266" height="45"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHh-1O-QQj" userLabel="consonants">
                                                 <rect key="frame" x="0.0" y="0.0" width="38" height="45"/>
