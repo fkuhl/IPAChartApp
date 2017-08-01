@@ -166,8 +166,11 @@ class KeyView : UIView, UIInputViewAudioFeedback {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
+        UIView.animate(withDuration: 0.05, animations: {
+            self.transform = CGAffineTransform(scaleX: 1.4, y: 1.4)
+        })
         self.highlighted = true
-        self.setNeedsDisplay()
+        //self.setNeedsDisplay()
         //print("touches began for \(displayedGlyphs!) (\(unicodeScalar))")
         UIDevice.current.playInputClick()
     }
@@ -184,8 +187,11 @@ class KeyView : UIView, UIInputViewAudioFeedback {
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
+        UIView.animate(withDuration: 0.05, animations: {
+            self.transform = CGAffineTransform.identity
+        })
         self.highlighted = false
-        self.setNeedsDisplay()
+        //self.setNeedsDisplay()
         //print("touches ended for \(displayedGlyphs!) (\(unicodeScalar))")
     }
     
