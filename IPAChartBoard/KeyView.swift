@@ -166,10 +166,14 @@ class KeyView : UIView, UIInputViewAudioFeedback {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
+        if self.kind == .blank { return } //don't highlight blank keys!
         self.highlighted = true
         self.setNeedsDisplay()
+        UIView.animate(withDuration: 0.01, animations: {
+            self.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
+        })
         //print("touches began for \(displayedGlyphs!) (\(unicodeScalar))")
-        UIDevice.current.playInputClick()
+        //UIDevice.current.playInputClick()   --not available to keyboard extensions, apparently
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -184,6 +188,9 @@ class KeyView : UIView, UIInputViewAudioFeedback {
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
+        UIView.animate(withDuration: 0.2, animations: {
+            self.transform = CGAffineTransform.identity
+        })
         self.highlighted = false
         self.setNeedsDisplay()
         //print("touches ended for \(displayedGlyphs!) (\(unicodeScalar))")
