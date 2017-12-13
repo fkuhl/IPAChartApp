@@ -117,11 +117,11 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         //Why I have to set these here is a mystery.
         let widthConstraint = content.widthAnchor.constraint(greaterThanOrEqualToConstant: view.bounds.size.width)
         widthConstraint.identifier = "contentWidth"
-        widthConstraint.priority = 500
+        widthConstraint.priority = UILayoutPriority(rawValue: 500)
         widthConstraint.isActive = true
         let heightConstraint = content.heightAnchor.constraint(greaterThanOrEqualToConstant: 184.0)
         heightConstraint.identifier = "contentHeight"
-        heightConstraint.priority = 500
+        heightConstraint.priority = UILayoutPriority(rawValue: 500)
         heightConstraint.isActive = true
         //this gets called because of rotation or other change of size (not new further view)
         let currentSceneKind = currentScene.sceneKind
@@ -132,7 +132,7 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         case .furtherNarrow(let id), .furtherWide(let id):
             newSceneKind = sceneKindFor(further: id, size: view.bounds.size)
         }
-        //print("KeyboardVC \(self) viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
+        print("KeyboardVC \(self) viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
         currentControllerIfAny?.updateDesign(to: newSceneKind)
         currentScene = update(scene: currentScene, toKind: newSceneKind)
     }

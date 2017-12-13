@@ -25,15 +25,15 @@ class KeyView : UIView, UIInputViewAudioFeedback {
     //thread-safe singleton in the age of Swift 3:
     //http://krakendev.io/blog/the-right-way-to-write-a-singleton
     struct FontAttributes {
-        var attributes: Dictionary<String,Any>
+        var attributes: Dictionary<NSAttributedStringKey,Any>
         static let sharedInstance = FontAttributes()
         private init() {
             let paraStyle = NSMutableParagraphStyle()
             paraStyle.alignment = NSTextAlignment.center
             attributes = [
-                NSForegroundColorAttributeName: UIColor.darkGray,
-                NSParagraphStyleAttributeName: paraStyle,
-                NSFontAttributeName: KeyView._font!]
+                NSAttributedStringKey.foregroundColor: UIColor.darkGray,
+                NSAttributedStringKey.paragraphStyle: paraStyle,
+                NSAttributedStringKey.font: KeyView._font!]
         }
     }
     
@@ -148,7 +148,7 @@ class KeyView : UIView, UIInputViewAudioFeedback {
 //MARK: tap and touches (UIResponder)
     
     
-    func tapAction(_ sender: UITapGestureRecognizer) {
+    @objc func tapAction(_ sender: UITapGestureRecognizer) {
         //print("key tapped for \(String(describing: glyphs?.displayed)) (\(unicodeScalar))")
         if sender.state == .ended {
             switch self.kind {
