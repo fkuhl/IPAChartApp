@@ -396,6 +396,7 @@
                     </view>
                     <connections>
                         <outlet property="content" destination="or2-3S-QhE" id="Dx6-48-ZzW"/>
+                        <outlet property="globeButton" destination="yo8-BC-XO7" id="yi6-G4-XoB"/>
                         <outlet property="popupView" destination="0zn-eS-Iin" id="lrm-Sh-a3X"/>
                     </connections>
                 </viewController>

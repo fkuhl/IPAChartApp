@@ -16,6 +16,7 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     var currentScene = Scene(chart: .consonants)
     var currentControllerIfAny: ChartViewController!
     @IBOutlet weak var popupView: UIView!
+    @IBOutlet weak var globeButton: UIButton!
     
     @IBAction func globeTapped(_ sender: UIButton) {
         self.advanceToNextInputMode()
@@ -88,6 +89,10 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if #available(iOS 11.0, *), !self.needsInputModeSwitchKey {
+            globeButton.isHidden = true
+            globeButton.widthAnchor.constraint(equalToConstant: 1.0).isActive = true
+        }
         if currentControllerIfAny == nil {
             //print("KeyboardVC \(self) viewDidLoad, scene to be set to \(currentScene)")
             revealView(scene: currentScene)
