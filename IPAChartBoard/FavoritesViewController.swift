@@ -31,7 +31,7 @@ class FavoritesViewController: UIViewController {
     
     override func viewDidLoad() {
         view.translatesAutoresizingMaskIntoConstraints = false //not sure this is needed here
-        self.view.backgroundColor = UIColor.lightGray
+        //self.view.backgroundColor = UIColor.lightGray  //we've changed to default
         let favorites = FavoritesCache.sharedInstance
         if favorites.count == 0 { return }
         sortedFavorites = favorites.getSorted()

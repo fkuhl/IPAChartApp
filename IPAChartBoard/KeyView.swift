@@ -172,7 +172,7 @@ class KeyView : UIView, UIInputViewAudioFeedback {
         UIView.animate(withDuration: 0.01, animations: {
             self.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
         })
-        print("touches began for \(glyphs!.displayed) (\(unicodeScalar))")
+        //print("touches began for \(glyphs!.displayed) (\(unicodeScalar))")
         //UIDevice.current.playInputClick()   --not available to keyboard extensions, apparently
     }
     
@@ -182,19 +182,19 @@ class KeyView : UIView, UIInputViewAudioFeedback {
         if !(self.point(inside: (touch?.location(in: self))!, with: event)) {
             shrinkKey()
         }
-        print("touches moved for \( glyphs!.displayed) (\(unicodeScalar))")
+        //print("touches moved for \( glyphs!.displayed) (\(unicodeScalar))")
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         shrinkKey()
-        print("touches ended for \(glyphs!.displayed) (\(unicodeScalar))")
+        //print("touches ended for \(glyphs!.displayed) (\(unicodeScalar))")
     }
     
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesCancelled(touches, with: event)
         shrinkKey()
-        print("touches canceled for \(glyphs!.displayed) (\(unicodeScalar))")
+        //print("touches canceled for \(glyphs!.displayed) (\(unicodeScalar))")
     }
     
     private func shrinkKey() {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -972,7 +972,6 @@
                                         </attributedString>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="70L-Yf-5g9" firstAttribute="top" secondItem="Q3f-Hf-wjI" secondAttribute="bottom" constant="4" id="039-Gc-7YF"/>
                                     <constraint firstItem="cmB-Ep-eeP" firstAttribute="top" secondItem="bB4-6L-2HT" secondAttribute="bottom" constant="4" id="0so-EF-YQw"/>
@@ -1101,7 +1100,6 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9aF-ly-XK0" firstAttribute="leading" secondItem="QK7-ex-s1H" secondAttribute="leading" id="5ao-ei-fXS"/>
                             <constraint firstAttribute="trailing" secondItem="9aF-ly-XK0" secondAttribute="trailing" id="cti-ae-zs1"/>
@@ -1129,7 +1127,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPu-8N-f5a" userLabel="content">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1390"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1390"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WG2-EA-QJS" userLabel="voiceless" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
                                         <rect key="frame" x="20" y="8" width="40" height="40"/>
@@ -2062,7 +2060,6 @@
                                         </attributedString>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="CIE-2B-cZ3" firstAttribute="leading" secondItem="tPu-8N-f5a" secondAttribute="leading" constant="20" id="0MK-dp-DBK"/>
                                     <constraint firstItem="6FQ-Tf-EDx" firstAttribute="top" secondItem="s59-5u-apQ" secondAttribute="bottom" constant="4" id="0ML-Gb-DVe"/>
@@ -2193,7 +2190,6 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tPu-8N-f5a" firstAttribute="top" secondItem="Xda-dC-WMK" secondAttribute="bottom" id="94M-Ed-qvr"/>
                             <constraint firstItem="tPu-8N-f5a" firstAttribute="leading" secondItem="FPO-or-NDY" secondAttribute="leading" id="jpn-rb-lGE"/>
@@ -2233,7 +2229,6 @@
                                         </connections>
                                     </containerView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="KGu-tV-yCR" firstAttribute="leading" secondItem="AA4-gK-jlN" secondAttribute="leading" id="2ci-nm-2iQ"/>
                                     <constraint firstAttribute="trailing" secondItem="KGu-tV-yCR" secondAttribute="trailing" id="BHk-Lf-WpL"/>
@@ -2242,7 +2237,6 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="AA4-gK-jlN" secondAttribute="trailing" id="Na6-wZ-CxP"/>
                             <constraint firstItem="AA4-gK-jlN" firstAttribute="leading" secondItem="LgM-qK-ttB" secondAttribute="leading" id="aIb-As-UVH"/>
@@ -2281,7 +2275,6 @@
                                         </connections>
                                     </containerView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="dqy-Qj-Bag" secondAttribute="trailing" id="F4Y-I2-q96"/>
                                     <constraint firstItem="dqy-Qj-Bag" firstAttribute="leading" secondItem="yTx-kX-ISx" secondAttribute="leading" id="S2P-d9-JoE"/>
@@ -2290,7 +2283,6 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="yTx-kX-ISx" firstAttribute="top" secondItem="zE8-d7-GZ8" secondAttribute="top" id="8kH-16-jKX"/>
                             <constraint firstItem="yTx-kX-ISx" firstAttribute="leading" secondItem="zE8-d7-GZ8" secondAttribute="leading" id="SV9-aa-a5H"/>
@@ -2329,7 +2321,6 @@
                                         </connections>
                                     </containerView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="mp7-fG-Vvr" secondAttribute="bottom" id="4YE-iy-MRJ"/>
                                     <constraint firstAttribute="trailing" secondItem="mp7-fG-Vvr" secondAttribute="trailing" id="sJZ-VJ-uvt"/>
@@ -2338,7 +2329,6 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Qcq-kY-f3O" firstAttribute="top" secondItem="vWu-4O-hhG" secondAttribute="bottom" id="Wd7-mM-wcI"/>
                             <constraint firstItem="vWu-4O-hhG" firstAttribute="top" secondItem="aqG-hT-xmK" secondAttribute="top" id="ckT-Jw-t5t"/>

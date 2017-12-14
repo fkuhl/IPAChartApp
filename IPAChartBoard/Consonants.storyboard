@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -61,7 +61,6 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="elm-bC-MqB" firstAttribute="top" secondItem="9Fv-Uh-5kc" secondAttribute="top" id="DZs-w8-s07"/>
                             <constraint firstAttribute="trailing" secondItem="elm-bC-MqB" secondAttribute="trailing" id="Emi-90-Ajg"/>
@@ -108,7 +107,6 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="QN1-oo-u5U" firstAttribute="top" secondItem="1Jq-4d-1Vo" secondAttribute="bottom" id="5bz-c1-juB"/>
                             <constraint firstItem="1Jq-4d-1Vo" firstAttribute="top" secondItem="QK7-ex-s1H" secondAttribute="top" id="LUu-DF-OT8"/>
@@ -448,7 +446,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NGN-Wy-gJU" firstAttribute="top" secondItem="l0E-pw-1FQ" secondAttribute="bottom" constant="4" id="1GX-Nk-ZJM"/>
                             <constraint firstItem="GT9-QG-hFL" firstAttribute="leading" secondItem="cDi-mR-KRF" secondAttribute="trailing" constant="4" id="1dl-LX-QRT"/>
@@ -512,7 +509,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wjo-VL-Dkx" userLabel="p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="24" width="40" height="40"/>
+                                <rect key="frame" x="20" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="S5I-wE-xRT"/>
@@ -528,7 +525,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cuz-iw-fO6" userLabel="b" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="24" width="40" height="40"/>
+                                <rect key="frame" x="64" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="jNc-7D-mnc"/>
@@ -544,7 +541,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UT8-xS-O1R" userLabel="t" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="24" width="40" height="40"/>
+                                <rect key="frame" x="108" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="8IV-Sb-aw5"/>
@@ -560,7 +557,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hCy-kS-rdU" userLabel="d" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="24" width="40" height="40"/>
+                                <rect key="frame" x="152" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="FdC-Ri-mv0"/>
@@ -576,7 +573,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mQ2-Gt-QnX" userLabel="t retroflex" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="24" width="40" height="40"/>
+                                <rect key="frame" x="196" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ASg-so-VXF"/>
@@ -592,7 +589,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76f-Fx-vkg" userLabel="d tail" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="24" width="40" height="40"/>
+                                <rect key="frame" x="240" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="QmG-AF-jCd"/>
@@ -608,7 +605,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTs-gW-e1o" userLabel="c" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="68" width="40" height="40"/>
+                                <rect key="frame" x="64" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="HrR-pF-CMT"/>
@@ -624,7 +621,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9P-11-svv" userLabel="j stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="68" width="40" height="40"/>
+                                <rect key="frame" x="108" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="K2N-u0-fbJ"/>
@@ -640,7 +637,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aom-AE-XQd" userLabel="k" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="68" width="40" height="40"/>
+                                <rect key="frame" x="152" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="FkQ-dK-23h"/>
@@ -656,7 +653,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jlt-gv-iJ7" userLabel="g script" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="68" width="40" height="40"/>
+                                <rect key="frame" x="196" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Lme-M0-kbb"/>
@@ -672,7 +669,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQG-3T-uV7" userLabel="q" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="68" width="40" height="40"/>
+                                <rect key="frame" x="240" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="G0r-Ly-KTJ"/>
@@ -688,7 +685,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2zE-xc-RvK" userLabel="small cap g" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="284" y="68" width="40" height="40"/>
+                                <rect key="frame" x="284" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Sey-eJ-ImB"/>
@@ -704,7 +701,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPK-br-HO7" userLabel="glottal stop" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="328" y="68" width="40" height="40"/>
+                                <rect key="frame" x="328" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="RIi-Tc-byO"/>
@@ -720,7 +717,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Jlt-gv-iJ7" firstAttribute="top" secondItem="mQ2-Gt-QnX" secondAttribute="bottom" constant="4" id="1K1-Vw-gFL"/>
                             <constraint firstItem="rQG-3T-uV7" firstAttribute="leading" secondItem="Jlt-gv-iJ7" secondAttribute="trailing" constant="4" id="5PE-nZ-840"/>
@@ -2286,7 +2282,6 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Z5f-yK-qUh" secondAttribute="bottom" constant="4" id="15i-qq-aLm"/>
                             <constraint firstItem="Z5f-yK-qUh" firstAttribute="top" secondItem="ic1-rz-Opl" secondAttribute="top" constant="4" id="dZa-Gn-7Sw"/>
@@ -2315,7 +2310,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMa-ZX-3PN" userLabel="plosive" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="28" width="84" height="40"/>
+                                <rect key="frame" x="20" y="8" width="84" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZUC-VY-jci"/>
@@ -2340,7 +2335,7 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b8u-GT-F6W" userLabel="nasal" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="168" y="28" width="105" height="40"/>
+                                <rect key="frame" x="168" y="8" width="105" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="6VD-Gw-6Gm"/>
@@ -2353,7 +2348,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFi-jx-4kL" userLabel="fricative" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="116" width="84" height="40"/>
+                                <rect key="frame" x="20" y="96" width="84" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2DC-8o-WGz"/>
@@ -2366,7 +2361,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QqD-sw-arX" userLabel="fricative" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="160" width="84" height="40"/>
+                                <rect key="frame" x="20" y="140" width="84" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="33y-Wb-xqR"/>
@@ -2379,7 +2374,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHe-7K-KFL" userLabel="l belt" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="168" y="116" width="40" height="40"/>
+                                <rect key="frame" x="168" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="OlT-Ur-5Uq"/>
@@ -2395,7 +2390,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4W-8Q-gPm" userLabel="B" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="72" width="40" height="40"/>
+                                <rect key="frame" x="20" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8bT-zS-rJe"/>
@@ -2411,7 +2406,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xqt-Ej-W9Z" userLabel="r" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="72" width="40" height="40"/>
+                                <rect key="frame" x="64" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="iyp-AO-jew"/>
@@ -2427,7 +2422,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ANa-Bl-J6n" userLabel="R" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="72" width="40" height="40"/>
+                                <rect key="frame" x="108" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="YdF-as-Qdl"/>
@@ -2443,7 +2438,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Lz-NQ-U3y" userLabel="r fishhook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="212" y="72" width="40" height="40"/>
+                                <rect key="frame" x="212" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0zE-Ib-U5J"/>
@@ -2459,7 +2454,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AzP-WR-g2W" userLabel="r tail" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="256" y="72" width="40" height="40"/>
+                                <rect key="frame" x="256" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="aoS-SI-CzE"/>
@@ -2475,7 +2470,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="alO-qO-NjG" userLabel="hook V" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="168" y="72" width="40" height="40"/>
+                                <rect key="frame" x="168" y="52" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8Ag-4C-bMp"/>
@@ -2491,7 +2486,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zgt-Ng-W4c" userLabel="lezh" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="212" y="116" width="40" height="40"/>
+                                <rect key="frame" x="212" y="96" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="HXa-Vo-KJH"/>
@@ -2507,7 +2502,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvd-aM-pDO" userLabel="l" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="168" y="160" width="29" height="40"/>
+                                <rect key="frame" x="168" y="140" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="c5T-vg-LGT"/>
@@ -2523,7 +2518,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7w-jt-LI5" userLabel="l retroflex" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="201" y="160" width="29" height="40"/>
+                                <rect key="frame" x="201" y="140" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GgR-5j-rot"/>
@@ -2539,7 +2534,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2p-1r-5lK" userLabel="y turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="234" y="160" width="29" height="40"/>
+                                <rect key="frame" x="234" y="140" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="LDz-XE-to0"/>
@@ -2555,7 +2550,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRH-Af-yZy" userLabel="l small cap" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="267" y="160" width="29" height="40"/>
+                                <rect key="frame" x="267" y="140" width="29" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="dfa-f1-uXn"/>
@@ -2571,7 +2566,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ANa-Bl-J6n" firstAttribute="leading" secondItem="xqt-Ej-W9Z" secondAttribute="trailing" constant="4" id="0g1-il-q1o"/>
                             <constraint firstItem="b8u-GT-F6W" firstAttribute="leading" secondItem="gMa-ZX-3PN" secondAttribute="trailing" constant="64" id="0qQ-iL-aD8"/>
@@ -2625,7 +2619,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rIe-mH-xaS" userLabel="p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="24" width="40" height="40"/>
+                                <rect key="frame" x="20" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="4vx-NV-TaC"/>
@@ -2641,7 +2635,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JMh-hI-1e1" userLabel="b" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="24" width="40" height="40"/>
+                                <rect key="frame" x="64" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0cL-kv-ubA"/>
@@ -2657,7 +2651,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oBB-Tv-9gP" userLabel="t" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="68" width="40" height="40"/>
+                                <rect key="frame" x="20" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Byt-zK-b2L"/>
@@ -2673,7 +2667,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBS-mF-7iY" userLabel="d" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="68" width="40" height="40"/>
+                                <rect key="frame" x="64" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Q0V-VJ-PZV"/>
@@ -2689,7 +2683,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6GH-W1-Bxm" userLabel="t retroflex" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="112" width="40" height="40"/>
+                                <rect key="frame" x="20" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="DFk-Tc-TSs"/>
@@ -2705,7 +2699,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oGF-dt-uaJ" userLabel="d tail" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="112" width="40" height="40"/>
+                                <rect key="frame" x="64" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="POh-dM-fWS"/>
@@ -2721,7 +2715,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fkM-Pk-jw9" userLabel="c" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="124" y="24" width="40" height="40"/>
+                                <rect key="frame" x="124" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="9JT-4O-r38"/>
@@ -2737,7 +2731,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d8c-aj-Ac8" userLabel="j stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="168" y="24" width="40" height="40"/>
+                                <rect key="frame" x="168" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="RJ9-GW-MDW"/>
@@ -2753,7 +2747,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gj6-CD-3Yg" userLabel="k" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="124" y="68" width="40" height="40"/>
+                                <rect key="frame" x="124" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="GLz-LY-hRB"/>
@@ -2769,7 +2763,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J8z-x5-9Li" userLabel="g script" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="168" y="68" width="40" height="40"/>
+                                <rect key="frame" x="168" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="BRj-ez-wrY"/>
@@ -2785,7 +2779,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXh-v3-4nM" userLabel="q" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="124" y="112" width="40" height="40"/>
+                                <rect key="frame" x="124" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="9np-UD-RYN"/>
@@ -2801,7 +2795,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZ6-W2-jl1" userLabel="small cap g" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="168" y="112" width="40" height="40"/>
+                                <rect key="frame" x="168" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="SOZ-Cn-vLq"/>
@@ -2817,7 +2811,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2CZ-SH-uV2" userLabel="glottal stop" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="168" y="156" width="40" height="40"/>
+                                <rect key="frame" x="168" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Nhn-9F-Ej5"/>
@@ -2833,7 +2827,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bBS-mF-7iY" firstAttribute="leading" secondItem="oBB-Tv-9gP" secondAttribute="trailing" constant="4" id="1mk-VI-vgo"/>
                             <constraint firstItem="eXh-v3-4nM" firstAttribute="leading" secondItem="oGF-dt-uaJ" secondAttribute="trailing" constant="20" id="2rL-RR-NsE"/>
@@ -2881,7 +2874,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ffy-Gy-KxR" userLabel="p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="24" width="40" height="40"/>
+                                <rect key="frame" x="20" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="hGf-BB-KRK"/>
@@ -2897,7 +2890,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JgU-jV-f1V" userLabel="m hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="24" width="40" height="40"/>
+                                <rect key="frame" x="64" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Te5-nE-agj"/>
@@ -2913,7 +2906,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cbs-Q3-bDn" userLabel="t" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="24" width="40" height="40"/>
+                                <rect key="frame" x="108" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Rv1-UW-N0r"/>
@@ -2929,7 +2922,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iD-wK-oLk" userLabel="n retroflex" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="24" width="40" height="40"/>
+                                <rect key="frame" x="152" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Bh6-HL-m4e"/>
@@ -2945,7 +2938,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePb-d2-uyO" userLabel="n left hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="24" width="40" height="40"/>
+                                <rect key="frame" x="196" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="RSB-XF-9xn"/>
@@ -2961,7 +2954,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fp-GW-mVn" userLabel="eng" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="24" width="40" height="40"/>
+                                <rect key="frame" x="240" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="7MN-NZ-AcV"/>
@@ -2977,7 +2970,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4o-co-xy4" userLabel="small cap n" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="284" y="24" width="40" height="40"/>
+                                <rect key="frame" x="284" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="3Ag-23-xX1"/>
@@ -2993,7 +2986,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ePb-d2-uyO" firstAttribute="leading" secondItem="8iD-wK-oLk" secondAttribute="trailing" constant="4" id="2qH-BW-Lpr"/>
                             <constraint firstItem="Ffy-Gy-KxR" firstAttribute="top" secondItem="hnP-So-M6c" secondAttribute="bottom" constant="4" id="7cF-rb-KRK"/>
@@ -3029,7 +3021,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJz-pL-2vq" userLabel="p" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="24" width="40" height="40"/>
+                                <rect key="frame" x="20" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="EkM-7O-Qm2"/>
@@ -3045,7 +3037,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X3a-5E-Obp" userLabel="m hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="68" width="40" height="40"/>
+                                <rect key="frame" x="20" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="InH-ij-ISq"/>
@@ -3061,7 +3053,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MA1-Gz-QRo" userLabel="t" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="112" width="40" height="40"/>
+                                <rect key="frame" x="20" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="520-8G-uyU"/>
@@ -3077,7 +3069,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iXH-ry-oNK" userLabel="n retroflex" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="156" width="40" height="40"/>
+                                <rect key="frame" x="20" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="hyv-Xg-NAj"/>
@@ -3093,7 +3085,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K0w-o0-qnp" userLabel="n left hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="80" y="24" width="40" height="40"/>
+                                <rect key="frame" x="80" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2tz-3X-vSI"/>
@@ -3109,7 +3101,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdP-81-UkO" userLabel="eng" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="80" y="68" width="40" height="40"/>
+                                <rect key="frame" x="80" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8Y7-Is-13T"/>
@@ -3125,7 +3117,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ufd-Tr-d95" userLabel="small cap n" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="80" y="112" width="40" height="40"/>
+                                <rect key="frame" x="80" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IA0-5C-yJk"/>
@@ -3141,7 +3133,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="HJz-pL-2vq" firstAttribute="top" secondItem="HBc-NY-542" secondAttribute="bottom" constant="4" id="1OG-JM-Pl0"/>
                             <constraint firstItem="X3a-5E-Obp" firstAttribute="leading" secondItem="zrI-f9-fP6" secondAttribute="leadingMargin" id="1lM-dU-FwL"/>
@@ -3177,7 +3168,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A11-hX-rqP" userLabel="phi" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="24" width="40" height="40"/>
+                                <rect key="frame" x="20" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="GjD-MJ-kRO"/>
@@ -3193,7 +3184,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Kz-0K-jFy" userLabel="beta" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="24" width="40" height="40"/>
+                                <rect key="frame" x="64" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="93Z-K8-lCX"/>
@@ -3209,7 +3200,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f00-pi-Bw0" userLabel="t" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="24" width="40" height="40"/>
+                                <rect key="frame" x="108" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="3tY-1W-UE6"/>
@@ -3225,7 +3216,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVl-Jj-1rP" userLabel="v" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="24" width="40" height="40"/>
+                                <rect key="frame" x="152" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="40n-gE-Czz"/>
@@ -3241,7 +3232,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hag-qg-DQf" userLabel="theta" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="24" width="40" height="40"/>
+                                <rect key="frame" x="196" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="n5F-6i-Qh3"/>
@@ -3257,7 +3248,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UNN-h6-AyQ" userLabel="eth" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="24" width="40" height="40"/>
+                                <rect key="frame" x="240" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="nzM-Hr-pmK"/>
@@ -3273,7 +3264,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTq-bb-VXF" userLabel="c" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="68" width="40" height="40"/>
+                                <rect key="frame" x="20" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="PVT-gJ-zXF"/>
@@ -3289,7 +3280,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OON-FT-JaY" userLabel="z" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="68" width="40" height="40"/>
+                                <rect key="frame" x="64" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GOJ-gJ-BU6"/>
@@ -3305,7 +3296,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLq-XU-NTs" userLabel="esh" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="68" width="40" height="40"/>
+                                <rect key="frame" x="108" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="9ob-ew-in8"/>
@@ -3321,7 +3312,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZrV-gx-0ab" userLabel="ezh" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="68" width="40" height="40"/>
+                                <rect key="frame" x="152" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IQD-wS-Q1a"/>
@@ -3337,7 +3328,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Opd-nY-Np7" userLabel="s hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="68" width="40" height="40"/>
+                                <rect key="frame" x="196" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Fku-Rm-cJe"/>
@@ -3353,7 +3344,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iSQ-ln-gd4" userLabel="z hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="68" width="40" height="40"/>
+                                <rect key="frame" x="240" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8kg-gY-CFq"/>
@@ -3369,7 +3360,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yqf-jZ-T1u" userLabel="c cedilla" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="112" width="40" height="40"/>
+                                <rect key="frame" x="20" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="CpZ-BC-gme"/>
@@ -3385,7 +3376,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HkX-sA-ESN" userLabel="j crossed tail" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="112" width="40" height="40"/>
+                                <rect key="frame" x="64" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8Ud-SE-f9Z"/>
@@ -3401,7 +3392,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jda-ZO-XOY" userLabel="esh" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="112" width="40" height="40"/>
+                                <rect key="frame" x="108" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="YjT-79-raO"/>
@@ -3417,7 +3408,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6s-V6-hgv" userLabel="gamma" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="112" width="40" height="40"/>
+                                <rect key="frame" x="152" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="c8H-70-W8m"/>
@@ -3432,7 +3423,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LEx-E5-wR8" userLabel="h stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="156" width="40" height="40"/>
+                                <rect key="frame" x="20" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="bft-bt-UAh"/>
@@ -3447,7 +3438,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kc7-wv-yEL" userLabel="pharyngeal voiced f" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="156" width="40" height="40"/>
+                                <rect key="frame" x="64" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="cXB-AX-aCy"/>
@@ -3462,7 +3453,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1DR-er-Q8J" userLabel="h" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="156" width="40" height="40"/>
+                                <rect key="frame" x="108" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="d4q-4g-laO"/>
@@ -3477,7 +3468,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAq-oS-Ydj" userLabel="chi" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="112" width="40" height="40"/>
+                                <rect key="frame" x="196" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="F59-eG-lEf"/>
@@ -3492,7 +3483,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Se-cQ-wH1" userLabel="z hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="112" width="40" height="40"/>
+                                <rect key="frame" x="240" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="NdJ-Qk-l9p"/>
@@ -3507,7 +3498,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6f-vy-qma" userLabel="h hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="156" width="40" height="40"/>
+                                <rect key="frame" x="152" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="jeY-4x-MPf"/>
@@ -3522,7 +3513,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="OON-FT-JaY" firstAttribute="top" secondItem="f00-pi-Bw0" secondAttribute="bottom" constant="4" id="0em-7i-xu1"/>
                             <constraint firstItem="Jda-ZO-XOY" firstAttribute="leading" secondItem="HkX-sA-ESN" secondAttribute="trailing" constant="4" id="2yX-bj-RYr"/>
@@ -3588,7 +3578,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsi-hT-IdN" userLabel="phi" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="24" width="40" height="40"/>
+                                <rect key="frame" x="20" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="StK-nG-TXb"/>
@@ -3603,7 +3593,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJN-xZ-ka5" userLabel="beta" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="24" width="40" height="40"/>
+                                <rect key="frame" x="64" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="BLs-24-e2g"/>
@@ -3618,7 +3608,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mkm-a2-NZX" userLabel="t" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="24" width="40" height="40"/>
+                                <rect key="frame" x="108" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="5Hr-b5-FD6"/>
@@ -3633,7 +3623,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v6j-aQ-y0I" userLabel="v" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="24" width="40" height="40"/>
+                                <rect key="frame" x="152" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Oap-Ok-wdh"/>
@@ -3648,7 +3638,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0rt-sh-eII" userLabel="theta" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="24" width="40" height="40"/>
+                                <rect key="frame" x="196" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Xzu-fy-sls"/>
@@ -3663,7 +3653,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0e-Df-hxf" userLabel="eth" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="24" width="40" height="40"/>
+                                <rect key="frame" x="240" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="WNv-hw-XOl"/>
@@ -3678,7 +3668,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ma-Vs-ZgZ" userLabel="c" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="68" width="40" height="40"/>
+                                <rect key="frame" x="20" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="JDk-Zs-c2G"/>
@@ -3693,7 +3683,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5jc-Xr-Qf4" userLabel="z" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="68" width="40" height="40"/>
+                                <rect key="frame" x="64" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="fCP-F1-uj5"/>
@@ -3708,7 +3698,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I6C-O9-Q9g" userLabel="esh" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="68" width="40" height="40"/>
+                                <rect key="frame" x="108" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GVd-ws-y3L"/>
@@ -3723,7 +3713,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-dN-MRl" userLabel="ezh" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="68" width="40" height="40"/>
+                                <rect key="frame" x="152" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="hGr-CF-G09"/>
@@ -3738,7 +3728,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSB-wj-jYR" userLabel="s hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="68" width="40" height="40"/>
+                                <rect key="frame" x="196" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="VBl-2Z-B6u"/>
@@ -3753,7 +3743,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xea-z4-BzA" userLabel="z hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="68" width="40" height="40"/>
+                                <rect key="frame" x="240" y="48" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="gR1-Rh-QUZ"/>
@@ -3768,7 +3758,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUa-D9-DlD" userLabel="c cedilla" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="112" width="40" height="40"/>
+                                <rect key="frame" x="20" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="K6C-e8-5JW"/>
@@ -3783,7 +3773,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2R-az-i4T" userLabel="j crossed tail" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="112" width="40" height="40"/>
+                                <rect key="frame" x="64" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="We9-iB-1TY"/>
@@ -3798,7 +3788,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpd-Te-w5C" userLabel="esh" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="112" width="40" height="40"/>
+                                <rect key="frame" x="108" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="qiP-7j-dmE"/>
@@ -3813,7 +3803,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eqy-hJ-9T9" userLabel="gamma" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="112" width="40" height="40"/>
+                                <rect key="frame" x="152" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="HMT-5S-h0c"/>
@@ -3828,7 +3818,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e63-gC-3ab" userLabel="h stroke" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="156" width="40" height="40"/>
+                                <rect key="frame" x="20" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="EWc-fC-4tF"/>
@@ -3843,7 +3833,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqN-Y4-E9P" userLabel="pharyngeal voiced f" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="156" width="40" height="40"/>
+                                <rect key="frame" x="64" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="AlT-S7-pRU"/>
@@ -3858,7 +3848,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0Y-KK-d4H" userLabel="h" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="156" width="40" height="40"/>
+                                <rect key="frame" x="108" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="ANv-o5-8sL"/>
@@ -3873,7 +3863,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B2O-t4-mRo" userLabel="chi" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="112" width="40" height="40"/>
+                                <rect key="frame" x="196" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="NMO-WC-rhx"/>
@@ -3888,7 +3878,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9g-L7-WaD" userLabel="z hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="240" y="112" width="40" height="40"/>
+                                <rect key="frame" x="240" y="92" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="22k-t0-hG4"/>
@@ -3903,7 +3893,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqj-6h-mQI" userLabel="h hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="156" width="40" height="40"/>
+                                <rect key="frame" x="152" y="136" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2Sx-wR-KVj"/>
@@ -3918,7 +3908,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hSB-wj-jYR" firstAttribute="leading" secondItem="OVm-dN-MRl" secondAttribute="trailing" constant="4" id="292-Wt-202"/>
                             <constraint firstItem="CJN-xZ-ka5" firstAttribute="leading" secondItem="jsi-hT-IdN" secondAttribute="trailing" constant="4" id="3Gc-CN-U63"/>
@@ -3984,7 +3973,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vux-Uu-4Re" userLabel="v hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="24" width="40" height="40"/>
+                                <rect key="frame" x="20" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="RX8-sU-U5m"/>
@@ -3999,7 +3988,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sCP-Md-bZY" userLabel="r turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="24" width="40" height="40"/>
+                                <rect key="frame" x="64" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="XRR-hu-ZdO"/>
@@ -4014,7 +4003,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zqe-H5-5Nu" userLabel="r turned hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="24" width="40" height="40"/>
+                                <rect key="frame" x="108" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Nb0-OP-OCg"/>
@@ -4029,7 +4018,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vy7-rf-zVw" userLabel="j" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="24" width="40" height="40"/>
+                                <rect key="frame" x="152" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="W1e-P5-Gfe"/>
@@ -4044,7 +4033,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m6G-FZ-zMd" userLabel="m long leg" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="24" width="40" height="40"/>
+                                <rect key="frame" x="196" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="wHM-mb-sID"/>
@@ -4059,7 +4048,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vux-Uu-4Re" firstAttribute="leading" secondItem="3Ky-Md-cbH" secondAttribute="leadingMargin" id="3r2-8X-ezn"/>
                             <constraint firstItem="zqe-H5-5Nu" firstAttribute="top" secondItem="YGg-U3-lHA" secondAttribute="bottom" constant="4" id="PWk-bV-hPY"/>
@@ -4091,7 +4079,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yu7-Xg-fDu" userLabel="v hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="24" width="40" height="40"/>
+                                <rect key="frame" x="20" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Ev2-z3-KyZ"/>
@@ -4106,7 +4094,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jgU-jI-aUs" userLabel="r turned" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="64" y="24" width="40" height="40"/>
+                                <rect key="frame" x="64" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="UaI-1w-KZs"/>
@@ -4121,7 +4109,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yms-lI-Bri" userLabel="r turned hook" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="108" y="24" width="40" height="40"/>
+                                <rect key="frame" x="108" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Ne0-Oo-8tW"/>
@@ -4136,7 +4124,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KsW-wG-j1X" userLabel="j" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="152" y="24" width="40" height="40"/>
+                                <rect key="frame" x="152" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="1tI-UY-WCy"/>
@@ -4151,7 +4139,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Acg-lF-KEI" userLabel="m long leg" customClass="KeyView" customModule="IPAChartBoard" customModuleProvider="target">
-                                <rect key="frame" x="196" y="24" width="40" height="40"/>
+                                <rect key="frame" x="196" y="4" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="iNi-Pk-vDN"/>
@@ -4166,7 +4154,6 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="jgU-jI-aUs" firstAttribute="leading" secondItem="yu7-Xg-fDu" secondAttribute="trailing" constant="4" id="6kM-lv-vfE"/>
                             <constraint firstItem="KsW-wG-j1X" firstAttribute="top" secondItem="1hL-Kd-Qbn" secondAttribute="bottom" constant="4" id="Mfk-Di-Iuk"/>
