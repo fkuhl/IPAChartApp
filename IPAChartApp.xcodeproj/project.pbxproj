@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		271007FD1F28002600350A83 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271007FC1F28002600350A83 /* Media.xcassets */; };
+		27128AA22152DB6500ADBDB1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27128AA12152DB6500ADBDB1 /* WebKit.framework */; };
 		275B3A611EA930A1005CDBF1 /* CharisSIL-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */; };
 		277D5B6E1F29265600F8079B /* 1523-globe@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 277D5B701F29265600F8079B /* 1523-globe@1x.png */; };
 		27818AA61EA92EA70018CBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27818AA51EA92EA70018CBA3 /* AppDelegate.swift */; };
@@ -77,6 +78,7 @@
 		2702F0E31EB3B6E800D39BD1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		2702F0E41EB3B6E800D39BD1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		271007FC1F28002600350A83 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		27128AA12152DB6500ADBDB1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		271B14D81F06D2C1006D1A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Keyboard.strings; sourceTree = "<group>"; };
 		275B3A571EA930A1005CDBF1 /* CharisSIL-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CharisSIL-R.ttf"; sourceTree = "<group>"; };
 		277D5B6F1F29265600F8079B /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/1523-globe@1x.png"; sourceTree = "<group>"; };
@@ -166,12 +168,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27128AA22152DB6500ADBDB1 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27128AA02152DB6500ADBDB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27128AA12152DB6500ADBDB1 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		275B3A621EA931C1005CDBF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +198,7 @@
 				27818AA41EA92EA70018CBA3 /* IPAChartApp */,
 				27818ABC1EA92F540018CBA3 /* IPAChartBoard */,
 				27818AA31EA92EA70018CBA3 /* Products */,
+				27128AA02152DB6500ADBDB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -306,7 +318,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "TyndaleSoft LLC";
 				TargetAttributes = {
 					27818AA11EA92EA70018CBA3 = {
@@ -582,6 +594,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -589,6 +602,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -641,6 +655,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -648,6 +663,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

@@ -17,7 +17,8 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     var currentControllerIfAny: ChartViewController!
     @IBOutlet weak var popupView: UIView!
     @IBOutlet weak var globeButton: UIButton!
-    
+    @IBOutlet weak var buildNumber: UILabel!
+
     @IBAction func globeTapped(_ sender: UIButton) {
         self.advanceToNextInputMode()
     }
@@ -89,10 +90,15 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if #available(iOS 11.0, *), !self.needsInputModeSwitchKey {
-            globeButton.isHidden = true
-            globeButton.widthAnchor.constraint(equalToConstant: 1.0).isActive = true
+        if #available(iOS 11.0, *) {
+            NSLog("in available code")
+            if !self.needsInputModeSwitchKey {
+                NSLog("hiding globe key")
+                globeButton.isHidden = true
+                globeButton.widthAnchor.constraint(equalToConstant: 1.0).isActive = true
+            }
         }
+        buildNumber.text = "\(Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") ?? "")"
         if currentControllerIfAny == nil {
             //print("KeyboardVC \(self) viewDidLoad, scene to be set to \(currentScene)")
             revealView(scene: currentScene)
