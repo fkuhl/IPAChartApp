@@ -162,11 +162,11 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         }
         UIView.animate(withDuration: 0.25, animations: {
             if let currentChart = self.currentControllerIfAny {
-                currentChart.willMove(toParentViewController: nil)
+                currentChart.willMove(toParent: nil)
                 currentChart.view.removeFromSuperview()
-                currentChart.removeFromParentViewController()
+                currentChart.removeFromParent()
             }
-            self.addChildViewController(newChartViewController)
+            self.addChild(newChartViewController)
             self.content!.addSubview(newChartViewController.view)
             let topConstraint = self.content!.topAnchor.constraint(equalTo: newChartViewController.view.topAnchor)
             topConstraint.isActive = true
@@ -181,7 +181,7 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
             }
         },
                        completion: { _ in
-                        newChartViewController.didMove(toParentViewController: self)
+                        newChartViewController.didMove(toParent: self)
                         if let newChart = newChartViewController as? ChartViewController {
                             var sceneAfterAdjustment = scene
                             if scene.sceneKind == .base {

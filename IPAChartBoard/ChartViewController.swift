@@ -34,11 +34,11 @@ class ChartViewController: UIViewController  {
         }
         newViewController.view.translatesAutoresizingMaskIntoConstraints = false
         if let currentController = self.currentScene?.controller {
-            currentController.willMove(toParentViewController: nil)
+            currentController.willMove(toParent: nil)
             currentController.view.removeFromSuperview()
-            currentController.removeFromParentViewController()
+            currentController.removeFromParent()
         }
-        self.addChildViewController(newViewController)
+        self.addChild(newViewController)
         self.view!.addSubview(newViewController.view)
         let topConstraint = self.view!.topAnchor.constraint(equalTo: newViewController.view.topAnchor)
         topConstraint.isActive = true
@@ -50,7 +50,7 @@ class ChartViewController: UIViewController  {
         trailingConstraint.isActive = true
         newViewController.view.setNeedsLayout()
         newViewController.view.setNeedsDisplay()
-        newViewController.didMove(toParentViewController: self)
+        newViewController.didMove(toParent: self)
         self.initializeKey(self.view!)
         self.currentScene = (newSceneKind, newViewController)
         //print("currentScene set to \(String(describing: currentScene))")

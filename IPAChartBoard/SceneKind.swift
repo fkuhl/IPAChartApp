@@ -40,6 +40,8 @@ func sceneKindFor(trait: UIUserInterfaceSizeClass, size: CGSize) -> SceneKind {
         } else {
             return .compactNarrow
         }
+    @unknown default:
+        fatalError("SceneKind unknown SceneKind")
     }
 }
 

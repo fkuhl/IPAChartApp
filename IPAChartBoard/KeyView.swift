@@ -25,15 +25,15 @@ class KeyView : UIView, UIInputViewAudioFeedback {
     //thread-safe singleton in the age of Swift 3:
     //http://krakendev.io/blog/the-right-way-to-write-a-singleton
     struct FontAttributes {
-        var attributes: Dictionary<NSAttributedStringKey,Any>
+        var attributes: Dictionary<NSAttributedString.Key,Any>
         static let sharedInstance = FontAttributes()
         private init() {
             let paraStyle = NSMutableParagraphStyle()
             paraStyle.alignment = NSTextAlignment.center
             attributes = [
-                NSAttributedStringKey.foregroundColor: UIColor.darkGray,
-                NSAttributedStringKey.paragraphStyle: paraStyle,
-                NSAttributedStringKey.font: KeyView._font!]
+                NSAttributedString.Key.foregroundColor: UIColor.darkGray,
+                NSAttributedString.Key.paragraphStyle: paraStyle,
+                NSAttributedString.Key.font: KeyView._font!]
         }
     }
     

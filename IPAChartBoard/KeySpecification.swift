@@ -22,8 +22,13 @@ struct KeySpecification: Hashable {
         kind = theKind
     }
     
-    var hashValue: Int {
-        return scalars.hashValue ^ kind.hashValue
+//    var hashValue: Int {
+//        return scalars.hashValue ^ kind.hashValue
+//    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(scalars)
+        hasher.combine(kind)
     }
 }
 
