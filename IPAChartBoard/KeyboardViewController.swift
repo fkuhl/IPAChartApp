@@ -90,14 +90,6 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if #available(iOS 11.0, *) {
-            NSLog("in available code")
-            if !self.needsInputModeSwitchKey {
-                NSLog("hiding globe key")
-                globeButton.isHidden = true
-                globeButton.widthAnchor.constraint(equalToConstant: 1.0).isActive = true
-            }
-        }
         buildNumber.text = "\(Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") ?? "")"
         if currentControllerIfAny == nil {
             //print("KeyboardVC \(self) viewDidLoad, scene to be set to \(currentScene)")
@@ -108,6 +100,14 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        if #available(iOS 11.0, *) {
+            NSLog("in available code")
+            if !self.needsInputModeSwitchKey {
+                NSLog("hiding globe key")
+                globeButton.isHidden = true
+                globeButton.widthAnchor.constraint(equalToConstant: 1.0).isActive = true
+            }
+        }
         let favorites = FavoritesCache.sharedInstance
         favorites.readFromDefaults()
         //print("KeyboardVC viewWillAppear got \(favorites.count) entries")

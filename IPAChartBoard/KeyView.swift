@@ -11,8 +11,24 @@ import UIKit
 @IBDesignable
 class KeyView : UIView, UIInputViewAudioFeedback {
     private static let dottedCircle = "\u{25CC}"
-    private static let keyLightColor = UIColor(red: 254.0/255.0, green: 254.0/255.0, blue: 254.0/255.0, alpha: 1.0)
-    private static let keyDarkColor = UIColor(red: 210.0/255.0, green: 210.0/255.0, blue: 210.0/255.0, alpha: 1.0)
+    private static var keyNotHighlightedColor: UIColor {
+        get {
+            if #available(iOS 13, *) {
+                return UIColor.systemGray2
+            } else {
+                return UIColor(red: 254.0/255.0, green: 254.0/255.0, blue: 254.0/255.0, alpha: 1.0)
+            }
+        }
+    }
+    private static var keyHighlightedColor: UIColor {
+        get {
+            if #available(iOS 13, *) {
+                return UIColor.systemGray
+            } else {
+                return UIColor(red: 210.0/255.0, green: 210.0/255.0, blue: 210.0/255.0, alpha: 1.0)
+            }
+        }
+    }
     private static let fontSize = CGFloat(24)
     static let keyWidth = CGFloat(40)
     static let keyHeight = CGFloat(40)
@@ -31,12 +47,29 @@ class KeyView : UIView, UIInputViewAudioFeedback {
             let paraStyle = NSMutableParagraphStyle()
             paraStyle.alignment = NSTextAlignment.center
             attributes = [
-                NSAttributedString.Key.foregroundColor: UIColor.darkGray,
+                //NSAttributedString.Key.foregroundColor: UIColor.red,
                 NSAttributedString.Key.paragraphStyle: paraStyle,
                 NSAttributedString.Key.font: KeyView._font!]
         }
     }
     
+    private func fontAttributes() -> Dictionary<NSAttributedString.Key,Any> {
+        var allAttributes = FontAttributes.sharedInstance.attributes
+        allAttributes[NSAttributedString.Key.foregroundColor] = glyphColor() as Any
+        return allAttributes
+    }
+    
+    private func glyphColor() -> UIColor {
+        if #available(iOS 13, *) {
+            return UIColor(named: "GlyphColor") ?? UIColor.yellow
+//            return UIColor { (traitCollection: UITraitCollection) -> UIColor in
+//                return traitCollection.userInterfaceStyle == .dark ? .white : .black
+//            }
+        } else {
+            return UIColor.darkGray
+        }
+    }
+
     private var controller: KeyboardViewController?
     private var glyphs: (displayed: String, typed: String)?
     private var highlighted = false
@@ -124,14 +157,18 @@ class KeyView : UIView, UIInputViewAudioFeedback {
     override func draw(_ rect: CGRect) {
         var path = UIBezierPath(roundedRect: self.bounds, cornerRadius: cornerRadius)
         path.lineWidth = lineWidth
-        UIColor.darkGray.setFill()
+        if #available(iOS 13, *) {
+            UIColor.systemGray.setFill()
+        } else {
+            UIColor.darkGray.setFill()
+        }
         path.fill()
         path = UIBezierPath(roundedRect: CGRect(x: self.bounds.origin.x,
                                                 y: self.bounds.origin.y,
                                             width: self.bounds.size.width - lineWidth,
                                            height: self.bounds.size.height - lineWidth),
                             cornerRadius: cornerRadius)
-        let drawingColor = highlighted ? KeyView.keyDarkColor : KeyView.keyLightColor
+        let drawingColor = highlighted ? KeyView.keyHighlightedColor : KeyView.keyNotHighlightedColor
         drawingColor.setFill()
         path.fill()
         if glyphs == nil {   //Support designability in IB
@@ -141,7 +178,7 @@ class KeyView : UIView, UIInputViewAudioFeedback {
                                          y: (bounds.size.height - (KeyView._font!.lineHeight)) / 2.0,
                                          width: bounds.size.width,
                                          height: bounds.size.height),
-                              withAttributes: FontAttributes.sharedInstance.attributes)
+                              withAttributes: fontAttributes())
     }
     
     
