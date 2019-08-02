@@ -76,9 +76,7 @@ class ChartViewController: UIViewController  {
         if let keyView = candidateKey as? KeyView {
             keyView.initialize(withController: self.keyboardViewController!)
         } else {
-            for subView in candidateKey.subviews {
-                initializeKey(subView)
-            }
+            candidateKey.subviews.forEach{ initializeKey($0) }
         }
     }
     
