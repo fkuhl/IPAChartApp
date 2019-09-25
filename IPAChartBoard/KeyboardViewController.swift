@@ -102,7 +102,8 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         if #available(iOS 11.0, *) {
             NSLog("in available code")
-            if !self.needsInputModeSwitchKey {
+            //needsInputModeSwitchKey is busted in 13
+            if !KeyboardViewController.needsGlobeKey() {
                 NSLog("hiding globe key")
                 globeButton.isHidden = true
                 globeButton.widthAnchor.constraint(equalToConstant: 1.0).isActive = true
@@ -143,7 +144,7 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         case .furtherNarrow(let id), .furtherWide(let id):
             newSceneKind = sceneKindFor(further: id, size: view.bounds.size)
         }
-        print("KeyboardVC \(self) viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
+        //print("KeyboardVC \(self) viewWillLayoutSubviews to \(newSceneKind) for view size \(view.bounds.size)")
         currentControllerIfAny?.updateDesign(to: newSceneKind)
         currentScene = update(scene: currentScene, toKind: newSceneKind)
     }
@@ -256,6 +257,27 @@ class KeyboardViewController: UIInputViewController, KeyViewDelegate {
         }
         self.nextKeyboardButton.setTitleColor(textColor, for: [])
  */
+    }
+    
+    static func needsGlobeKey() -> Bool {
+        NSLog("reported idiom: \(UIDevice().userInterfaceIdiom.rawValue)")
+        NSLog("reported height: \(UIScreen.main.nativeBounds.height)")
+        if UIDevice().userInterfaceIdiom != .phone { return true }
+        return UIScreen.main.nativeBounds.height < 1500
+            
+//            switch UIScreen.main.nativeBounds.height {
+//            case 1136:
+//                print("iPhone 5 or 5S or 5C")
+//            case 1334:
+//                print("iPhone 6/6S/7/8")
+//            case 2208:
+//                print("iPhone 6+/6S+/7+/8+")
+//            case 2436:
+//                print("iPhone X")
+//            default:
+//                print("unknown")
+//            }
+//        }
     }
 
 }

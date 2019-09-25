@@ -699,8 +699,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 7LKQP3MSCV;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = KRGB7TX9DU;
 				INFOPLIST_FILE = IPAChartApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -716,8 +716,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 7LKQP3MSCV;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = KRGB7TX9DU;
 				INFOPLIST_FILE = IPAChartApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -731,8 +731,8 @@
 		27818AC41EA92F540018CBA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 7LKQP3MSCV;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = KRGB7TX9DU;
 				INFOPLIST_FILE = IPAChartBoard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -747,8 +747,8 @@
 		27818AC51EA92F540018CBA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 7LKQP3MSCV;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = KRGB7TX9DU;
 				INFOPLIST_FILE = IPAChartBoard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
